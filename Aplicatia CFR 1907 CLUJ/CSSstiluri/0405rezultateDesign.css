@@ -1,0 +1,146 @@
+
+.CR0405Rounds{
+    font-weight: 800;
+}
+.INTCUP05Rounds{
+    font-weight: 800;
+}
+.DA0405TeamResults{
+    font-weight: 800;
+}
+.pageBackground0405{
+    background-color: #b9b6b6;
+}
+.ChampionshipTable0405{
+    height: 8cm;
+    width: 14cm;
+    margin-top: 1cm;
+    margin-left: 3cm;
+    background-color: #fff;
+    border-radius: 10px;
+    border-style: ridge;
+    border-width: 3mm;
+    border-color: brown;
+}
+.CupTable0405{
+    height: 3cm;
+    width: 15cm;
+    margin-top: 1cm;
+    margin-left: 3cm;
+    background-color: #fff;
+    border-radius: 10px;
+    border-style: ridge;
+    border-width: 3mm;
+    border-color: brown;
+}
+.IntertotoCupTable05{
+    height: 3cm;
+    width: 14cm;
+    margin-top: 1cm;
+    margin-left: 3cm;
+    background-color: #fff;
+    border-radius: 10px;
+    border-style: ridge;
+    border-width: 3mm;
+    border-color: brown;
+}
+.ChampDropdown0405{
+    background-color: rgb(247, 195, 176);
+}
+.RelegatedDropdown0405{
+    background-color: rgb(247, 195, 176);
+}
+.PromotedDropdown0506{
+    background-color: rgb(247, 195, 176);
+}
+.CupDropdown0405{
+    background-color: rgb(247, 195, 176);
+}
+.IntertotoDropdown05{
+    background-color: rgb(247, 195, 176);
+}
+#labelDiviziaA0405{
+    background-color: rgb(189, 20, 43);
+    border-color: chartreuse;
+    border-width: 2mm;
+    border-style: groove;
+}
+#diviziaA0405button{
+    margin-top: 0.5cm;
+    background-color: darkslateblue;
+    height: 15mm;
+    width: 7cm;
+    border-radius: 1cm;
+    border: 1mm;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+}
+#diviziaA0405button:hover{
+    background-color: rgb(33, 33, 158);
+}
+
+#diviziaA0405text{
+    color:aliceblue;
+    font-size: 5mm;
+}
+
+#cupaRomaniei0405button{
+    margin-top: 0.5cm;
+    background-color: darkslateblue;
+    height: 15mm;
+    width: 7cm;
+    border-radius: 1cm;
+    border: 1mm;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+}
+#cupaRomaniei0405button:hover{
+    background-color: rgb(33, 33, 158);
+}
+
+#cupaRomaniei0405text{
+    color:aliceblue;
+    font-size: 5mm;
+}
+
+#uefaIntertoto05button{
+    margin-top: 0.5cm;
+    background-color: darkslateblue;
+    height: 15mm;
+    width: 7cm;
+    border-radius: 1cm;
+    border: 1mm;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+}
+#uefaIntertoto05button:hover{
+    background-color: rgb(33, 33, 158);
+}
+
+#uefaIntertoto05text{
+    color:aliceblue;
+    font-size: 5mm;
+}
+#seasonElements0405{
+    display: flex;
+    flex-direction: row;
+}
+#season0405buttons{
+    display: flex;
+    flex-direction: column;
+}
+#competitionsTable0405{
+    display: flex;
+    flex-direction: column;
+}
+#pick0405Message{
+    background-color: cadetblue;
+    font-size: 0.8cm;
+    border: #1f1717;
+    border-style:outset;
+    margin-left: 1cm;
+    height: 1cm;
+    width: 13cm;
+}
+
+

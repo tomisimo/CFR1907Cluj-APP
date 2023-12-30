@@ -1,0 +1,859 @@
+/* TEAM NAME */
+.teamNAME {
+    margin-left: 12cm;
+    color: aliceblue;
+}
+.PageTitleBanner{
+    height: 1cm;
+    width: 100%;
+    margin-top: 0.5cm;
+    margin-bottom: 0.5cm;
+    background-color: #910030;
+}
+.FirstFooterBanner{
+    margin-top: 5mm;
+    height: 4mm;
+    width: 100%;
+    background-color: #910030;
+}
+.SecondFooterBanner{
+    height: 4mm;
+    width: 100%;
+    background-color: aliceblue;
+}
+.ThirdFooterBanner{
+    height: 4mm;
+    width: 100%;
+    background-color: #910030;
+}
+
+.FirstSevenSeasonCards {
+    display: flex;
+    flex-direction: row;
+    margin-top: 4mm;
+    margin-bottom: 4mm;
+    margin-left: 15mm;
+    margin-right: 15mm;
+}
+.SecondSevenSeasonCards {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 4mm;
+    margin-left: 15mm;
+    margin-right: 15mm;
+}
+.ThirdSevenSeasonCards {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 4mm;
+    margin-left: 15mm;
+    margin-right: 15mm;
+    
+}
+/* FIRST SEVEN SEASONS CARDS */
+.season2004-2005 {
+    background-color: #910030;
+    height: 40mm;
+    width: 40mm;
+    margin-left: 4mm;
+    border: 1mm;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+    border-radius: 1cm;
+}
+.season2004-2005:hover{
+    background-color: #d4094d;
+    cursor: pointer;
+}
+.season2005-2006 {
+    background-color: #910030;
+    height: 40mm;
+    width: 40mm;
+    margin-left: 4mm;
+    border: 1mm;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+    border-radius: 1cm;
+}
+.season2005-2006:hover{
+    background-color: #d4094d;
+    cursor: pointer;
+}
+.season2006-2007 {
+    background-color: #910030; 
+    height: 40mm;
+    width: 40mm;
+    margin-left: 4mm;
+    border: 1mm;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+    border-radius: 1cm;
+}
+.season2006-2007:hover{
+    background-color: #d4094d;
+    cursor: pointer;
+}
+.season2007-2008 {
+    background-color: #910030;
+    height: 40mm;
+    width: 40mm;
+    margin-left: 4mm;
+    border: 1mm;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+    border-radius: 1cm;
+}
+.season2007-2008:hover{
+    background-color: #d4094d;
+    cursor: pointer;
+}
+.season2008-2009 {
+    background-color: #910030;
+    height: 40mm;
+    width: 40mm;
+    margin-left: 4mm;
+    border: 1mm;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+    border-radius: 1cm;
+}
+.season2008-2009:hover{
+    background-color: #d4094d;
+    cursor: pointer;
+}
+.season2009-2010 {
+    background-color: #910030;
+    height: 40mm;
+    width: 40mm;
+    margin-left: 4mm;
+    border: 1mm;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+    border-radius: 1cm;
+}
+.season2009-2010:hover{
+    background-color: #d4094d;
+    cursor: pointer;
+}
+.season2010-2011 {
+    background-color: #910030;
+    height: 40mm;
+    width: 40mm;
+    margin-left: 4mm;
+    border: 1mm;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+    border-radius: 1cm;
+}
+.season2010-2011:hover{
+    background-color: #d4094d;
+    cursor: pointer;
+}
+.season2011-2012 {
+    background-color: #910030;
+    height: 40mm;
+    width: 40mm;
+    margin-left: 4mm;
+    border: 1mm;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+    border-radius: 1cm;
+}
+.season2011-2012:hover{
+    background-color:#d4094d;
+    cursor: pointer;
+}
+/* SECOND EIGHT SEASONS CARDS */
+.season2012-2013 {
+    background-color: #910030;
+    height: 40mm;
+    width: 40mm;
+    margin-left: 4mm;
+    border: 1mm;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+    border-radius: 1cm;
+}
+.season2012-2013:hover{
+    background-color: #d4094d;
+    cursor: pointer;
+}
+.season2013-2014 {
+    background-color: #910030;
+    height: 40mm;
+    width: 40mm;
+    margin-left: 4mm;
+    border: 1mm;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+    border-radius: 1cm;
+}
+.season2013-2014:hover{
+    background-color: #d4094d;
+    cursor: pointer;
+}
+
+.season2014-2015 {
+    background-color: #910030; 
+    height: 40mm;
+    width: 40mm;
+    margin-left: 4mm;
+    border: 1mm;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+    border-radius: 1cm;
+}
+.season2014-2015:hover{
+    background-color: #d4094d;
+    cursor: pointer;
+}
+.season2015-2016 {
+    background-color: #910030;
+    height: 40mm;
+    width: 40mm;
+    margin-left: 4mm;
+    border: 1mm;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+    border-radius: 1cm;
+}
+.season2015-2016:hover{
+    background-color: #d4094d;
+    cursor: pointer;
+}
+.season2016-2017 {
+    background-color: #910030;
+    height: 40mm;
+    width: 40mm;
+    margin-left: 4mm;
+    border: 1mm;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+    border-radius: 1cm;
+}
+.season2016-2017:hover{
+    background-color: #d4094d;
+    cursor: pointer;
+}
+.season2017-2018 {
+    background-color: #910030;
+    height: 40mm;
+    width: 40mm;
+    margin-left: 4mm;
+    border: 1mm;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+    border-radius: 1cm;
+}
+.season2017-2018:hover{
+    background-color: #d4094d;
+    cursor: pointer;
+}
+.season2018-2019 {
+    background-color: #910030;
+    height: 40mm;
+    width: 40mm;
+    margin-left: 4mm;
+    border: 1mm;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+    border-radius: 1cm;
+}
+.season2018-2019:hover{
+    background-color: #d4094d;
+    cursor: pointer;
+}
+.season2019-2020 {
+    background-color: #910030;
+    height: 40mm;
+    width: 40mm;
+    margin-left: 4mm;
+    border: 1mm;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+    border-radius: 1cm;
+}
+.season2019-2020:hover{
+    background-color: #d4094d;
+    cursor: pointer;
+}
+/* THIRD EIGHT SEASONS CARDS */
+.season2020-2021 {
+    background-color: #910030;
+    height: 40mm;
+    width: 40mm;
+    margin-left: 4mm;
+    border: 1mm;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+    border-radius: 1cm;
+}
+.season2020-2021:hover{
+    background-color: #d4094d;
+    cursor: pointer;
+}
+.season2021-2022 {
+    background-color: #910030;
+    height: 40mm;
+    width: 40mm;
+    margin-left: 4mm;
+    border: 1mm;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+    border-radius: 1cm;
+}
+.season2021-2022:hover{
+    background-color: #d4094d;
+    cursor: pointer;
+}
+.season2022-2023 {
+    background-color: #910030; 
+    height: 40mm;
+    width: 40mm;
+    margin-left: 4mm;
+    border: 1mm;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+    border-radius: 1cm;
+}
+.season2022-2023:hover{
+    background-color: #d4094d;
+    cursor: pointer;
+}
+.season2023-2024 {
+    background-color: #910030;
+    height: 40mm;
+    width: 40mm;
+    margin-left: 4mm;
+    margin-right: 50mm;
+    border: 1mm;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+    border-radius: 1cm;
+}
+.season2023-2024:hover{
+    background-color: #d4094d;
+    cursor: pointer;
+}
+#seasontext0405 {
+    margin-left: 4mm;
+    color: aliceblue;
+}
+#seasonbutton0405 {
+    margin-top: 5mm;
+    width: 3.2cm;
+    text-align: center;
+    background-color: #046d46;
+    border-style: groove;
+    border-radius: 25px;
+    box-shadow: 0 10px #999;
+}
+#text0405{
+    color: aliceblue;
+    font-size: 5mm;
+}
+#seasonbutton0405:hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+#seasonbutton0405:active {
+    background-color: #02cc1d;
+    box-shadow: 0 1px #666;
+    transform: translateY(4px);
+ }
+#seasontext0506 {
+    margin-left: 4mm;
+    color: aliceblue;
+}
+#seasonbutton0506 {
+    margin-top: 5mm;
+    width: 3.2cm;
+    text-align: center;
+    background-color: #046d46;
+    border-style: groove;
+    border-radius: 25px;
+    box-shadow: 0 10px #999;
+}
+#text0506{
+    color: aliceblue;
+    font-size: 5mm;
+}
+#seasonbutton0506:hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+#seasonbutton0506:active {
+    background-color: #02cc1d;
+    box-shadow: 0 1px #666;
+    transform: translateY(4px);
+ }
+#seasontext0607 {
+    margin-left: 4mm;
+    color: aliceblue;
+}
+#seasonbutton0607 {
+    margin-top: 5mm;
+    width: 3.2cm;
+    text-align: center;
+    background-color: #046d46;
+    border-style: groove;
+    border-radius: 25px;
+    box-shadow: 0 10px #999;
+}
+#text0607{
+    color: aliceblue;
+    font-size: 5mm;
+}
+#seasonbutton0607:hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+#seasonbutton0607:active {
+    background-color: #02cc1d;
+    box-shadow: 0 1px #666;
+    transform: translateY(4px);
+ }
+#seasontext0708 {
+    margin-left: 4mm;
+    color: aliceblue;
+}
+#seasonbutton0708 {
+    margin-top: 5mm;
+    width: 3.2cm;
+    text-align: center;
+    background-color: #046d46;
+    border-style: groove;
+    border-radius: 25px;
+    box-shadow: 0 10px #999;
+}
+#text0708{
+    color: aliceblue;
+    font-size: 5mm;
+}
+#seasonbutton0708:hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+#seasonbutton0708:active {
+    background-color: #02cc1d;
+    box-shadow: 0 1px #666;
+    transform: translateY(4px);
+ }
+#seasontext0809 {
+    margin-left: 4mm;
+    color: aliceblue;
+}
+#seasonbutton0809 {
+    margin-top: 5mm;
+    width: 3.2cm;
+    text-align: center;
+    background-color: #046d46;
+    border-style: groove;
+    border-radius: 25px;
+    box-shadow: 0 10px #999;
+}
+#text0809{
+    color: aliceblue;
+    font-size: 5mm;
+}
+#seasonbutton0809:hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+#seasonbutton0809:active {
+    background-color: #02cc1d;
+    box-shadow: 0 1px #666;
+    transform: translateY(4px);
+ }
+#seasontext0910 {
+    margin-left: 4mm;
+    color: aliceblue;
+}
+#seasonbutton0910 {
+    margin-top: 5mm;
+    width: 3.2cm;
+    text-align: center;
+    background-color: #046d46;
+    border-style: groove;
+    border-radius: 25px;
+    box-shadow: 0 10px #999;
+}
+#text0910{
+    color: aliceblue;
+    font-size: 5mm;
+}
+#seasonbutton0910:hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+#seasonbutton0910:active {
+    background-color: #02cc1d;
+    box-shadow: 0 1px #666;
+    transform: translateY(4px);
+ }
+#seasontext1011 {
+    margin-left: 4mm;
+    color: aliceblue;
+}
+#seasonbutton1011 {
+    margin-top: 5mm;
+    width: 3.2cm;
+    text-align: center;
+    background-color: #046d46;
+    border-style: groove;
+    border-radius: 25px;
+    box-shadow: 0 10px #999;
+}
+#text1011{
+    color: aliceblue;
+    font-size: 5mm;
+}
+#seasonbutton1011:hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+#seasonbutton1011:active {
+    background-color: #02cc1d;
+    box-shadow: 0 1px #666;
+    transform: translateY(4px);
+ }
+#seasontext1112 {
+    margin-left: 4mm;
+    color: aliceblue;
+}
+#seasonbutton1112 {
+    margin-top: 5mm;
+    width: 3.2cm;
+    text-align: center;
+    background-color: #046d46;
+    border-style: groove;
+    border-radius: 25px;
+    box-shadow: 0 10px #999;
+}
+#text1112{
+    color: aliceblue;
+    font-size: 5mm;
+}
+#seasonbutton1112:hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+#seasonbutton1112:active {
+    background-color: #02cc1d;
+    box-shadow: 0 1px #666;
+    transform: translateY(4px);
+ }
+#seasontext1213 {
+    margin-left: 4mm;
+    color: aliceblue;
+}
+#seasonbutton1213 {
+    margin-top: 5mm;
+    width: 3.2cm;
+    text-align: center;
+    background-color: #046d46;
+    border-style: groove;
+    border-radius: 25px;
+    box-shadow: 0 10px #999;
+}
+#text1213{
+    color: aliceblue;
+    font-size: 5mm;
+}
+#seasonbutton1213:hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+#seasonbutton1213:active {
+    background-color: #02cc1d;
+    box-shadow: 0 1px #666;
+    transform: translateY(4px);
+ }
+#seasontext1314 {
+    margin-left: 4mm;
+    color: aliceblue;
+}
+#seasonbutton1314 {
+    margin-top: 5mm;
+    width: 3.2cm;
+    text-align: center;
+    background-color: #046d46;
+    border-style: groove;
+    border-radius: 25px;
+    box-shadow: 0 10px #999;
+}
+#text1314{
+    color: aliceblue;
+    font-size: 5mm;
+}
+#seasonbutton1314:hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+#seasonbutton1314:active {
+    background-color: #02cc1d;
+    box-shadow: 0 1px #666;
+    transform: translateY(4px);
+ }
+#seasontext1415 {
+    margin-left: 4mm;
+    color: aliceblue;
+}
+#seasonbutton1415 {
+    margin-top: 5mm;
+    width: 3.2cm;
+    text-align: center;
+    background-color: #046d46;
+    border-style: groove;
+    border-radius: 25px;
+    box-shadow: 0 10px #999;
+}
+#text1415{
+    color: aliceblue;
+    font-size: 5mm;
+}
+#seasonbutton1415:hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+#seasonbutton1415:active {
+    background-color: #02cc1d;
+    box-shadow: 0 1px #666;
+    transform: translateY(4px);
+ }
+#seasontext1516 {
+    margin-left: 4mm;
+    color: aliceblue;
+}
+#seasonbutton1516 {
+    margin-top: 5mm;
+    width: 3.2cm;
+    text-align: center;
+    background-color: #046d46;
+    border-style: groove;
+    border-radius: 25px;
+    box-shadow: 0 10px #999;
+}
+#text1516{
+    color: aliceblue;
+    font-size: 5mm;
+}
+#seasonbutton1516:hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+#seasonbutton1516:active {
+    background-color: #02cc1d;
+    box-shadow: 0 1px #666;
+    transform: translateY(4px);
+ }
+#seasontext1617 {
+    margin-left: 4mm;
+    color: aliceblue;
+}
+#seasonbutton1617 {
+    margin-top: 5mm;
+    width: 3.2cm;
+    text-align: center;
+    background-color: #046d46;
+    border-style: groove;
+    border-radius: 25px;
+    box-shadow: 0 10px #999;
+}
+#text1617{
+    color: aliceblue;
+    font-size: 5mm;
+}
+#seasonbutton1617:hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+#seasonbutton1617:active {
+    background-color: #02cc1d;
+    box-shadow: 0 1px #666;
+    transform: translateY(4px);
+ }
+#seasontext1718 {
+    margin-left: 4mm;
+    color: aliceblue;
+}
+#seasonbutton1718 {
+    margin-top: 5mm;
+    width: 3.2cm;
+    text-align: center;
+    background-color: #046d46;
+    border-style: groove;
+    border-radius: 25px;
+    box-shadow: 0 10px #999;
+}
+#text1718{
+    color: aliceblue;
+    font-size: 5mm;
+}
+#seasonbutton1718:hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+#seasonbutton1718:active {
+    background-color: #02cc1d;
+    box-shadow: 0 1px #666;
+    transform: translateY(4px);
+ }
+#seasontext1819 {
+    margin-left: 4mm;
+    color: aliceblue;
+}
+#seasonbutton1819 {
+    margin-top: 5mm;
+    width: 3.2cm;
+    text-align: center;
+    background-color: #046d46;
+    border-style: groove;
+    border-radius: 25px;
+    box-shadow: 0 10px #999;
+}
+#text1819{
+    color: aliceblue;
+    font-size: 5mm;
+}
+#seasonbutton1819:hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+#seasonbutton1819:active {
+    background-color: #02cc1d;
+    box-shadow: 0 1px #666;
+    transform: translateY(4px);
+ }
+#seasontext1920 {
+    margin-left: 4mm;
+    color: aliceblue;
+}
+#seasonbutton1920 {
+    margin-top: 5mm;
+    width: 3.2cm;
+    text-align: center;
+    background-color: #046d46;
+    border-style: groove;
+    border-radius: 25px;
+    box-shadow: 0 10px #999;
+}
+#text1920{
+    color: aliceblue;
+    font-size: 5mm;
+}
+#seasonbutton1920:hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+#seasonbutton1920:active {
+    background-color: #02cc1d;
+    box-shadow: 0 1px #666;
+    transform: translateY(4px);
+ }
+#seasontext2021 {
+    margin-left: 4mm;
+    color: aliceblue;
+}
+#seasonbutton2021 {
+    margin-top: 5mm;
+    width: 3.2cm;
+    text-align: center;
+    background-color: #046d46;
+    border-style: groove;
+    border-radius: 25px;
+    box-shadow: 0 10px #999;
+}
+#text2021{
+    color: aliceblue;
+    font-size: 5mm;
+}
+#seasonbutton2021:hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+#seasonbutton2021:active {
+    background-color: #02cc1d;
+    box-shadow: 0 1px #666;
+    transform: translateY(4px);
+ }
+#seasontext2122 {
+    margin-left: 4mm;
+    color: aliceblue;
+}
+#seasonbutton2122 {
+    margin-top: 5mm;
+    width: 3.2cm;
+    text-align: center;
+    background-color: #046d46;
+    border-style: groove;
+    border-radius: 25px;
+    box-shadow: 0 10px #999;
+}
+#text2122{
+    color: aliceblue;
+    font-size: 5mm;
+}
+#seasonbutton2122:hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+#seasonbutton2122:active {
+    background-color: #02cc1d;
+    box-shadow: 0 1px #666;
+    transform: translateY(4px);
+ }
+#seasontext2223 {
+    margin-left: 4mm;
+    color: aliceblue;
+}
+#seasonbutton2223 {
+    margin-top: 5mm;
+    width: 3.2cm;
+    text-align: center;
+    background-color: #046d46;
+    border-style: groove;
+    border-radius: 25px;
+    box-shadow: 0 10px #999;
+}
+#text2223{
+    color: aliceblue;
+    font-size: 5mm;
+}
+#seasonbutton2223:hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+#seasonbutton2223:active {
+    background-color: #02cc1d;
+    box-shadow: 0 1px #666;
+    transform: translateY(4px)
+ }
+#seasontext2324 {
+    margin-left: 4mm;
+    color: aliceblue;
+}
+#seasonbutton2324 {
+    margin-top: 5mm;
+    width: 3.2cm;
+    text-align: center;
+    background-color: #046d46;
+    border-style: groove;
+    border-radius: 25px;
+    box-shadow: 0 10px #999;
+}
+#text2324{
+    color: aliceblue;
+    font-size: 5mm;
+}
+#seasonbutton2324:hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+#seasonbutton2324:active {
+    background-color: #02cc1d;
+    box-shadow: 0 1px #666;
+    transform: translateY(4px);  
+ }
+
+

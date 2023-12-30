@@ -1,0 +1,78 @@
+var ligaI1415Results = document.getElementById("ligaIresults1415");
+var cupaRomaniei1415Results = document.getElementById("cupaRomaniei1415results");
+var cupaLigiiRomaniei1415Results = document.getElementById("cupaLigiiRomaniei1415results");
+var uefaEuropaLeague1415Results = document.getElementById("uefaEuropaLeague1415results");
+
+function showAndHideLigaI1415(){
+    if(ligaI1415Results.style.display === "none"){
+        ligaI1415Results.style.display = "block";
+    }
+    else{
+        ligaI1415Results.style.display = "none";
+    }
+}
+function showAndHideCupaRomaniei1415(){
+    if(cupaRomaniei1415Results.style.display === "none"){
+        cupaRomaniei1415Results.style.display = "block";
+    }
+    else{
+        cupaRomaniei1415Results.style.display = "none";
+    }
+}
+function showAndHideCupaLigiiRomaniei1415(){
+    if(cupaLigiiRomaniei1415Results.style.display === "none"){
+        cupaLigiiRomaniei1415Results.style.display = "block";
+    }
+    else{
+        cupaLigiiRomaniei1415Results.style.display = "none";
+    }
+}
+function showAndHideUefaEuropaLeague1415(){
+    if(uefaEuropaLeague1415Results.style.display === "none"){
+        uefaEuropaLeague1415Results.style.display = "block";
+    }
+    else{
+        uefaEuropaLeague1415Results.style.display = "none";
+    }
+}
+
+var LigaI1415MainRoundTable = document.getElementById("LigaI1415MainRoundResultsTable");
+var CupaRomaniei1415Table = document.getElementById("CupaRomaniei1415ResultsTable");
+var CupaLigiiRomaniei1415Table = document.getElementById("CupaLigiiRomaniei1415ResultsTable");
+var UefaEuropaLeague1415Table = document.getElementById("UefaEuropaLeague1415ResultsTable")
+
+function showAndHideLigaI1415MainRoundResults(){
+    if(LigaI1415MainRoundTable.style.display === "none"){
+        LigaI1415MainRoundTable.style.display = "block";
+    }
+    else{
+        LigaI1415MainRoundTable.style.display = "none";
+    }
+}
+
+function showAndHideCupaRomaniei1415Results(){
+    if(CupaRomaniei1415Table.style.display === "none"){
+        CupaRomaniei1415Table.style.display = "block";
+    }
+    else{
+        CupaRomaniei1415Table.style.display = "none";
+    }
+}
+
+function showAndHideCupaLigiiRomaniei1415Results(){
+    if(CupaLigiiRomaniei1415Table.style.display === "none"){
+        CupaLigiiRomaniei1415Table.style.display = "block";
+    }
+    else{
+        CupaLigiiRomaniei1415Table.style.display = "none";
+    }
+}
+
+function showAndHideUefaEuropaLeague1415Results(){
+    if(UefaEuropaLeague1415Table.style.display === "none"){
+        UefaEuropaLeague1415Table.style.display = "block";
+    }
+    else{
+        UefaEuropaLeague1415Table.style.display = "none";
+    }
+}

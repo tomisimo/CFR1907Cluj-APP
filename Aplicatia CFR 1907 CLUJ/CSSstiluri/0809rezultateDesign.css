@@ -1,0 +1,175 @@
+.CR0809Rounds{
+    font-weight: 800;
+}
+.SCR09Round{
+    font-weight: 800;
+}
+.LI0809TeamResults{
+    font-weight: 800;
+}
+.UCHL0809TeamResults{
+    font-weight: 800;
+}
+.UCHL0809Rounds{
+    font-weight: 800;
+}
+.pageBackground0809{
+    background-color: #b9b6b6;
+}
+.ChampionshipTable0809{
+    height: 8cm;
+    width: 13cm;
+    margin-top: 1cm;
+    margin-left: 3cm;
+    background-color: #fff;
+    border-radius: 10px;
+    border-style: ridge;
+    border-width: 3mm;
+    border-color: brown;
+}
+.CupTable0809{
+    height: 3cm;
+    width: 15cm;
+    margin-top: 1cm;
+    margin-left: 3cm;
+    background-color: #fff;
+    border-radius: 10px;
+    border-style: ridge;
+    border-width: 3mm;
+    border-color: brown;
+}
+.SuperCupTable09{
+    height: 3cm;
+    width: 13cm;
+    margin-top: 1cm;
+    margin-left: 3cm;
+    background-color: #fff;
+    border-radius: 10px;
+    border-style: ridge;
+    border-width: 3mm;
+    border-color: brown;
+}
+.UefaChampLeagueTable0809{
+    height: 3cm;
+    width: 17cm;
+    margin-top: 1cm;
+    margin-left: 3cm;
+    background-color: #fff;
+    border-radius: 10px;
+    border-style: ridge;
+    border-width: 3mm;
+    border-color: brown;
+}
+.ChampDropdown0809{
+    background-color: rgb(247, 195, 176);
+}
+.RelegatedDropdown0809{
+    background-color: rgb(247, 195, 176);
+}
+.PromotedDropdown0910{
+    background-color: rgb(247, 195, 176);
+}
+.CupDropdown0809{
+    background-color: rgb(247, 195, 176);
+}
+.SuperCupDropdown09{
+    background-color: rgb(247, 195, 176);
+}
+.UCHLDropdown0809{
+    background-color: rgb(247, 195, 176);
+}
+
+#ligaI0809button{
+    margin-top: 0.5cm;
+    background-color: darkslateblue;
+    height: 15mm;
+    width: 7cm;
+    border-radius: 1cm;
+    border: 1mm;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+}
+#ligaI0809button:hover{
+    background-color: rgb(33, 33, 158);
+}
+
+#ligaI0809text{
+    color:aliceblue;
+    font-size: 5mm;
+}
+
+#cupaRomaniei0809button{
+    margin-top: 0.5cm;
+    background-color: darkslateblue;
+    height: 15mm;
+    width: 7cm;
+    border-radius: 1cm;
+    border: 1mm;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+}
+#cupaRomaniei0809button:hover{
+    background-color: rgb(33, 33, 158);
+}
+
+#cupaRomaniei0809text{
+    color:aliceblue;
+    font-size: 5mm;
+}
+
+#supercupaRomaniei09button{
+    margin-top: 0.5cm;
+    background-color: darkslateblue;
+    height: 20mm;
+    width: 7cm;
+    border-radius: 1cm;
+    border: 1mm;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+}
+#supercupaRomaniei09button:hover{
+    background-color: rgb(33, 33, 158);
+}
+#supercupaRomaniei09text{
+    color:aliceblue;
+    font-size: 5mm;
+}
+
+#uefaChampionsLeague0809button{
+    margin-top: 0.5cm;
+    background-color: darkslateblue;
+    height: 20mm;
+    width: 7cm;
+    border-radius: 1cm;
+    border: 1mm;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+}
+#uefaChampionsLeague0809button:hover{
+    background-color: rgb(33, 33, 158);
+}
+#uefaChampionsLeague0809text{
+    color:aliceblue;
+    font-size: 5mm;
+}
+#seasonElements0809{
+    display: flex;
+    flex-direction: row;
+}
+#season0809buttons{
+    display: flex;
+    flex-direction: column;
+}
+#competitionsTable0809{
+    display: flex;
+    flex-direction: column;
+}
+#pick0809Message{
+    background-color: cadetblue;
+    font-size: 0.8cm;
+    border: #1f1717;
+    border-style:outset;
+    margin-left: 1cm;
+    height: 1cm;
+    width: 13cm;
+}

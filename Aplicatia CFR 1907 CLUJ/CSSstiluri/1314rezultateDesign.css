@@ -1,0 +1,130 @@
+.CR1314Rounds{
+    font-weight: 800;
+}
+.LI1314TeamResults{
+    font-weight: 800;
+}
+.pageBackground1314{
+    background-color: #b9b6b6;
+}
+.ChampionshipTable1314{
+    height: 9cm;
+    width: 13cm;
+    margin-top: 1cm;
+    margin-left: 3cm;
+    background-color: #fff;
+    border-radius: 10px;
+    border-style: ridge;
+    border-width: 3mm;
+    border-color: brown;
+}
+.CupTable1314{
+    height: 4cm;
+    width: 12cm;
+    margin-top: 1cm;
+    margin-left: 3cm;
+    background-color: #fff;
+    border-radius: 10px;
+    border-style: ridge;
+    border-width: 3mm;
+    border-color: brown;
+}
+.RelegatedDropdown1314{
+    background-color: rgb(247, 195, 176);
+}
+.PromotedDropdown1415{
+    background-color: rgb(247, 195, 176);
+}
+
+
+#ligaI1314button{
+    margin-top: 0.5cm;
+    background-color: darkslateblue;
+    height: 15mm;
+    width: 7cm;
+    border-radius: 1cm;
+    border: 1mm;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+}
+#ligaI1314button:hover{
+    background-color: rgb(33, 33, 158);
+    cursor: pointer;
+}
+
+#ligaI1314text{
+    color:aliceblue;
+    font-size: 5mm;
+}
+
+#cupaRomaniei1314button{
+    margin-top: 0.5cm;
+    background-color: darkslateblue;
+    height: 15mm;
+    width: 7cm;
+    border-radius: 1cm;
+    border: 1mm;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+}
+#cupaRomaniei1314button:hover{
+    background-color: rgb(33, 33, 158);
+    cursor: pointer;
+}
+#cupaRomaniei1314text{
+    color:aliceblue;
+    font-size: 5mm;
+}
+#seasonElements1314{
+    display: flex;
+    flex-direction: row;
+}
+#season1314buttons{
+    display: flex;
+    flex-direction: column;
+}
+#competitionsTable1314{
+    display: flex;
+    flex-direction: column;
+}
+#pick1314Message{
+    background-color: cadetblue;
+    font-size: 0.8cm;
+    border: #1f1717;
+    border-style:outset;
+    margin-left: 1cm;
+    height: 1cm;
+    width: 13cm;
+}
+table, th, tr, td{
+    background-color: rgb(247, 195, 176);
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+#buttonText{
+    color: aliceblue;
+}
+#LigaI1314MainRoundResultsButton{
+    background-color: rgb(223, 56, 56);
+    margin-left: 7cm;
+}
+#LigaI1314MainRoundResultsButton:hover{
+    cursor: pointer;
+}
+#CupaRomaniei1314ResultsButton{
+    background-color: rgb(223, 56, 56);
+    margin-left: 5cm;
+}
+#CupaRomaniei1314ResultsButton:hover{
+    cursor: pointer;
+}
+#LigaI1314MainRoundResultsTable{
+    position: absolute;
+    width: 14cm;
+
+}
+#CupaRomaniei1314ResultsTable{
+    position: absolute;
+    width: 7cm;
+
+}

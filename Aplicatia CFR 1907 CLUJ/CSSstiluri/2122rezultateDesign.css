@@ -1,0 +1,316 @@
+.CR2122Rounds{
+    font-weight: 800;
+}
+.SCR22Round{
+    font-weight: 800;
+}
+.LI2122TeamResults{
+    font-weight: 800;
+}
+.UECL2122TeamResults{
+    font-weight: 800;
+}
+.UCHL2122Rounds{
+    font-weight: 800;
+}
+.UEL2122Rounds{
+    font-weight: 800;
+}
+.UECL2122Rounds{
+    font-weight: 800;
+}
+.pageBackground2122{
+    background-color: #b9b6b6;
+}
+.ChampionshipTable2122{
+    height: 12cm;
+    width: 13cm;
+    margin-top: 1cm;
+    margin-left: 3cm;
+    background-color: #fff;
+    border-radius: 10px;
+    border-style: ridge;
+    border-width: 3mm;
+    border-color: brown;
+}
+.CupTable2122{
+    height: 4cm;
+    width: 13cm;
+    margin-top: 1cm;
+    margin-left: 3cm;
+    background-color: #fff;
+    border-radius: 10px;
+    border-style: ridge;
+    border-width: 3mm;
+    border-color: brown;
+}
+.SuperCupTable22{
+    height: 4cm;
+    width: 13cm;
+    margin-top: 1cm;
+    margin-left: 3cm;
+    background-color: #fff;
+    border-radius: 10px;
+    border-style: ridge;
+    border-width: 3mm;
+    border-color: brown;
+}
+.UefaChampLeagueTable2122{
+    height: 4cm;
+    width: 16cm;
+    margin-top: 1cm;
+    margin-left: 3cm;
+    background-color: #fff;
+    border-radius: 10px;
+    border-style: ridge;
+    border-width: 3mm;
+    border-color: brown;
+}
+.UefaEuropaLeagueTable2122{
+    height: 4cm;
+    width: 15cm;
+    margin-top: 1cm;
+    margin-left: 3cm;
+    background-color: #fff;
+    border-radius: 10px;
+    border-style: ridge;
+    border-width: 3mm;
+    border-color: brown;
+}
+.UefaEuropaConferenceLeagueTable2122{
+    height: 4cm;
+    width: 21cm;
+    margin-top: 1cm;
+    margin-left: 3cm;
+    background-color: #fff;
+    border-radius: 10px;
+    border-style: ridge;
+    border-width: 3mm;
+    border-color: brown;
+}
+.RelegatedDropdown2122{
+    background-color: rgb(247, 195, 176);
+}
+.PromotedDropdown2223{
+    background-color: rgb(247, 195, 176);
+}
+
+#ligaI2122button{
+    margin-top: 0.5cm;
+    background-color: darkslateblue;
+    height: 15mm;
+    width: 7cm;
+    border-radius: 1cm;
+    border: 1mm;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+}
+#ligaI2122button:hover{
+    background-color: rgb(33, 33, 158);
+    cursor: pointer;
+}
+
+#ligaI2122text{
+    color:aliceblue;
+    font-size: 5mm;
+}
+
+#cupaRomaniei2122button{
+    margin-top: 0.5cm;
+    background-color: darkslateblue;
+    height: 15mm;
+    width: 7cm;
+    border-radius: 1cm;
+    border: 1mm;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+}
+#cupaRomaniei2122button:hover{
+    background-color: rgb(33, 33, 158);
+    cursor: pointer;
+}
+#cupaRomaniei2122text{
+    color:aliceblue;
+    font-size: 5mm;
+}
+
+#supercupaRomaniei22button{
+    margin-top: 0.5cm;
+    background-color: darkslateblue;
+    height: 20mm;
+    width: 7cm;
+    border-radius: 1cm;
+    border: 1mm;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+}
+#supercupaRomaniei22button:hover{
+    background-color: rgb(33, 33, 158);
+    cursor: pointer;
+}
+#supercupaRomaniei22text{
+    color:aliceblue;
+    font-size: 5mm;
+}
+#uefaChampionsLeague2122button{
+    margin-top: 0.5cm;
+    background-color: darkslateblue;
+    height: 20mm;
+    width: 7cm;
+    border-radius: 1cm;
+    border: 1mm;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+}
+#uefaChampionsLeague2122button:hover{
+    background-color: rgb(33, 33, 158);
+    cursor: pointer;
+}
+
+#uefaChampionsLeague2122text{
+    color:aliceblue;
+    font-size: 5mm;
+}
+
+#uefaEuropaLeague2122button{
+    margin-top: 0.5cm;
+    background-color: darkslateblue;
+    height: 20mm;
+    width: 7cm;
+    border-radius: 1cm;
+    border: 1mm;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+}
+#uefaEuropaLeague2122button:hover{
+    background-color: rgb(33, 33, 158);
+    cursor: pointer;
+}
+#uefaEuropaLeague2122text{
+    color:aliceblue;
+    font-size: 5mm;
+}
+#uefaEuropaConferenceLeague2122button{
+    margin-top: 0.5cm;
+    background-color: darkslateblue;
+    height: 20mm;
+    width: 7cm;
+    border-radius: 1cm;
+    border: 1mm;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+}
+#uefaEuropaConferenceLeague2122button:hover{
+    background-color: rgb(33, 33, 158);
+    cursor: pointer;
+}
+#uefaEuropaConferenceLeague2122text{
+    color:aliceblue;
+    font-size: 5mm;
+}
+#seasonElements2122{
+    display: flex;
+    flex-direction: row;
+}
+#season2122buttons{
+    display: flex;
+    flex-direction: column;
+}
+#competitionsTable2122{
+    display: flex;
+    flex-direction: column;
+}
+#pick2122Message{
+    background-color: cadetblue;
+    font-size: 0.8cm;
+    border: #1f1717;
+    border-style:outset;
+    margin-left: 1cm;
+    height: 1cm;
+    width: 13cm;
+}
+#buttonText{
+    color: aliceblue;
+}
+#LigaI2122MainRoundResultsButton{
+    background-color: rgb(223, 56, 56);
+    margin-left: 8cm;
+}
+#LigaI2122MainRoundResultsButton:hover{
+    cursor: pointer;
+}
+#LigaI2122PlayOffResultsButton{
+    background-color: rgb(223, 56, 56);
+    margin-left: 8cm;
+}
+#LigaI2122PlayOffResultsButton:hover{
+    cursor: pointer;
+}
+#CupaRomaniei2122ResultsButton{
+    background-color: rgb(223, 56, 56);
+    margin-left: 7cm;
+}
+#CupaRomaniei2122ResultsButton:hover{
+    cursor: pointer;
+}
+#SupercupaRomaniei22ResultsButton{
+    background-color: rgb(223, 56, 56);
+    margin-left: 6cm;
+}
+#SupercupaRomaniei22ResultsButton:hover{
+    cursor: pointer;
+}
+#UefaChampionsLeague2122ResultsButton{
+    background-color: rgb(223, 56, 56);
+    margin-left: 11cm;
+}
+#UefaChampionsLeague2122ResultsButton:hover{
+    cursor: pointer;
+}
+#UefaEuropaLeague2122ResultsButton{
+    background-color: rgb(223, 56, 56);
+    margin-left: 10cm;
+}
+#UefaEuropaLeague2122ResultsButton:hover{
+    cursor: pointer;
+}
+#UefaEuropaConferenceLeague2122ResultsButton{
+    background-color: rgb(223, 56, 56);
+    margin-left: 16cm;
+}
+#UefaEuropaConferenceLeague2122ResultsButton:hover{
+    cursor: pointer;
+}
+table, th, tr, td{
+    background-color: rgb(247, 195, 176);
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+#LigaI2122MainRoundTable{
+    position: absolute;
+    width: 14cm;
+}
+#LigaI2122PlayOffTable{
+    position: absolute;
+    width: 16cm;
+}
+#CupaRomaniei2122Table{
+    position: absolute;
+    width: 9cm;
+}
+#SupercupaRomaniei22Table{
+    position: absolute;
+    width: 8cm;
+}
+#UCHL2122Table{
+    position: absolute;
+    width: 12cm;
+}
+#UefaEuropaLeagueTable2122{
+    position: absolute;
+    width: 11cm;
+}
+#UefaEuropaConferenceLeagueTable2122{
+    position: absolute;
+    width: 14cm;
+}

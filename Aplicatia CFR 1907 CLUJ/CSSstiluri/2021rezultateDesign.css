@@ -1,0 +1,291 @@
+.CR2021Rounds{
+    font-weight: 800;
+}
+.SCR21Round{
+    font-weight: 800;
+}
+.LI2021TeamResults{
+    font-weight: 800;
+}
+.UCHL2021Rounds{
+    font-weight: 800;
+}
+.UEL2021Rounds{
+    font-weight: 800;
+}
+.UEL2021TeamResults{
+    font-weight: 800;
+}
+.pageBackground2021{
+    background-color: #b9b6b6;
+}
+.ChampionshipTable2021{
+    height: 12cm;
+    width: 14cm;
+    margin-top: 1cm;
+    margin-left: 3cm;
+    background-color: #fff;
+    border-radius: 10px;
+    border-style: ridge;
+    border-width: 3mm;
+    border-color: brown;
+}
+.CupTable2021{
+    height: 4cm;
+    width: 12cm;
+    margin-top: 1cm;
+    margin-left: 3cm;
+    background-color: #fff;
+    border-radius: 10px;
+    border-style: ridge;
+    border-width: 3mm;
+    border-color: brown;
+}
+.SuperCupTable21{
+    height: 4cm;
+    width: 13cm;
+    margin-top: 1cm;
+    margin-left: 3cm;
+    background-color: #fff;
+    border-radius: 10px;
+    border-style: ridge;
+    border-width: 3mm;
+    border-color: brown;
+}
+.UefaChampLeagueTable2021{
+    height: 4cm;
+    width: 17cm;
+    margin-top: 1cm;
+    margin-left: 3cm;
+    background-color: #fff;
+    border-radius: 10px;
+    border-style: ridge;
+    border-width: 3mm;
+    border-color: brown;
+}
+.UefaEuropaLeagueTable2021{
+    height: 4cm;
+    width: 15cm;
+    margin-top: 1cm;
+    margin-left: 3cm;
+    background-color: #fff;
+    border-radius: 10px;
+    border-style: ridge;
+    border-width: 3mm;
+    border-color: brown;
+}
+.ChampDropdown2021{
+    background-color: rgb(247, 195, 176);
+}
+.PlayOffDropdown2021{
+    background-color: rgb(247, 195, 176);
+}
+.RelegatedDropdown2021{
+    background-color: rgb(247, 195, 176);
+}
+.PromotedDropdown2122{
+    background-color: rgb(247, 195, 176);
+}
+.CupDropdown2021{
+    background-color: rgb(247, 195, 176);
+}
+.SuperCupDropdown21{
+    background-color: rgb(247, 195, 176);
+}
+.UCHLDropdown2021{
+    background-color: rgb(247, 195, 176);
+}
+.UELDropdown2021{
+    background-color: rgb(247, 195, 176);
+}
+
+#ligaI2021button{
+    margin-top: 0.5cm;
+    background-color: darkslateblue;
+    height: 15mm;
+    width: 7cm;
+    border-radius: 1cm;
+    border: 1mm;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+}
+#ligaI2021button:hover{
+    background-color: rgb(33, 33, 158);
+    cursor: pointer;
+}
+
+#ligaI2021text{
+    color:aliceblue;
+    font-size: 5mm;
+}
+
+#cupaRomaniei2021button{
+    margin-top: 0.5cm;
+    background-color: darkslateblue;
+    height: 15mm;
+    width: 7cm;
+    border-radius: 1cm;
+    border: 1mm;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+}
+#cupaRomaniei2021button:hover{
+    background-color: rgb(33, 33, 158);
+    cursor: pointer;
+}
+#cupaRomaniei2021text{
+    color:aliceblue;
+    font-size: 5mm;
+}
+
+#supercupaRomaniei21button{
+    margin-top: 0.5cm;
+    background-color: darkslateblue;
+    height: 20mm;
+    width: 7cm;
+    border-radius: 1cm;
+    border: 1mm;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+}
+#supercupaRomaniei21button:hover{
+    background-color: rgb(33, 33, 158);
+    cursor: pointer;
+}
+#supercupaRomaniei21text{
+    color:aliceblue;
+    font-size: 5mm;
+}
+#uefaChampionsLeague2021button{
+    margin-top: 0.5cm;
+    background-color: darkslateblue;
+    height: 20mm;
+    width: 7cm;
+    border-radius: 1cm;
+    border: 1mm;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+}
+#uefaChampionsLeague2021button:hover{
+    background-color: rgb(33, 33, 158);
+    cursor: pointer;
+}
+
+#uefaChampionsLeague2021text{
+    color:aliceblue;
+    font-size: 5mm;
+}
+
+#uefaEuropaLeague2021button{
+    margin-top: 0.5cm;
+    background-color: darkslateblue;
+    height: 20mm;
+    width: 7cm;
+    border-radius: 1cm;
+    border: 1mm;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+}
+#uefaEuropaLeague2021button:hover{
+    background-color: rgb(33, 33, 158);
+    cursor: pointer;
+}
+#uefaEuropaLeague2021text{
+    color:aliceblue;
+    font-size: 5mm;
+}
+#seasonElements2021{
+    display: flex;
+    flex-direction: row;
+}
+#season2021buttons{
+    display: flex;
+    flex-direction: column;
+}
+#competitionsTable2021{
+    display: flex;
+    flex-direction: column;
+}
+#pick2021Message{
+    background-color: cadetblue;
+    font-size: 0.8cm;
+    border: #1f1717;
+    border-style:outset;
+    margin-left: 1cm;
+    height: 1cm;
+    width: 13cm;
+}
+#buttonText{
+    color: aliceblue;
+}
+#LigaI2021MainRoundResultsButton{
+    background-color: rgb(223, 56, 56);
+    margin-left: 8cm;
+}
+#LigaI2021MainRoundResultsButton:hover{
+    cursor: pointer;
+}
+#LigaI2021PlayOffResultsButton{
+    background-color: rgb(223, 56, 56);
+    margin-left: 8cm;
+}
+#LigaI2021PlayOffResultsButton:hover{
+    cursor: pointer;
+}
+#CupaRomaniei2021ResultsButton{
+    background-color: rgb(223, 56, 56);
+    margin-left: 6cm;
+}
+#CupaRomaniei2021ResultsButton:hover{
+    cursor: pointer;
+}
+#SupercupaRomaniei21ResultsButton{
+    background-color: rgb(223, 56, 56);
+    margin-left: 6cm;
+}
+#SupercupaRomaniei21ResultsButton:hover{
+    cursor: pointer;
+}
+#UefaChampionsLeague2021ResultsButton{
+    background-color: rgb(223, 56, 56);
+    margin-left: 12cm;
+}
+#UefaChampionsLeague2021ResultsButton:hover{
+    cursor: pointer;
+}
+#UefaEuropaLeague2021ResultsButton{
+    background-color: rgb(223, 56, 56);
+    margin-left: 10cm;
+}
+#UefaEuropaLeague2021ResultsButton:hover{
+    cursor: pointer;
+}
+table, th, tr, td{
+    background-color: rgb(247, 195, 176);
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+#LigaI2021MainRoundTable{
+    position: absolute;
+    width: 14cm;
+}
+#LigaI2021PlayOffTable{
+    position: absolute;
+    width: 15cm;
+}
+#CupaRomaniei2021Table{
+    position: absolute;
+    width: 7cm;
+}
+#SupercupaRomaniei21Table{
+    position: absolute;
+    width: 12cm;
+}
+#UCHL2021Table{
+    position: absolute;
+    width: 10cm;
+}
+#UefaEuropaLeagueTable2021{
+    position: absolute;
+    width: 16cm;
+}

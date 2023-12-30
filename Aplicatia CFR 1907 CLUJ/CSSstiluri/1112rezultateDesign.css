@@ -1,0 +1,135 @@
+.CR1112Rounds{
+    font-weight: 800;
+}
+.SCR12Round{
+    font-weight: 800;
+}
+.LI1112TeamResults{
+    font-weight: 800;
+}
+.pageBackground1112{
+    background-color: #b9b6b6;
+}
+.ChampionshipTable1112{
+    height: 8cm;
+    width: 14cm;
+    margin-top: 1cm;
+    margin-left: 3cm;
+    background-color: #fff;
+    border-radius: 10px;
+    border-style: ridge;
+    border-width: 3mm;
+    border-color: brown;
+}
+.CupTable1112{
+    height: 3cm;
+    width: 12cm;
+    margin-top: 1cm;
+    margin-left: 3cm;
+    background-color: #fff;
+    border-radius: 10px;
+    border-style: ridge;
+    border-width: 3mm;
+    border-color: brown;
+}
+.SuperCupTable12{
+    height: 3cm;
+    width: 13cm;
+    margin-top: 1cm;
+    margin-left: 3cm;
+    background-color: #fff;
+    border-radius: 10px;
+    border-style: ridge;
+    border-width: 3mm;
+    border-color: brown;
+}
+.ChampDropdown1112{
+    background-color: rgb(247, 195, 176);
+}
+.RelegatedDropdown1112{
+    background-color: rgb(247, 195, 176);
+}
+.PromotedDropdown1213{
+    background-color: rgb(247, 195, 176);
+}
+.CupDropdown1112{
+    background-color: rgb(247, 195, 176);
+}
+.SuperCupDropdown12{
+    background-color: rgb(247, 195, 176);
+}
+
+#ligaI1112button{
+    margin-top: 0.5cm;
+    background-color: darkslateblue;
+    height: 15mm;
+    width: 7cm;
+    border-radius: 1cm;
+    border: 1mm;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+}
+#ligaI1112button:hover{
+    background-color: rgb(33, 33, 158);
+}
+
+#ligaI1112text{
+    color:aliceblue;
+    font-size: 5mm;
+}
+
+#cupaRomaniei1112button{
+    margin-top: 0.5cm;
+    background-color: darkslateblue;
+    height: 15mm;
+    width: 7cm;
+    border-radius: 1cm;
+    border: 1mm;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+}
+#cupaRomaniei1112button:hover{
+    background-color: rgb(33, 33, 158);
+}
+#cupaRomaniei1112text{
+    color:aliceblue;
+    font-size: 5mm;
+}
+#supercupaRomaniei12button{
+    margin-top: 0.5cm;
+    background-color: darkslateblue;
+    height: 20mm;
+    width: 7cm;
+    border-radius: 1cm;
+    border: 1mm;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+}
+#supercupaRomaniei12button:hover{
+    background-color: rgb(33, 33, 158);
+}
+#supercupaRomaniei12text{
+    color:aliceblue;
+    font-size: 5mm;
+}
+#seasonElements1112{
+    display: flex;
+    flex-direction: row;
+}
+#season1112buttons{
+    display: flex;
+    flex-direction: column;
+}
+#competitionsTable1112{
+    display: flex;
+    flex-direction: column;
+}
+#pick1112Message{
+    background-color: cadetblue;
+    font-size: 0.8cm;
+    border: #1f1717;
+    border-style:outset;
+    margin-left: 1cm;
+    height: 1cm;
+    width: 13cm;
+}

@@ -1,0 +1,217 @@
+.CR1415Rounds{
+    font-weight: 800;
+}
+.CLR1415Rounds{
+    font-weight: 800;
+}
+.LI1415TeamResults{
+    font-weight: 800;
+}
+.UEL1415Rounds{
+    font-weight: 800;
+}
+.pageBackground1415{
+    background-color: #b9b6b6;
+}
+.ChampionshipTable1415{
+    height: 9cm;
+    width: 13cm;
+    margin-top: 1cm;
+    margin-left: 3cm;
+    background-color: #fff;
+    border-radius: 10px;
+    border-style: ridge;
+    border-width: 3mm;
+    border-color: brown;
+}
+.CupTable1415{
+    height: 4cm;
+    width: 12cm;
+    margin-top: 1cm;
+    margin-left: 3cm;
+    background-color: #fff;
+    border-radius: 10px;
+    border-style: ridge;
+    border-width: 3mm;
+    border-color: brown;
+}
+.LeagueCupTable1415{
+    height: 4cm;
+    width: 14cm;
+    margin-top: 1cm;
+    margin-left: 3cm;
+    background-color: #fff;
+    border-radius: 10px;
+    border-style: ridge;
+    border-width: 3mm;
+    border-color: brown;
+}
+.UefaEuropaLeagueTable1415{
+    height: 4cm;
+    width: 15cm;
+    margin-top: 1cm;
+    margin-left: 3cm;
+    background-color: #fff;
+    border-radius: 10px;
+    border-style: ridge;
+    border-width: 3mm;
+    border-color: brown;
+}
+
+.RelegatedDropdown1415{
+    background-color: rgb(247, 195, 176);
+}
+.PromotedDropdown1516{
+    background-color: rgb(247, 195, 176);
+}
+
+
+#ligaI1415button{
+    margin-top: 0.5cm;
+    background-color: darkslateblue;
+    height: 15mm;
+    width: 7cm;
+    border-radius: 1cm;
+    border: 1mm;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+}
+#ligaI1415button:hover{
+    background-color: rgb(33, 33, 158);
+    cursor: pointer;
+}
+
+#ligaI1415text{
+    color:aliceblue;
+    font-size: 5mm;
+}
+
+#cupaRomaniei1415button{
+    margin-top: 0.5cm;
+    background-color: darkslateblue;
+    height: 15mm;
+    width: 7cm;
+    border-radius: 1cm;
+    border: 1mm;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+}
+#cupaRomaniei1415button:hover{
+    background-color: rgb(33, 33, 158);
+    cursor: pointer;
+}
+#cupaRomaniei1415text{
+    color:aliceblue;
+    font-size: 5mm;
+}
+#cupaLigiiRomaniei1415button{
+    margin-top: 0.5cm;
+    background-color: darkslateblue;
+    height: 20mm;
+    width: 7cm;
+    border-radius: 1cm;
+    border: 1mm;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+}
+#cupaLigiiRomaniei1415button:hover{
+    background-color: rgb(33, 33, 158);
+    cursor: pointer;
+}
+
+#cupaLigiiRomaniei1415text{
+    color:aliceblue;
+    font-size: 5mm;
+}
+
+#uefaEuropaLeague1415button{
+    margin-top: 0.5cm;
+    background-color: darkslateblue;
+    height: 20mm;
+    width: 7cm;
+    border-radius: 1cm;
+    border: 1mm;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+}
+#uefaEuropaLeague1415button:hover{
+    background-color: rgb(33, 33, 158);
+    cursor: pointer;
+}
+#uefaEuropaLeague1415text{
+    color:aliceblue;
+    font-size: 5mm;
+}
+#seasonElements1415{
+    display: flex;
+    flex-direction: row;
+}
+#season1415buttons{
+    display: flex;
+    flex-direction: column;
+}
+#competitionsTable1415{
+    display: flex;
+    flex-direction: column;
+}
+#pick1415Message{
+    background-color: cadetblue;
+    font-size: 0.8cm;
+    border: #1f1717;
+    border-style:outset;
+    margin-left: 1cm;
+    height: 1cm;
+    width: 13cm;
+}
+table, th, tr, td{
+    background-color: rgb(247, 195, 176);
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+#buttonText{
+    color: aliceblue;
+}
+#LigaI1415MainRoundResultsButton{
+    background-color: rgb(223, 56, 56);
+    margin-left: 7cm;
+}
+#LigaI1415MainRoundResultsButton:hover{
+    cursor: pointer;
+}
+#CupaRomaniei1415ResultsButton{
+    background-color: rgb(223, 56, 56);
+    margin-left: 6cm;
+}
+#CupaRomaniei1415ResultsButton:hover{
+    cursor: pointer;
+}
+#CupaLigiiRomaniei1415ResultsButton{
+    background-color: rgb(223, 56, 56);
+    margin-left: 7cm;
+}
+#CupaLigiiRomaniei1415ResultsButton:hover{
+    cursor: pointer;
+}
+#UefaEuropaLeague1415ResultsButton{
+    background-color: rgb(223, 56, 56);
+    margin-left: 8cm;
+}
+#UefaEuropaLeague1415ResultsButton:hover{
+    cursor: pointer;
+}
+#LigaI1415MainRoundResultsTable{
+    position: absolute;
+    width: 14cm;
+}
+#CupaRomaniei1415ResultsTable{
+    position: absolute;
+    width: 13cm;
+}
+#CupaLigiiRomaniei1415ResultsTable{
+    position: absolute;
+    width: 9cm;
+}
+#UefaEuropaLeague1415ResultsTable{
+    position: absolute;
+    width: 10cm;
+}

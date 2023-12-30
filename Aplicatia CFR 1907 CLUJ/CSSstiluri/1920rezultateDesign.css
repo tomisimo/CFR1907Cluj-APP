@@ -1,0 +1,272 @@
+.CR1920Rounds{
+    font-weight: 800;
+}
+.SCR20Round{
+    font-weight: 800;
+}
+.LI1920TeamResults{
+    font-weight: 800;
+}
+.UEL1920TeamResults{
+    font-weight: 800;
+}
+.UCHL1920Rounds{
+    font-weight: 800;
+}
+.UEL1920Rounds{
+    font-weight: 800;
+}
+.pageBackground1920{
+    background-color: #b9b6b6;
+}
+.ChampionshipTable1920{
+    height: 12cm;
+    width: 13cm;
+    margin-top: 1cm;
+    margin-left: 3cm;
+    background-color: #fff;
+    border-radius: 10px;
+    border-style: ridge;
+    border-width: 3mm;
+    border-color: brown;
+}
+.CupTable1920{
+    height: 4cm;
+    width: 12cm;
+    margin-top: 1cm;
+    margin-left: 3cm;
+    background-color: #fff;
+    border-radius: 10px;
+    border-style: ridge;
+    border-width: 3mm;
+    border-color: brown;
+}
+.SuperCupTable20{
+    height: 4cm;
+    width: 12cm;
+    margin-top: 1cm;
+    margin-left: 3cm;
+    background-color: #fff;
+    border-radius: 10px;
+    border-style: ridge;
+    border-width: 3mm;
+    border-color: brown;
+}
+.UefaChampLeagueTable1920{
+    height: 4cm;
+    width: 16cm;
+    margin-top: 1cm;
+    margin-left: 3cm;
+    background-color: #fff;
+    border-radius: 10px;
+    border-style: ridge;
+    border-width: 3mm;
+    border-color: brown;
+}
+.UefaEuropaLeagueTable1920{
+    height: 4cm;
+    width: 15cm;
+    margin-top: 1cm;
+    margin-left: 3cm;
+    background-color: #fff;
+    border-radius: 10px;
+    border-style: ridge;
+    border-width: 3mm;
+    border-color: brown;
+}
+.RelegatedDropdown1920{
+    background-color: rgb(247, 195, 176);
+}
+.PromotedDropdown2021{
+    background-color: rgb(247, 195, 176);
+}
+#ligaI1920button{
+    margin-top: 0.5cm;
+    background-color: darkslateblue;
+    height: 15mm;
+    width: 7cm;
+    border-radius: 1cm;
+    border: 1mm;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+}
+#ligaI1920button:hover{
+    background-color: rgb(33, 33, 158);
+    cursor: pointer;
+}
+
+#ligaI1920text{
+    color:aliceblue;
+    font-size: 5mm;
+}
+
+#cupaRomaniei1920button{
+    margin-top: 0.5cm;
+    background-color: darkslateblue;
+    height: 15mm;
+    width: 7cm;
+    border-radius: 1cm;
+    border: 1mm;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+}
+#cupaRomaniei1920button:hover{
+    background-color: rgb(33, 33, 158);
+    cursor: pointer;
+}
+#cupaRomaniei1920text{
+    color:aliceblue;
+    font-size: 5mm;
+}
+
+#supercupaRomaniei20button{
+    margin-top: 0.5cm;
+    background-color: darkslateblue;
+    height: 20mm;
+    width: 7cm;
+    border-radius: 1cm;
+    border: 1mm;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+}
+#supercupaRomaniei20button:hover{
+    background-color: rgb(33, 33, 158);
+    cursor: pointer;
+}
+#supercupaRomaniei20text{
+    color:aliceblue;
+    font-size: 5mm;
+}
+#uefaChampionsLeague1920button{
+    margin-top: 0.5cm;
+    background-color: darkslateblue;
+    height: 20mm;
+    width: 7cm;
+    border-radius: 1cm;
+    border: 1mm;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+}
+#uefaChampionsLeague1920button:hover{
+    background-color: rgb(33, 33, 158);
+    cursor: pointer;
+}
+
+#uefaChampionsLeague1920text{
+    color:aliceblue;
+    font-size: 5mm;
+}
+
+#uefaEuropaLeague1920button{
+    margin-top: 0.5cm;
+    background-color: darkslateblue;
+    height: 20mm;
+    width: 7cm;
+    border-radius: 1cm;
+    border: 1mm;
+    border-style:ridge;
+    border-color: rgb(58, 48, 48);
+}
+#uefaEuropaLeague1920button:hover{
+    background-color: rgb(33, 33, 158);
+    cursor: pointer;
+}
+#uefaEuropaLeague1920text{
+    color:aliceblue;
+    font-size: 5mm;
+}
+#seasonElements1920{
+    display: flex;
+    flex-direction: row;
+}
+#season1920buttons{
+    display: flex;
+    flex-direction: column;
+}
+#competitionsTable1920{
+    display: flex;
+    flex-direction: column;
+}
+#pick1920Message{
+    background-color: cadetblue;
+    font-size: 0.8cm;
+    border: #1f1717;
+    border-style:outset;
+    margin-left: 1cm;
+    height: 1cm;
+    width: 13cm;
+}
+#buttonText{
+    color: aliceblue;
+}
+#LigaI1920MainRoundResultsButton{
+    background-color: rgb(223, 56, 56);
+    margin-left: 7cm;
+}
+#LigaI1920MainRoundResultsButton:hover{
+    cursor: pointer;
+}
+#LigaI1920PlayOffResultsButton{
+    background-color: rgb(223, 56, 56);
+    margin-left: 7cm;
+}
+#LigaI1920PlayOffResultsButton:hover{
+    cursor: pointer;
+}
+#CupaRomaniei1920ResultsButton{
+    background-color: rgb(223, 56, 56);
+    margin-left: 6cm;
+}
+#CupaRomaniei1920ResultsButton:hover{
+    cursor: pointer;
+}
+#SupercupaRomaniei20ResultsButton{
+    background-color: rgb(223, 56, 56);
+    margin-left: 5cm;
+}
+#SupercupaRomaniei20ResultsButton:hover{
+    cursor: pointer;
+}
+#UefaChampionsLeague1920ResultsButton{
+    background-color: rgb(223, 56, 56);
+    margin-left: 11cm;
+}
+#UefaChampionsLeague1920ResultsButton:hover{
+    cursor: pointer;
+}
+#UefaEuropaLeague1920ResultsButton{
+    background-color: rgb(223, 56, 56);
+    margin-left: 10cm;
+}
+#UefaEuropaLeague1920ResultsButton:hover{
+    cursor: pointer;
+}
+table, th, tr, td{
+    background-color: rgb(247, 195, 176);
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+#LigaI1920MainRoundTable{
+    position: absolute;
+    width: 13cm;
+}
+#LigaI1920PlayOffTable{
+    position: absolute;
+    width: 15cm;
+}
+#CupaRomaniei1920Table{
+    position: absolute;
+    width: 10cm;
+}
+#SupercupaRomaniei20Table{
+    position: absolute;
+    width: 10cm;
+}
+#UCHL1920Table{
+    position: absolute;
+    width: 8cm;
+}
+#UefaEuropaLeagueTable1920{
+    position: absolute;
+    width: 13cm;
+}
