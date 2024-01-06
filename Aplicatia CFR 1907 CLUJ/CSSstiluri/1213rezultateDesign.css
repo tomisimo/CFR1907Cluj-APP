@@ -17,7 +17,7 @@
     background-color: #b9b6b6;
 }
 .ChampionshipTable1213{
-    height: 8cm;
+    height: 9cm;
     width: 13cm;
     margin-top: 1cm;
     margin-left: 3cm;
@@ -28,7 +28,7 @@
     border-color: brown;
 }
 .CupTable1213{
-    height: 3cm;
+    height: 4cm;
     width: 12cm;
     margin-top: 1cm;
     margin-left: 3cm;
@@ -39,7 +39,7 @@
     border-color: brown;
 }
 .UefaChampLeagueTable1213{
-    height: 3cm;
+    height: 4cm;
     width: 17cm;
     margin-top: 1cm;
     margin-left: 3cm;
@@ -50,7 +50,7 @@
     border-color: brown;
 }
 .UefaEuropaLeagueTable1213{
-    height: 3cm;
+    height: 4cm;
     width: 15cm;
     margin-top: 1cm;
     margin-left: 3cm;
@@ -94,6 +94,7 @@
 }
 #ligaI1213button:hover{
     background-color: rgb(33, 33, 158);
+    cursor: pointer;
 }
 
 #ligaI1213text{
@@ -113,6 +114,7 @@
 }
 #cupaRomaniei1213button:hover{
     background-color: rgb(33, 33, 158);
+    cursor: pointer;
 }
 #cupaRomaniei1213text{
     color:aliceblue;
@@ -130,6 +132,7 @@
 }
 #uefaChampionsLeague1213button:hover{
     background-color: rgb(33, 33, 158);
+    cursor: pointer;
 }
 #uefaChampionsLeague1213text{
     color:aliceblue;
@@ -147,6 +150,7 @@
 }
 #uefaEuropaLeague1213button:hover{
     background-color: rgb(33, 33, 158);
+    cursor: pointer;
 }
 #uefaEuropaLeague1213text{
     color:aliceblue;
@@ -172,4 +176,60 @@
     margin-left: 1cm;
     height: 1cm;
     width: 13cm;
+}
+table, th, tr, td{
+    background-color: rgb(247, 195, 176);
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+#buttonText{
+    color: aliceblue;
+}
+#LigaI1213MainRoundResultsTable{
+    position: absolute;
+    width: 14cm;
+
+}
+#CupaRomaniei1213ResultsTable{
+    position: absolute;
+    width: 10cm;
+
+}
+#UefaChampionsLeague1213ResultsTable{
+    position: absolute;
+    width: 12cm;
+
+}
+#UefaEuropaLeague1213ResultsTable{
+    position: absolute;
+    width: 11cm;
+
+}
+#LigaI1213MainRoundResultsButton{
+    background-color: rgb(223, 56, 56);
+    margin-left: 7cm;
+}
+#LigaI1213MainRoundResultsButton:hover{
+    cursor: pointer;
+}
+#CupaRomaniei1213ResultsButton{
+    background-color: rgb(223, 56, 56);
+    margin-left: 6cm;
+}
+#CupaRomaniei1213ResultsButton:hover{
+    cursor: pointer;
+}
+#UefaChampionsLeague1213ResultsButton{
+    background-color: rgb(223, 56, 56);
+    margin-left: 11cm;
+}
+#UefaChampionsLeague1213ResultsButton:hover{
+    cursor: pointer;
+}
+#UefaEuropaLeague1213ResultsButton{
+    background-color: rgb(223, 56, 56);
+    margin-left: 10cm;
+}
+#UefaEuropaLeague1213ResultsButton:hover{
+    cursor: pointer;
 }

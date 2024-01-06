@@ -26,3 +26,33 @@ function showAndHideSupercupaRomaniei12(){
         supercupaRomaniei12Results.style.display = "none";
     }
 }
+
+var LigaI1112MainRoundTable = document.getElementById("LigaI1112MainRoundResultsTable");
+var CupaRomaniei1112Table = document.getElementById("CupaRomaniei1112ResultsTable");
+var SupercupaRomaniei12Table = document.getElementById("SupercupaRomaniei12ResultsTable");
+
+function showAndHideLigaI1112MainRoundResults(){
+    if(LigaI1112MainRoundTable.style.display === "none"){
+        LigaI1112MainRoundTable.style.display = "block";
+    }
+    else{
+        LigaI1112MainRoundTable.style.display = "none";
+    }
+
+}
+function showAndHideCupaRomaniei1112Results(){
+    if(CupaRomaniei1112Table.style.display === "none"){
+        CupaRomaniei1112Table.style.display = "block";
+    }
+    else{
+        CupaRomaniei1112Table.style.display = "none";
+    }
+}
+function showAndHideSupercupaRomaniei12Results(){
+    if(SupercupaRomaniei12Table.style.display === "none"){
+        SupercupaRomaniei12Table.style.display = "block";
+    }
+    else{
+        SupercupaRomaniei12Table.style.display = "none";
+    }
+}
