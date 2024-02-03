@@ -17,3 +17,46 @@ function showAndHideCupaRomaniei0506(){
         cupaRomaniei0506Results.style.display = "none";
     }
 }
+
+var DiviziaA0506MainRoundTable = document.getElementById("DiviziaA0506MainRoundResultsTable")
+var CupaRomaniei0506Table = document.getElementById("CupaRomaniei0506ResultsTable")
+
+function showAndHideDiviziaA0506MainRoundResults(){
+    if(DiviziaA0506MainRoundTable.style.display === "none"){
+        DiviziaA0506MainRoundTable.style.display = "block";
+    }
+    else{
+        DiviziaA0506MainRoundTable.style.display = "none";
+    }
+}
+function showAndHideCupaRomaniei0506Results(){
+    if(CupaRomaniei0506Table.style.display === "none"){
+        CupaRomaniei0506Table.style.display = "block";
+    }
+    else{
+        CupaRomaniei0506Table.style.display = "none"
+    }
+}
+function closeDiviziaA0506MainResults(){
+    if(diviziaA0506Results.style.display === "none"){
+        diviziaA0506Results.style.display = "block";
+    }
+    else if(diviziaA0506Results.style.display === "block" && DiviziaA0506MainRoundTable.style.display === "block"){
+        DiviziaA0506MainRoundTable.style.display = "none"; diviziaA0506Results.style.display = "none"
+    }
+    else if(diviziaA0506Results.style.display === "block" && DiviziaA0506MainRoundTable.style.display === "none"){
+        diviziaA0506Results.style.display = "none"
+    }
+}
+function closeCupaRomaniei0506Results(){
+    if(cupaRomaniei0506Results.style.display === "none"){
+        cupaRomaniei0506Results.style.display = "block";
+    }
+    else if(cupaRomaniei0506Results.style.display === "block" && CupaRomaniei0506Table.style.display === "block"){
+        CupaRomaniei0506Table.style.display = "none"; cupaRomaniei0506Results.style.display = "none"
+    }
+    else if(cupaRomaniei0506Results.style.display === "block" && CupaRomaniei0506Table.style.display === "none"){
+        cupaRomaniei0506Results.style.display = "none"
+    }
+}
+

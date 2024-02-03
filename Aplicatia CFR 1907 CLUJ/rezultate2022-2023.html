@@ -11,23 +11,26 @@
     <h4 id="pick2223Message">Click on desired competition !</h4>
     <div id="seasonElements2223">
       <div id="season2223buttons">
-        <button onclick="showAndHideLigaI2223()" id="ligaI2223button">
+        <button
+          onclick="closeLigaI2223MainAndPlayOffResults()"
+          id="ligaI2223button"
+        >
           <p id="ligaI2223text">Liga I. 2022-2023</p>
         </button>
         <button
-          onclick="showAndHideCupaRomaniei2223()"
+          onclick="closeCupaRomaniei2223Results()"
           id="cupaRomaniei2223button"
         >
           <p id="cupaRomaniei2223text">CUPA Romaniei 2022-2023</p>
         </button>
         <button
-          onclick="showAndHideEuropeanPlayoff2223()"
+          onclick="closeEuropeanPlayOffResults()"
           id="europeanPlayoff2223button"
         >
           <p id="europeanPlayoff2223text">European Play-Off 2023</p>
         </button>
         <button
-          onclick="showAndHideUefaChampionsLeague2223()"
+          onclick="closeUefaChampionsLeague2223Results()"
           id="uefaChampionsLeague2223button"
         >
           <p id="uefaChampionsLeague2223text">
@@ -35,7 +38,7 @@
           </p>
         </button>
         <button
-          onclick="showAndHideUefaEuropaConferenceLeague2223()"
+          onclick="closeUefaEuropaConferenceLeague2223Results()"
           id="uefaEuropaConferenceLeague2223button"
         >
           <p id="uefaEuropaConferenceLeague2223text">
@@ -579,7 +582,7 @@
             onclick="showAndHideUefaChampionsLeague2223Table()"
             id="UCHL2223ResultsButton"
           >
-            <p id="buttonText">Show U.CH.L. results</p>
+            <p id="buttonText">Show Uefa Champions League results</p>
           </button>
           <table id="UCHL2223Table" style="display: none">
             <tr>
@@ -619,7 +622,7 @@
             onclick="showAndHideUefaEuropaConferenceLeague2223Table()"
             id="UECL2223ResultsButton"
           >
-            <p id="buttonText">Show U.E.C.L. results</p>
+            <p id="buttonText">Show Uefa Europa Conference League results</p>
           </button>
           <table id="UECL2223Table" style="display: none">
             <tr>

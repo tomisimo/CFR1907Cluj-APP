@@ -86,3 +86,53 @@ function showAndHideSupercupaRomaniei16Resultstable(){
         SupercupaRomaniei16Table.style.display = "none";
     }
 }
+function closeLigaI1516MainAndPlayOutResults(){
+    if(ligaI1516Results.style.display === "none"){
+        ligaI1516Results.style.display = "block";
+    }
+    else if(ligaI1516Results.style.display === "block" && LigaI1516MainRoundTable.style.display === "block" && LigaI1516PlayOutRoundTable.style.display === "block"){
+        LigaI1516PlayOutRoundTable.style.display = "none"; LigaI1516MainRoundTable.style.display = "none"; ligaI1516Results.style.display = "none";
+    }
+    else if(ligaI1516Results.style.display === "block" && LigaI1516MainRoundTable.style.display === "none" && LigaI1516PlayOutRoundTable.style.display === "none"){
+        ligaI1516Results.style.display = "none";
+    }
+    else if(ligaI1516Results.style.display === "block" && LigaI1516MainRoundTable.style.display === "block"){
+        LigaI1516MainRoundTable.style.display = "none"; ligaI1516Results.style.display = "none"
+    }
+    else if(ligaI1516Results.style.display === "block" && LigaI1516PlayOutRoundTable.style.display === "block"){
+        LigaI1516PlayOutRoundTable.style.display = "none"; ligaI1516Results.style.display = "none"
+    }
+}
+function closeCupaRomaniei1516Results(){
+    if(cupaRomaniei1516Results.style.display === "none"){
+        cupaRomaniei1516Results.style.display = "block";
+    }
+    else if(cupaRomaniei1516Results.style.display === "block" && CupaRomaniei1516Table.style.display === "block"){
+        CupaRomaniei1516Table.style.display = "none"; cupaRomaniei1516Results.style.display = "none"
+    }
+    else if(cupaRomaniei1516Results.style.display === "block" && CupaRomaniei1516Table.style.display === "none"){
+        cupaRomaniei1516Results.style.display = "none"
+    }
+}
+function closeCupaLigiiRomaniei1516Results(){
+    if(cupaLigiiRomaniei1516Results.style.display === "none"){
+        cupaLigiiRomaniei1516Results.style.display = "block";
+    }
+    else if(cupaLigiiRomaniei1516Results.style.display === "block" && CupaLigiiRomaniei1516Table.style.display === "block"){
+        CupaLigiiRomaniei1516Table.style.display = "none"; cupaLigiiRomaniei1516Results.style.display = "none"
+    }
+    else if(cupaLigiiRomaniei1516Results.style.display === "block" && CupaLigiiRomaniei1516Table.style.display === "none"){
+        cupaLigiiRomaniei1516Results.style.display = "none"
+    }
+}
+function closeSupercupaRomaniei16Results(){
+    if(superCupaRomaniei16Results.style.display === "none"){
+        superCupaRomaniei16Results.style.display = "block";
+    }
+    else if(superCupaRomaniei16Results.style.display === "block" && SupercupaRomaniei16Table.style.display === "block"){
+        SupercupaRomaniei16Table.style.display = "none"; superCupaRomaniei16Results.style.display = "none"
+    }
+    else if(superCupaRomaniei16Results.style.display === "block" && SupercupaRomaniei16Table.style.display === "none"){
+        superCupaRomaniei16Results.style.display = "none"
+    }
+}

@@ -248,14 +248,14 @@
 }
 #UefaChampionsLeague2021ResultsButton{
     background-color: rgb(223, 56, 56);
-    margin-left: 12cm;
+    margin-left: 10cm;
 }
 #UefaChampionsLeague2021ResultsButton:hover{
     cursor: pointer;
 }
 #UefaEuropaLeague2021ResultsButton{
     background-color: rgb(223, 56, 56);
-    margin-left: 10cm;
+    margin-left: 8cm;
 }
 #UefaEuropaLeague2021ResultsButton:hover{
     cursor: pointer;

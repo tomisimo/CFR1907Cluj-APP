@@ -11,23 +11,23 @@
     <h2 id="pick0910Message">Click on desired competition !</h2>
     <div id="seasonElements0910">
       <div id="season0910buttons">
-        <button onclick="showAndHideLigaI0910()" id="ligaI0910button">
+        <button onclick="closeLigaI0910MainResults()" id="ligaI0910button">
           <p id="ligaI0910text">Liga I. 2009-2010</p>
         </button>
         <button
-          onclick="showAndHideCupaRomaniei0910()"
+          onclick="closeCupaRomaniei0910Results()"
           id="cupaRomaniei0910button"
         >
           <p id="cupaRomaniei0910text">CUPA Romaniei 2009-2010</p>
         </button>
         <button
-          onclick="showAndHideSupercup2010()"
+          onclick="closeSupercupaRomaniei10Results()"
           id="supercupaRomaniei10button"
         >
           <p id="supercupaRomaniei10text">SUPERCUPA Romaniei 2010</p>
         </button>
         <button
-          onclick="showAndHideUefaEuropaLeague0910()"
+          onclick="closeUefaEuropaLeague0910Results()"
           id="uefaEuropaLeague0910button"
         >
           <p id="uefaEuropaLeague0910text">UEFA Europa League<br />2009-2010</p>
@@ -40,126 +40,289 @@
           style="display: none"
         >
           <h1>LIGA I. 2009-2010</h1>
-          <select class="ChampDropdown0910">
-            <option><p></p></option>
-            <option>
-              <p>1 CFR-1907 CLUJ-NAPOCA - 2-0 FC UNIREA Urziceni</p>
-            </option>
-            <option>
-              <p>18 CFR-1907 CLUJ-NAPOCA 1-0 - FC UNIREA Urziceni</p>
-            </option>
-            <option><p></p></option>
-            <option>
-              <p>2 CFR-1907 CLUJ-NAPOCA 2-2 - FC STEAUA Bucureşti</p>
-            </option>
-            <option>
-              <p>19 CFR-1907 CLUJ-NAPOCA - 1-1 FC STEAUA Bucureşti</p>
-            </option>
-            <option><p></p></option>
-            <option>
-              <p>3 CFR-1907 CLUJ-NAPOCA - 1-0 FC OŢELUL Galaţi</p>
-            </option>
-            <option>
-              <p>20 CFR-1907 CLUJ-NAPOCA 0-1 - FC OŢELUL Galaţi</p>
-            </option>
-            <option><p></p></option>
-            <option>
-              <p>4 CFR-1907 CLUJ-NAPOCA 0-1 - FC DINAMO 1948 Bucureşti</p>
-            </option>
-            <option>
-              <p>21 CFR-1907 CLUJ-NAPOCA - 2-2 FC DINAMO 1948 Bucureşti</p>
-            </option>
-            <option><p></p></option>
-            <option>
-              <p>5 CFR-1907 CLUJ-NAPOCA - 2-0 CS GAZ METAN Mediaş</p>
-            </option>
-            <option>
-              <p>22 CFR-1907 CLUJ-NAPOCA 0-0 - CS GAZ METAN Mediaş</p>
-            </option>
-            <option><p></p></option>
-            <option>
-              <p>6 CFR-1907 CLUJ-NAPOCA 0-1 - CS PANDURII LIGNITUL Târgu Jiu</p>
-            </option>
-            <option>
-              <p>
-                23 CFR-1907 CLUJ-NAPOCA - 1-0 CS PANDURII LIGNITUL Târgu Jiu
-              </p>
-            </option>
-            <option><p></p></option>
-            <option><p>7 CFR-1907 CLUJ-NAPOCA - 2-1 FC Braşov</p></option>
-            <option><p>24 CFR-1907 CLUJ-NAPOCA 1-0 - FC Braşov</p></option>
-            <option><p></p></option>
-            <option>
-              <p>8 CFR-1907 CLUJ-NAPOCA 2-0 - ACF GLORIA 1922 Bistriţa</p>
-            </option>
-            <option>
-              <p>25 CFR-1907 CLUJ-NAPOCA - 1-0 ACF GLORIA 1922 Bistriţa</p>
-            </option>
-            <option><p></p></option>
-            <option>
-              <p>9 CFR-1907 CLUJ-NAPOCA - 1-1 FC POLITEHNICA Iaşi</p>
-            </option>
-            <option>
-              <p>26 CFR-1907 CLUJ-NAPOCA 2-0 - FC POLITEHNICA Iaşi</p>
-            </option>
-            <option><p></p></option>
-            <option>
-              <p>10 CFR-1907 CLUJ-NAPOCA 4-1 - FC RAPID Bucureşti</p>
-            </option>
-            <option>
-              <p>27 CFR-1907 CLUJ-NAPOCA - 1-0 FC RAPID Bucureşti</p>
-            </option>
-            <option><p></p></option>
-            <option><p>11 CFR-1907 CLUJ-NAPOCA - 0-0 FC Timişoara</p></option>
-            <option><p>28 CFR-1907 CLUJ-NAPOCA 1-1 - FC Timişoara</p></option>
-            <option><p></p></option>
-            <option>
-              <p>12 CFR-1907 CLUJ-NAPOCA 1-1 - FC UNIREA Alba Iulia</p>
-            </option>
-            <option>
-              <p>29 CFR-1907 CLUJ-NAPOCA - 3-2 FC UNIREA Alba Iulia</p>
-            </option>
-            <option><p></p></option>
-            <option>
-              <p>13 CFR-1907 CLUJ-NAPOCA - 1-0 FC ASTRA Ploieşti</p>
-            </option>
-            <option>
-              <p>30 CFR-1907 CLUJ-NAPOCA 0-1 - FC ASTRA Ploieşti</p>
-            </option>
-            <option><p></p></option>
-            <option><p>14 CFR-1907 CLUJ-NAPOCA 0-2 - FC Vaslui</p></option>
-            <option><p>31 CFR-1907 CLUJ-NAPOCA - 0-0 FC Vaslui</p></option>
-            <option><p></p></option>
-            <option>
-              <p>15 CFR-1907 CLUJ-NAPOCA - 2-0 FC UNIVERSITATEA Craiova</p>
-            </option>
-            <option>
-              <p>32 CFR-1907 CLUJ-NAPOCA 3-2 - FC UNIVERSITATEA Craiova</p>
-            </option>
-            <option><p></p></option>
-            <option>
-              <p>
-                16 CFR-1907 CLUJ-NAPOCA 1-0 - FC INTERNAŢIONAL Curtea de Argeş
-              </p>
-            </option>
-            <option>
-              <p>
-                33 CFR-1907 CLUJ-NAPOCA - 2-1 FC INTERNAŢIONAL Curtea de Argeş
-              </p>
-            </option>
-            <option><p></p></option>
-            <option>
-              <p>17 CFR-1907 CLUJ-NAPOCA - 2-0 FC CEAHLĂUL Piatra Neamţ</p>
-            </option>
-            <option>
-              <p>34 CFR-1907 CLUJ-NAPOCA 4-2 - FC CEAHLĂUL Piatra Neamţ</p>
-            </option>
-            <option></option>
-            <option class="LI0910TeamResults">
-              <p>1. CFR-1907 CLUJ-NAPOCA 34 20 9 5 46-23 69 +23</p>
-            </option>
-          </select>
-
+          <button
+            id="LigaI0910MainRoundResultsButton"
+            onclick="showAndHideLigaI0910MainRoundResults()"
+          >
+            <p id="buttonText">Show Main Round results</p>
+          </button>
+          <table id="LigaI0910MainRoundResultsTable" style="display: none">
+            <tr>
+              <td><p>1</p></td>
+              <td>
+                <p><b>CFR-1907 CLUJ-NAPOCA</b><br />FC UNIREA Urziceni</p>
+              </td>
+              <td><p>2-0</p></td>
+            </tr>
+            <tr>
+              <td><p>18</p></td>
+              <td>
+                <p>FC UNIREA Urziceni<br /><b>CFR-1907 CLUJ-NAPOCA</b></p>
+              </td>
+              <td><p>0-1</p></td>
+            </tr>
+            <tr>
+              <td><p>2</p></td>
+              <td>
+                <p>FC STEAUA Bucureşti<br />CFR-1907 CLUJ-NAPOCA</p>
+              </td>
+              <td><p>2-2</p></td>
+            </tr>
+            <tr>
+              <td><p>19</p></td>
+              <td>
+                <p>CFR-1907 CLUJ-NAPOCA<br />FC STEAUA Bucureşti</p>
+              </td>
+              <td><p>1-1</p></td>
+            </tr>
+            <tr>
+              <td><p>3</p></td>
+              <td>
+                <p><b>CFR-1907 CLUJ-NAPOCA</b><br />FC OŢELUL Galaţi</p>
+              </td>
+              <td><p>1-0</p></td>
+            </tr>
+            <tr>
+              <td><p>20</p></td>
+              <td>
+                <p><b>FC OŢELUL Galaţi</b><br />CFR-1907 CLUJ-NAPOCA</p>
+              </td>
+              <td><p>1-0</p></td>
+            </tr>
+            <tr>
+              <td><p>4</p></td>
+              <td>
+                <p><b>FC DINAMO 1948 Bucureşti</b><br />CFR-1907 CLUJ-NAPOCA</p>
+              </td>
+              <td><p>1-0</p></td>
+            </tr>
+            <tr>
+              <td><p>21</p></td>
+              <td>
+                <p>CFR-1907 CLUJ-NAPOCA<br />FC DINAMO 1948 Bucureşti</p>
+              </td>
+              <td><p>2-2</p></td>
+            </tr>
+            <tr>
+              <td><p>5</p></td>
+              <td>
+                <p><b>CFR-1907 CLUJ-NAPOCA</b><br />CS GAZ METAN Mediaş</p>
+              </td>
+              <td><p>2-0</p></td>
+            </tr>
+            <tr>
+              <td><p>22</p></td>
+              <td>
+                <p>CS GAZ METAN Mediaş<br />CFR-1907 CLUJ-NAPOCA</p>
+              </td>
+              <td><p>0-0</p></td>
+            </tr>
+            <tr>
+              <td><p>6</p></td>
+              <td>
+                <p>
+                  <b>CS PANDURII LIGNITUL Târgu Jiu</b><br />CFR-1907
+                  CLUJ-NAPOCA
+                </p>
+              </td>
+              <td><p>1-0</p></td>
+            </tr>
+            <tr>
+              <td><p>23</p></td>
+              <td>
+                <p>
+                  <b>CFR-1907 CLUJ-NAPOCA</b><br />CS PANDURII LIGNITUL Târgu
+                  Jiu
+                </p>
+              </td>
+              <td><p>1-0</p></td>
+            </tr>
+            <tr>
+              <td><p>7</p></td>
+              <td>
+                <p><b>CFR-1907 CLUJ-NAPOCA</b><br />FC Braşov</p>
+              </td>
+              <td><p>2-1</p></td>
+            </tr>
+            <tr>
+              <td><p>24</p></td>
+              <td>
+                <p>FC Braşov<br /><b>CFR-1907 CLUJ-NAPOCA</b></p>
+              </td>
+              <td><p>0-1</p></td>
+            </tr>
+            <tr>
+              <td><p>8</p></td>
+              <td>
+                <p>ACF GLORIA 1922 Bistriţa<br /><b>CFR-1907 CLUJ-NAPOCA</b></p>
+              </td>
+              <td><p>0-2</p></td>
+            </tr>
+            <tr>
+              <td><p>25</p></td>
+              <td>
+                <p><b>CFR-1907 CLUJ-NAPOCA</b><br />ACF GLORIA 1922 Bistriţa</p>
+              </td>
+              <td><p>1-0</p></td>
+            </tr>
+            <tr>
+              <td><p>9</p></td>
+              <td>
+                <p>CFR-1907 CLUJ-NAPOCA<br />FC POLITEHNICA Iaşi</p>
+              </td>
+              <td><p>1-1</p></td>
+            </tr>
+            <tr>
+              <td><p>26</p></td>
+              <td>
+                <p>FC POLITEHNICA Iaşi<br /><b>CFR-1907 CLUJ-NAPOCA</b></p>
+              </td>
+              <td><p>0-2</p></td>
+            </tr>
+            <tr>
+              <td><p>10</p></td>
+              <td>
+                <p>FC RAPID Bucureşti<br /><b>CFR-1907 CLUJ-NAPOCA</b></p>
+              </td>
+              <td><p>1-4</p></td>
+            </tr>
+            <tr>
+              <td><p>27</p></td>
+              <td>
+                <p><b>CFR-1907 CLUJ-NAPOCA</b><br />FC RAPID Bucureşti</p>
+              </td>
+              <td><p>1-0</p></td>
+            </tr>
+            <tr>
+              <td><p>11</p></td>
+              <td>
+                <p>CFR-1907 CLUJ-NAPOCA<br />FC Timişoara</p>
+              </td>
+              <td><p>0-0</p></td>
+            </tr>
+            <tr>
+              <td><p>28</p></td>
+              <td>
+                <p>FC Timişoara<br />CFR-1907 CLUJ-NAPOCA</p>
+              </td>
+              <td><p>1-1</p></td>
+            </tr>
+            <tr>
+              <td><p>12</p></td>
+              <td>
+                <p>FC UNIREA Alba Iulia<br />CFR-1907 CLUJ-NAPOCA</p>
+              </td>
+              <td><p>1-1</p></td>
+            </tr>
+            <tr>
+              <td><p>29</p></td>
+              <td>
+                <p><b>CFR-1907 CLUJ-NAPOCA</b><br />FC UNIREA Alba Iulia</p>
+              </td>
+              <td><p>3-2</p></td>
+            </tr>
+            <tr>
+              <td><p>13</p></td>
+              <td>
+                <p><b>CFR-1907 CLUJ-NAPOCA</b><br />FC ASTRA Ploieşti</p>
+              </td>
+              <td><p>1-0</p></td>
+            </tr>
+            <tr>
+              <td><p>30</p></td>
+              <td>
+                <p><b>FC ASTRA Ploieşti</b><br />CFR-1907 CLUJ-NAPOCA</p>
+              </td>
+              <td><p>1-0</p></td>
+            </tr>
+            <tr>
+              <td><p>14</p></td>
+              <td>
+                <p><b>FC Vaslui</b><br />CFR-1907 CLUJ-NAPOCA</p>
+              </td>
+              <td><p>2-0</p></td>
+            </tr>
+            <tr>
+              <td><p>31</p></td>
+              <td>
+                <p>CFR-1907 CLUJ-NAPOCA<br />FC Vaslui</p>
+              </td>
+              <td><p>0-0</p></td>
+            </tr>
+            <tr>
+              <td><p>15</p></td>
+              <td>
+                <p><b>CFR-1907 CLUJ-NAPOCA</b><br />FC UNIVERSITATEA Craiova</p>
+              </td>
+              <td><p>2-0</p></td>
+            </tr>
+            <tr>
+              <td><p>32</p></td>
+              <td>
+                <p>FC UNIVERSITATEA Craiova<br /><b>CFR-1907 CLUJ-NAPOCA</b></p>
+              </td>
+              <td><p>2-3</p></td>
+            </tr>
+            <tr>
+              <td><p>16</p></td>
+              <td>
+                <p>
+                  FC INTERNAŢIONAL Curtea de Argeş<br /><b
+                    >CFR-1907 CLUJ-NAPOCA</b
+                  >
+                </p>
+              </td>
+              <td><p>0-1</p></td>
+            </tr>
+            <tr>
+              <td><p>33</p></td>
+              <td>
+                <p>
+                  <b>CFR-1907 CLUJ-NAPOCA</b><br />FC INTERNAŢIONAL Curtea de
+                  Argeş
+                </p>
+              </td>
+              <td><p>2-1</p></td>
+            </tr>
+            <tr>
+              <td><p>17</p></td>
+              <td>
+                <p><b>CFR-1907 CLUJ-NAPOCA</b><br />FC CEAHLĂUL Piatra Neamţ</p>
+              </td>
+              <td><p>2-0</p></td>
+            </tr>
+            <tr>
+              <td><p>34</p></td>
+              <td>
+                <p>FC CEAHLĂUL Piatra Neamţ<br /><b>CFR-1907 CLUJ-NAPOCA</b></p>
+              </td>
+              <td><p>2-4</p></td>
+            </tr>
+            <tr>
+              <td><b>Poz.</b></td>
+              <td><b>Team name</b></td>
+              <td><b>P.</b></td>
+              <td><b>W.</b></td>
+              <td><b>E.</b></td>
+              <td><b>L.</b></td>
+              <td><b>GF.</b></td>
+              <td><b>GA.</b></td>
+              <td><b>GD.</b></td>
+              <td><b>Pts.</b></td>
+            </tr>
+            <tr>
+              <td><b>1.</b></td>
+              <td>CFR-1907 CLUJ-NAPOCA</td>
+              <td><b>34</b></td>
+              <td>20</td>
+              <td>9</td>
+              <td>5</td>
+              <td>46</td>
+              <td>23</td>
+              <td>+23</td>
+              <td><b>69</b></td>
+            </tr>
+          </table>
           <h2>Relegated from Liga I 2009-2010</h2>
           <select class="RelegatedDropdown0910">
             <option><p>Show relegated teams</p></option>
@@ -185,38 +348,98 @@
           style="display: none"
         >
           <h1>CUPA ROMÂNIEI 2009-2010</h1>
-          <select class="CupDropdown0910">
-            <option><p></p></option>
-            <option class="CR0910Rounds"><p>Round of 32</p></option>
-            <option>
-              <p>CFR-1907 CLUJ-NAPOCA - 2-0 FCM DUNĂREA Galaţi ( LIGA II. )</p>
-            </option>
-            <option></option>
-            <option class="CR0910Rounds"><p>Round of 16</p></option>
-            <option>
-              <p>
-                CFR-1907 CLUJ-NAPOCA 1-0 - CS GAZ METAN CFR Craiova ( LIGA II. )
-              </p>
-            </option>
-            <option></option>
-            <option class="CR0910Rounds"><p>Quarter-finals</p></option>
-            <option>
-              <p>CFR-1907 CLUJ-NAPOCA 1-0 - FC UNIVERSITATEA Craiova</p>
-            </option>
-            <option></option>
-            <option class="CR0910Rounds"><p>Semi-finals</p></option>
-            <option>
-              <p>CFR-1907 CLUJ-NAPOCA 1-1 - FC DINAMO 1948 Bucureşti</p>
-            </option>
-            <option>
-              <p>CFR-1907 CLUJ-NAPOCA - 2-1 FC DINAMO 1948 Bucureşti</p>
-            </option>
-            <option><p>3-2</p></option>
-            <option></option>
-            <option class="CR0910Rounds"><p>Final</p></option>
-            <option><p>CFR-1907 CLUJ-NAPOCA 0-0 FC Vaslui</p></option>
-            <option><p>(P) 5-4 (P)</p></option>
-          </select>
+          <button
+            id="CupaRomaniei0910ResultsButton"
+            onclick="showAndHideCupaRomaniei0910Results()"
+          >
+            <p id="buttonText">Show Cupa Romaniei results</p>
+          </button>
+          <table id="CupaRomaniei0910ResultsTable" style="display: none">
+            <tr>
+              <td colspan="4" style="text-align: center">
+                <p><b>ROUND OF 32</b></p>
+              </td>
+            </tr>
+            <tr>
+              <td><p>1</p></td>
+              <td>
+                <p>
+                  <b>CFR-1907 CLUJ-NAPOCA</b><br />FCM DUNĂREA Galaţi ( LIGA
+                  II.)
+                </p>
+              </td>
+              <td><p>2-0</p></td>
+            </tr>
+
+            <tr>
+              <td colspan="4" style="text-align: center">
+                <p><b>ROUND OF 16</b></p>
+              </td>
+            </tr>
+            <tr>
+              <td><p>1</p></td>
+              <td>
+                <p>
+                  CS GAZ METAN CFR Craiova ( LIGA II. )<br /><b
+                    >CFR-1907 CLUJ-NAPOCA</b
+                  >
+                </p>
+              </td>
+              <td><p>0-1</p></td>
+            </tr>
+            <tr>
+              <td colspan="4" style="text-align: center">
+                <p><b>QUARTER-FINALS</b></p>
+              </td>
+            </tr>
+            <tr>
+              <td><p>1</p></td>
+              <td>
+                <p>FC UNIVERSITATEA Craiova<br /><b>CFR-1907 CLUJ-NAPOCA</b></p>
+              </td>
+              <td><p>0-1</p></td>
+            </tr>
+            <tr>
+              <td colspan="4" style="text-align: center">
+                <p><b>SEMI-FINALS</b></p>
+              </td>
+            </tr>
+            <tr>
+              <td><p>1</p></td>
+              <td>
+                <p>FC DINAMO 1948 Bucureşti<br />CFR-1907 CLUJ-NAPOCA</p>
+              </td>
+              <td><p>1-1</p></td>
+            </tr>
+
+            <tr>
+              <td><p>2</p></td>
+              <td>
+                <p><b>CFR-1907 CLUJ-NAPOCA</b><br />FC DINAMO 1948 Bucureşti</p>
+              </td>
+              <td><p>2-1</p></td>
+            </tr>
+            <tr>
+              <td colspan="4">
+                <p><b>CFR-1907 CLUJ-NAPOCA won 3-2 on aggregate.</b></p>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="4" style="text-align: center">
+                <p><b>FINAL</b></p>
+              </td>
+            </tr>
+            <tr>
+              <td><p>1</p></td>
+              <td>
+                <p><b>CFR-1907 CLUJ-NAPOCA</b><br />FC Vaslui</p>
+              </td>
+              <td><p>0-0</p></td>
+              <td>
+                <p>Penalties<br />5-4</p>
+              </td>
+            </tr>
+          </table>
         </div>
         <div
           class="SuperCupTable0910"
@@ -224,14 +447,29 @@
           style="display: none"
         >
           <h1>SUPERCUPA ROMÂNIEI 2010</h1>
-          <select class="SuperCupDropdown10">
-            <option><p></p></option>
-            <option class="SCR10Round"><p>Final</p></option>
-            <option>
-              <p>CFR-1907 CLUJ-NAPOCA - 2-2 FC UNIREA Urziceni</p>
-            </option>
-            <option><p>(P) 2-0 (P)</p></option>
-          </select>
+          <button
+            id="SupercupaRomaniei10ResultsButton"
+            onclick="showAndHideSupercupaRomaniei10Results()"
+          >
+            <p id="buttonText">Show Supercupa Romaniei results</p>
+          </button>
+          <table id="SupercupaRomaniei10ResultsTable" style="display: none">
+            <tr>
+              <td colspan="4" style="text-align: center">
+                <p><b>FINAL</b></p>
+              </td>
+            </tr>
+            <tr>
+              <td><p>1</p></td>
+              <td>
+                <p><b>CFR-1907 CLUJ-NAPOCA</b><br />FC UNIREA Urziceni</p>
+              </td>
+              <td><p>2-2 (a.e.t.)</p></td>
+              <td>
+                <p>Penalties<br />2-0</p>
+              </td>
+            </tr>
+          </table>
         </div>
         <div
           class="UefaEuropaLeagueTable0910"
@@ -239,39 +477,109 @@
           style="display: none"
         >
           <h1>UEFA EUROPA LEAGUE 2009-2010</h1>
-          <select class="UELDropdown0910">
-            <option><p></p></option>
-            <option class="UEL0910Rounds"><p>Play-off round</p></option>
-            <option><p>CFR-1907 CLUJ-NAPOCA 1-1 - FK Sarajevo (BIH)</p></option>
-            <option><p>CFR-1907 CLUJ-NAPOCA - 2-1 FK Sarajevo (BIH)</p></option>
-            <option><p>3-2</p></option>
-            <option></option>
-            <option class="UEL0910Rounds"><p>Group K</p></option>
-            <option>
-              <p>1 CFR-1907 CLUJ-NAPOCA - 2-0 FC København (DEN)</p>
-            </option>
-            <option>
-              <p>5 CFR-1907 CLUJ-NAPOCA 0-2 - FC København (DEN)</p>
-            </option>
-            <option></option>
-            <option>
-              <p>2 CFR-1907 CLUJ-NAPOCA 0-1 - PSV Eindhoven (NED)</p>
-            </option>
-            <option>
-              <p>6 CFR-1907 CLUJ-NAPOCA - 0-2 PSV Eindhoven (NED)</p>
-            </option>
-            <option></option>
-            <option>
-              <p>3 CFR-1907 CLUJ-NAPOCA 0-2 - AC SPARTA Praha (CZE)</p>
-            </option>
-            <option>
-              <p>4 CFR-1907 CLUJ-NAPOCA - 2-3 AC SPARTA Praha (CZE)</p>
-            </option>
-            <option></option>
-            <option class="UEL0910TeamResults">
-              <p>4. CFR-1907 CLUJ-NAPOCA 6 1 0 5 4-10 3 -6</p>
-            </option>
-          </select>
+          <button
+            id="UefaEuropaLeague0910ResultsButton"
+            onclick="showAndHideUefaEuropaLeague0910Results()"
+          >
+            <p id="buttonText">Show Uefa Europa League results</p>
+          </button>
+          <table id="UefaEuropaLeague0910ResultsTable" style="display: none">
+            <tr>
+              <td colspan="10" style="text-align: center">
+                <p><b>PLAY-OFF ROUND</b></p>
+              </td>
+            </tr>
+            <tr>
+              <td><p>1</p></td>
+              <td>
+                <p>FK Sarajevo (BIH)<br />CFR-1907 CLUJ-NAPOCA</p>
+              </td>
+              <td><p>1-1</p></td>
+            </tr>
+            <tr>
+              <td><p>2</p></td>
+              <td>
+                <p><b>CFR-1907 CLUJ-NAPOCA</b><br />FK Sarajevo (BIH)</p>
+              </td>
+              <td><p>2-1</p></td>
+            </tr>
+            <tr>
+              <td colspan="10">
+                <p><b>CFR-1907 CLUJ-NAPOCA won 3-2 on aggregate.</b></p>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="10" style="text-align: center">
+                <p><b>GROUP K</b></p>
+              </td>
+            </tr>
+            <tr>
+              <td><p>1</p></td>
+              <td>
+                <p><b>CFR-1907 CLUJ-NAPOCA</b><br />FC København (DEN)</p>
+              </td>
+              <td><p>2-0</p></td>
+            </tr>
+            <tr>
+              <td><p>2</p></td>
+              <td>
+                <p><b>PSV Eindhoven (NED)</b><br />CFR-1907 CLUJ-NAPOCA</p>
+              </td>
+              <td><p>1-0</p></td>
+            </tr>
+            <tr>
+              <td><p>3</p></td>
+              <td>
+                <p><b>AC SPARTA Praha (CZE)</b><br />CFR-1907 CLUJ-NAPOCA</p>
+              </td>
+              <td><p>2-0</p></td>
+            </tr>
+            <tr>
+              <td><p>4</p></td>
+              <td>
+                <p>CFR-1907 CLUJ-NAPOCA<br /><b>AC SPARTA Praha (CZE)</b></p>
+              </td>
+              <td><p>2-3</p></td>
+            </tr>
+            <tr>
+              <td><p>5</p></td>
+              <td>
+                <p><b>FC København (DEN)</b><br />CFR-1907 CLUJ-NAPOCA</p>
+              </td>
+              <td><p>2-0</p></td>
+            </tr>
+            <tr>
+              <td><p>6</p></td>
+              <td>
+                <p>CFR-1907 CLUJ-NAPOCA<br /><b>PSV Eindhoven (NED)</b></p>
+              </td>
+              <td><p>0-2</p></td>
+            </tr>
+            <tr>
+              <td><b>Poz.</b></td>
+              <td><b>Team name</b></td>
+              <td><b>P.</b></td>
+              <td><b>W.</b></td>
+              <td><b>E.</b></td>
+              <td><b>L.</b></td>
+              <td><b>GF.</b></td>
+              <td><b>GA.</b></td>
+              <td><b>GD.</b></td>
+              <td><b>Pts.</b></td>
+            </tr>
+            <tr>
+              <td><b>4.</b></td>
+              <td>CFR-1907 CLUJ-NAPOCA</td>
+              <td><b>6</b></td>
+              <td>1</td>
+              <td>0</td>
+              <td>5</td>
+              <td>4</td>
+              <td>10</td>
+              <td>-6</td>
+              <td><b>3</b></td>
+            </tr>
+          </table>
         </div>
       </div>
     </div>

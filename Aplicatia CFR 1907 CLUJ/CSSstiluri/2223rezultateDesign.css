@@ -258,14 +258,14 @@ table, th, tr, td{
     cursor: pointer;
 }
 #UCHL2223ResultsButton{
-    margin-left: 12cm;
+    margin-left: 10cm;
     background-color: rgb(223, 56, 56);
 }
 #UCHL2223ResultsButton:hover{
     cursor: pointer;
 }
 #UECL2223ResultsButton{
-    margin-left: 16cm;
+    margin-left: 12cm;
     background-color: rgb(223, 56, 56);
 }
 #UECL2223ResultsButton:hover{

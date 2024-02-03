@@ -229,14 +229,14 @@
 }
 #UefaChampionsLeague1920ResultsButton{
     background-color: rgb(223, 56, 56);
-    margin-left: 11cm;
+    margin-left: 9cm;
 }
 #UefaChampionsLeague1920ResultsButton:hover{
     cursor: pointer;
 }
 #UefaEuropaLeague1920ResultsButton{
     background-color: rgb(223, 56, 56);
-    margin-left: 10cm;
+    margin-left: 8cm;
 }
 #UefaEuropaLeague1920ResultsButton:hover{
     cursor: pointer;

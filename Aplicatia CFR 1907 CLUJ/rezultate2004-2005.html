@@ -11,16 +11,22 @@
     <h2 id="pick0405Message">Click on desired competition !</h2>
     <div id="seasonElements0405">
       <div id="season0405buttons">
-        <button onclick="showAndHideDiviziaA0405()" id="diviziaA0405button">
+        <button
+          onclick="closeDiviziaA0405MainResults()"
+          id="diviziaA0405button"
+        >
           <p id="diviziaA0405text">Divizia A. 2004-2005</p>
         </button>
         <button
-          onclick="showAndHideCupaRomaniei0405()"
+          onclick="closeCupaRomaniei0405Results()"
           id="cupaRomaniei0405button"
         >
           <p id="cupaRomaniei0405text">CUPA Romaniei 2004-2005</p>
         </button>
-        <button onclick="showAndHideIntertoto2005()" id="uefaIntertoto05button">
+        <button
+          onclick="closeUefaIntertotoCup05Results()"
+          id="uefaIntertoto05button"
+        >
           <p id="uefaIntertoto05text">UEFA Intertoto Cup 2005</p>
         </button>
       </div>
@@ -31,113 +37,267 @@
           style="display: none"
         >
           <h1>DIVIZIA A. 2004-2005</h1>
-          <select class="ChampDropdown0405">
-            <option><p></p></option>
-            <option>
-              <p>1 CFR-ECOMAX CLUJ-NAPOCA - 2-1 FC POLITEHNICA Timişoara</p>
-            </option>
-            <option>
-              <p>16 CFR-ECOMAX CLUJ-NAPOCA 0-3 - FC POLITEHNICA Timişoara</p>
-            </option>
-            <option><p></p></option>
-            <option>
-              <p>2 CFR-ECOMAX CLUJ-NAPOCA 0-2 - ACF GLORIA 1922 Bistriţa</p>
-            </option>
-            <option>
-              <p>17 CFR-ECOMAX CLUJ-NAPOCA - 1-2 ACF GLORIA 1922 Bistriţa</p>
-            </option>
-            <option><p></p></option>
-            <option>
-              <p>3 CFR-ECOMAX CLUJ-NAPOCA - 1-1 FC RAPID Bucureşti</p>
-            </option>
-            <option>
-              <p>18 CFR-ECOMAX CLUJ-NAPOCA 0-3 - FC RAPID Bucureşti</p>
-            </option>
-            <option><p></p></option>
-            <option>
-              <p>4 CFR-ECOMAX CLUJ-NAPOCA 4-2 - FC APULUM Alba Iulia</p>
-            </option>
-            <option>
-              <p>19 CFR-ECOMAX CLUJ-NAPOCA - 2-1 FC APULUM Alba Iulia</p>
-            </option>
-            <option><p></p></option>
-            <option>
-              <p>5 CFR-ECOMAX CLUJ-NAPOCA - 4-2 FC DINAMO 1948 Bucureşti</p>
-            </option>
-            <option>
-              <p>20 CFR-ECOMAX CLUJ-NAPOCA 0-4 - FC DINAMO 1948 Bucureşti</p>
-            </option>
-            <option><p></p></option>
-            <option>
-              <p>6 CFR-ECOMAX CLUJ-NAPOCA 2-3 - FC UNIVERSITATEA Craiova</p>
-            </option>
-            <option>
-              <p>21 CFR-ECOMAX CLUJ-NAPOCA - 1-1 FC UNIVERSITATEA Craiova</p>
-            </option>
-            <option><p></p></option>
-            <option>
-              <p>7 CFR-ECOMAX CLUJ-NAPOCA - 1-1 FC ARGEŞ Piteşti</p>
-            </option>
-            <option>
-              <p>22 CFR-ECOMAX CLUJ-NAPOCA 0-2 - FC ARGEŞ Piteşti</p>
-            </option>
-            <option><p></p></option>
-            <option>
-              <p>8 CFR-ECOMAX CLUJ-NAPOCA 1-0 - FC FARUL Constanţa</p>
-            </option>
-            <option>
-              <p>23 CFR-ECOMAX CLUJ-NAPOCA - 0-0 FC FARUL Constanţa</p>
-            </option>
-            <option><p></p></option>
-            <option>
-              <p>
-                9 CFR-ECOMAX CLUJ-NAPOCA - 1-1 FC SPORTUL STUDENŢESC Bucureşti
-              </p>
-            </option>
-            <option>
-              <p>
-                24 CFR-ECOMAX CLUJ-NAPOCA 1-2 - FC SPORTUL STUDENŢESC Bucureşti
-              </p>
-            </option>
-            <option><p></p></option>
-            <option>
-              <p>10 CFR-ECOMAX CLUJ-NAPOCA 0-0 - FC POLITEHNICA Iaşi</p>
-            </option>
-            <option>
-              <p>25 CFR-ECOMAX CLUJ-NAPOCA - 1-1 FC POLITEHNICA Iaşi</p>
-            </option>
-            <option><p></p></option>
-            <option>
-              <p>11 CFR-ECOMAX CLUJ-NAPOCA - 0-2 FC STEAUA Bucureşti</p>
-            </option>
-            <option>
-              <p>26 CFR-ECOMAX CLUJ-NAPOCA 0-1 - FC STEAUA Bucureşti</p>
-            </option>
-            <option><p></p></option>
-            <option>
-              <p>12 CFR-ECOMAX CLUJ-NAPOCA - 1-0 FC OŢELUL Galaţi</p>
-            </option>
-            <option>
-              <p>27 CFR-ECOMAX CLUJ-NAPOCA 2-1 - FC OŢELUL Galaţi</p>
-            </option>
-            <option><p></p></option>
-            <option>
-              <p>13 CFR-ECOMAX CLUJ-NAPOCA 2-2 - FC NAŢIONAL Bucureşti</p>
-            </option>
-            <option>
-              <p>28 CFR-ECOMAX CLUJ-NAPOCA - 0-1 FC NAŢIONAL Bucureşti</p>
-            </option>
-            <option><p></p></option>
-            <option><p>14 CFR-ECOMAX CLUJ-NAPOCA - 2-0 FCM Bacǎu</p></option>
-            <option><p>29 CFR-ECOMAX CLUJ-NAPOCA 0-2 - FCM Bacǎu</p></option>
-            <option><p></p></option>
-            <option><p>15 CFR-ECOMAX CLUJ-NAPOCA 2-2 - FC Braşov</p></option>
-            <option><p>30 CFR-ECOMAX CLUJ-NAPOCA - 2-1 FC Braşov</p></option>
-            <option></option>
-            <option class="DA0405TeamResults">
-              <p>11. CFR-ECOMAX CLUJ-NAPOCA 30 9 9 12 33-44 36 -11</p>
-            </option>
-          </select>
+          <button
+            id="DiviziaA0405MainRoundResultsButton"
+            onclick="showAndHideDiviziaA0405MainRoundResults()"
+          >
+            <p id="buttonText">Show Main Round results</p>
+          </button>
+          <table id="DiviziaA0405MainRoundResultsTable" style="display: none">
+            <tr>
+              <td><p>1</p></td>
+              <td>
+                <p>
+                  <b>CFR-ECOMAX CLUJ-NAPOCA</b><br />FC POLITEHNICA Timişoara
+                </p>
+              </td>
+              <td><p>2-1</p></td>
+            </tr>
+            <tr>
+              <td><p>16</p></td>
+              <td>
+                <p>
+                  <b>FC POLITEHNICA Timişoara</b><br />CFR-ECOMAX CLUJ-NAPOCA
+                </p>
+              </td>
+              <td><p>3-0</p></td>
+            </tr>
+            <tr>
+              <td><p>2</p></td>
+              <td>
+                <p>
+                  <b>ACF GLORIA 1922 Bistriţa</b><br />CFR-ECOMAX CLUJ-NAPOCA
+                </p>
+              </td>
+              <td><p>2-0</p></td>
+            </tr>
+            <tr>
+              <td><p>17</p></td>
+              <td>
+                <p>
+                  CFR-ECOMAX CLUJ-NAPOCA<br /><b>ACF GLORIA 1922 Bistriţa</b>
+                </p>
+              </td>
+              <td><p>1-2</p></td>
+            </tr>
+            <tr>
+              <td><p>3</p></td>
+              <td>
+                <p>CFR-ECOMAX CLUJ-NAPOCA<br />FC RAPID Bucureşti</p>
+              </td>
+              <td><p>1-1</p></td>
+            </tr>
+            <tr>
+              <td><p>18</p></td>
+              <td>
+                <p><b>FC RAPID Bucureşti</b><br />CFR-ECOMAX CLUJ-NAPOCA</p>
+              </td>
+              <td><p>3-0</p></td>
+            </tr>
+            <tr>
+              <td><p>4</p></td>
+              <td>
+                <p>FC APULUM Alba Iulia<br /><b>CFR-ECOMAX CLUJ-NAPOCA</b></p>
+              </td>
+              <td><p>2-4</p></td>
+            </tr>
+            <tr>
+              <td><p>19</p></td>
+              <td>
+                <p><b>CFR-ECOMAX CLUJ-NAPOCA</b><br />FC APULUM Alba Iulia</p>
+              </td>
+              <td><p>2-1</p></td>
+            </tr>
+            <tr>
+              <td><p>5</p></td>
+              <td>
+                <p>
+                  <b>CFR-ECOMAX CLUJ-NAPOCA</b><br />FC DINAMO 1948 Bucureşti
+                </p>
+              </td>
+              <td><p>4-2</p></td>
+            </tr>
+            <tr>
+              <td><p>20</p></td>
+              <td>
+                <p>
+                  <b>FC DINAMO 1948 Bucureşti</b><br />CFR-ECOMAX CLUJ-NAPOCA
+                </p>
+              </td>
+              <td><p>4-0</p></td>
+            </tr>
+            <tr>
+              <td><p>6</p></td>
+              <td>
+                <p>
+                  <b>FC UNIVERSITATEA Craiova</b><br />CFR-ECOMAX CLUJ-NAPOCA
+                </p>
+              </td>
+              <td><p>3-2</p></td>
+            </tr>
+            <tr>
+              <td><p>21</p></td>
+              <td>
+                <p>CFR-ECOMAX CLUJ-NAPOCA<br />FC UNIVERSITATEA Craiova</p>
+              </td>
+              <td><p>1-1</p></td>
+            </tr>
+            <tr>
+              <td><p>7</p></td>
+              <td>
+                <p>CFR-ECOMAX CLUJ-NAPOCA<br />FC ARGEŞ Piteşti</p>
+              </td>
+              <td><p>1-1</p></td>
+            </tr>
+            <tr>
+              <td><p>22</p></td>
+              <td>
+                <p><b>FC ARGEŞ Piteşti</b><br />CFR-ECOMAX CLUJ-NAPOCA</p>
+              </td>
+              <td><p>2-0</p></td>
+            </tr>
+            <tr>
+              <td><p>8</p></td>
+              <td>
+                <p>FC FARUL Constanţa<br /><b>CFR-ECOMAX CLUJ-NAPOCA</b></p>
+              </td>
+              <td><p>0-1</p></td>
+            </tr>
+            <tr>
+              <td><p>23</p></td>
+              <td>
+                <p>CFR-ECOMAX CLUJ-NAPOCA<br />FC FARUL Constanţa</p>
+              </td>
+              <td><p>0-0</p></td>
+            </tr>
+            <tr>
+              <td><p>9</p></td>
+              <td>
+                <p>
+                  CFR-ECOMAX CLUJ-NAPOCA<br />FC SPORTUL STUDENŢESC Bucureşti
+                </p>
+              </td>
+              <td><p>1-1</p></td>
+            </tr>
+            <tr>
+              <td><p>24</p></td>
+              <td>
+                <p>
+                  <b>FC SPORTUL STUDENŢESC Bucureşti</b><br />CFR-ECOMAX
+                  CLUJ-NAPOCA
+                </p>
+              </td>
+              <td><p>2-1</p></td>
+            </tr>
+            <tr>
+              <td><p>10</p></td>
+              <td>
+                <p>FC POLITEHNICA Iaşi<br />CFR-ECOMAX CLUJ-NAPOCA</p>
+              </td>
+              <td><p>0-0</p></td>
+            </tr>
+            <tr>
+              <td><p>25</p></td>
+              <td>
+                <p>CFR-ECOMAX CLUJ-NAPOCA<br />FC POLITEHNICA Iaşi</p>
+              </td>
+              <td><p>1-1</p></td>
+            </tr>
+            <tr>
+              <td><p>11</p></td>
+              <td>
+                <p>CFR-ECOMAX CLUJ-NAPOCA<br /><b>FC STEAUA Bucureşti</b></p>
+              </td>
+              <td><p>0-2</p></td>
+            </tr>
+            <tr>
+              <td><p>26</p></td>
+              <td>
+                <p><b>FC STEAUA Bucureşti</b><br />CFR-ECOMAX CLUJ-NAPOCA</p>
+              </td>
+              <td><p>1-0</p></td>
+            </tr>
+            <tr>
+              <td><p>12</p></td>
+              <td>
+                <p><b>CFR-ECOMAX CLUJ-NAPOCA</b><br />FC OŢELUL Galaţi</p>
+              </td>
+              <td><p>1-0</p></td>
+            </tr>
+            <tr>
+              <td><p>27</p></td>
+              <td>
+                <p>FC OŢELUL Galaţi<br /><b>CFR-ECOMAX CLUJ-NAPOCA</b></p>
+              </td>
+              <td><p>1-2</p></td>
+            </tr>
+            <tr>
+              <td><p>13</p></td>
+              <td>
+                <p>FC NAŢIONAL Bucureşti<br />CFR-ECOMAX CLUJ-NAPOCA</p>
+              </td>
+              <td><p>2-2</p></td>
+            </tr>
+            <tr>
+              <td><p>28</p></td>
+              <td>
+                <p>CFR-ECOMAX CLUJ-NAPOCA<br /><b>FC NAŢIONAL Bucureşti</b></p>
+              </td>
+              <td><p>0-1</p></td>
+            </tr>
+            <tr>
+              <td><p>14</p></td>
+              <td>
+                <p><b>CFR-ECOMAX CLUJ-NAPOCA</b><br />FCM Bacǎu</p>
+              </td>
+              <td><p>2-0</p></td>
+            </tr>
+            <tr>
+              <td><p>29</p></td>
+              <td>
+                <p><b>FCM Bacǎu</b><br />CFR-ECOMAX CLUJ-NAPOCA</p>
+              </td>
+              <td><p>2-0</p></td>
+            </tr>
+            <tr>
+              <td><p>15</p></td>
+              <td>
+                <p>FC Braşov<br />CFR-ECOMAX CLUJ-NAPOCA</p>
+              </td>
+              <td><p>2-2</p></td>
+            </tr>
+            <tr>
+              <td><p>30</p></td>
+              <td>
+                <p><b>CFR-ECOMAX CLUJ-NAPOCA</b><br />FC Braşov</p>
+              </td>
+              <td><p>2-1</p></td>
+            </tr>
+            <tr>
+              <td><b>Poz.</b></td>
+              <td><b>Team name</b></td>
+              <td><b>P.</b></td>
+              <td><b>W.</b></td>
+              <td><b>E.</b></td>
+              <td><b>L.</b></td>
+              <td><b>GF.</b></td>
+              <td><b>GA.</b></td>
+              <td><b>GD.</b></td>
+              <td><b>Pts.</b></td>
+            </tr>
+            <tr>
+              <td><b>11.</b></td>
+              <td>CFR-1907 CLUJ-NAPOCA</td>
+              <td><b>30</b></td>
+              <td>9</td>
+              <td>9</td>
+              <td>12</td>
+              <td>33</td>
+              <td>44</td>
+              <td>-11</td>
+              <td><b>36</b></td>
+            </tr>
+          </table>
 
           <h2>Relegated from Diviza A 2004-2005</h2>
           <select class="RelegatedDropdown0405">
@@ -164,21 +324,42 @@
         >
           <div>
             <h1>CUPA ROMÂNIEI 2004-2005</h1>
-            <select class="CupDropdown0405">
-              <option><p></p></option>
-              <option class="CR0405Rounds"><p>First round</p></option>
-              <option>
-                <p>
-                  CFR-ECOMAX CLUJ-NAPOCA 1-0 - CS PANDURII LIGNITUL Târgu Jiu (
-                  Divizia B. )
-                </p>
-              </option>
-              <option></option>
-              <option class="CR0405Rounds"><p>Second round</p></option>
-              <option>
-                <p>CFR-ECOMAX CLUJ-NAPOCA 1-2 FC FARUL Constanţa</p>
-              </option>
-            </select>
+            <button
+              id="CupaRomaniei0405ResultsButton"
+              onclick="showAndHideCupaRomaniei0405Results()"
+            >
+              <p id="buttonText">Show Cupa Romaniei results</p>
+            </button>
+            <table id="CupaRomaniei0405ResultsTable" style="display: none">
+              <tr>
+                <td colspan="3" style="text-align: center">
+                  <p><b>FIRST ROUND</b></p>
+                </td>
+              </tr>
+              <tr>
+                <td><p>1</p></td>
+                <td>
+                  <p>
+                    CS PANDURII LIGNITUL Târgu Jiu ( Divizia B. )<br /><b
+                      >CFR-ECOMAX CLUJ-NAPOCA</b
+                    >
+                  </p>
+                </td>
+                <td><p>0-1</p></td>
+              </tr>
+              <tr>
+                <td colspan="3" style="text-align: center">
+                  <p><b>SECOND ROUND</b></p>
+                </td>
+              </tr>
+              <tr>
+                <td><p>1</p></td>
+                <td>
+                  <p>CFR-ECOMAX CLUJ-NAPOCA<br /><b>FC FARUL Constanţa</b></p>
+                </td>
+                <td><p>1-2</p></td>
+              </tr>
+            </table>
           </div>
         </div>
         <div></div>
@@ -189,67 +370,167 @@
         >
           <div>
             <h1>UEFA Intertoto Cup 2005</h1>
-            <select class="IntertotoDropdown05">
-              <option><p></p></option>
-              <option class="INTCUP05Rounds"><p>First round</p></option>
-              <option>
-                <p>1 CFR-ECOMAX CLUJ-NAPOCA - 3-2 FK Vétra Vilnius (LTU)</p>
-              </option>
-              <option>
-                <p>2 CFR-ECOMAX CLUJ-NAPOCA 4-1 - FK Vétra Vilnius (LTU)</p>
-              </option>
-              <option><p>CFR Ecomax Cluj won 7-3 on aggregate.</p></option>
-              <option></option>
-              <option class="INTCUP05Rounds"><p>Second round</p></option>
-              <option>
-                <p>1 CFR-ECOMAX CLUJ-NAPOCA - 1-0 ATHLETIC CLUB Bilbao (SPA)</p>
-              </option>
-              <option>
-                <p>
-                  2 CFR-ECOMAX CLUJ-NAPOCA 0-1 (a.e.t.) - ATHLETIC CLUB Bilbao
-                  (SPA)
-                </p>
-              </option>
-              <option><p>(p) 5-3 (p)</p></option>
-              <option>
-                <p>
-                  1-1 on aggregate, CFR Ecomax Cluj won in a penalty shootout.
-                </p>
-              </option>
-              <option></option>
-              <option class="INTCUP05Rounds"><p>Third round</p></option>
-              <option>
-                <p>1 CFR-ECOMAX CLUJ-NAPOCA - 1-1 AS Saint-Étienne (FRA)</p>
-              </option>
-              <option>
-                <p>2 CFR-ECOMAX CLUJ-NAPOCA 2-2 - AS Saint-Étienne (FRA)</p>
-              </option>
-              <option>
-                <p>3-3 on aggregate, CFR Ecomax Cluj won on away goals rule.</p>
-              </option>
-              <option></option>
-              <option class="INTCUP05Rounds"><p>Semi-finals</p></option>
-              <option>
-                <p>1 CFR-ECOMAX CLUJ-NAPOCA 2-1 - FK ŽALGIRIS Vilnius (LTU)</p>
-              </option>
-              <option>
-                <p>2 CFR-ECOMAX CLUJ-NAPOCA - 5-1 FK ŽALGIRIS Vilnius (LTU)</p>
-              </option>
-              <option><p>CFR Ecomax Cluj won 7-2 on aggregate.</p></option>
-              <option></option>
-              <option class="INTCUP05Rounds"><p>Finals</p></option>
-              <option>
-                <p>1 CFR-ECOMAX CLUJ-NAPOCA - 1-1 RC Lens (FRA)</p>
-              </option>
-              <option>
-                <p>2 CFR-ECOMAX CLUJ-NAPOCA 1-3 - RC Lens (FRA)</p>
-              </option>
-              <option><p>Lens won 4-2 on aggregate.</p></option>
-            </select>
+            <button
+              id="IntertotoCup05ResultsButton"
+              onclick="showAndHideUefaIntertotoCup05Results()"
+            >
+              <p id="buttonText">Show Uefa Intertoto Cup results</p>
+            </button>
+            <table id="IntertotoCup05ResultsTable" style="display: none">
+              <tr>
+                <td colspan="4" style="text-align: center">
+                  <p><b>FIRST ROUND</b></p>
+                </td>
+              </tr>
+              <tr>
+                <td><p>1</p></td>
+                <td>
+                  <p>
+                    <b>CFR-ECOMAX CLUJ-NAPOCA</b><br />FK Vétra Vilnius (LTU)
+                  </p>
+                </td>
+                <td><p>3-2</p></td>
+              </tr>
+              <tr>
+                <td><p>2</p></td>
+                <td>
+                  <p>
+                    FK Vétra Vilnius (LTU)<br /><b>CFR-ECOMAX CLUJ-NAPOCA</b>
+                  </p>
+                </td>
+                <td><p>1-4</p></td>
+              </tr>
+              <tr>
+                <td colspan="4">
+                  <p><b>CFR Ecomax Cluj won 7-3 on aggregate.</b></p>
+                </td>
+              </tr>
+
+              <tr>
+                <td colspan="4" style="text-align: center">
+                  <p><b>SECOND ROUND</b></p>
+                </td>
+              </tr>
+              <tr>
+                <td><p>1</p></td>
+                <td>
+                  <p>
+                    <b>CFR-ECOMAX CLUJ-NAPOCA</b><br />ATHLETIC CLUB Bilbao
+                    (SPA)
+                  </p>
+                </td>
+                <td><p>1-0</p></td>
+              </tr>
+              <tr>
+                <td><p>2</p></td>
+                <td>
+                  <p>
+                    ATHLETIC CLUB Bilbao (SPA)<br /><b
+                      >CFR-ECOMAX CLUJ-NAPOCA</b
+                    >
+                  </p>
+                </td>
+                <td><p>1-0 (a.e.t.)</p></td>
+                <td>
+                  <p>Penalties<br />3-5</p>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="4">
+                  <p>
+                    <b
+                      >1-1 on aggregate, CFR Ecomax Cluj won in a penalty
+                      shootout.</b
+                    >
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="4" style="text-align: center">
+                  <p><b>THIRD ROUND</b></p>
+                </td>
+              </tr>
+              <tr>
+                <td><p>1</p></td>
+                <td>
+                  <p>CFR-ECOMAX CLUJ-NAPOCA<br />AS Saint-Étienne (FRA)</p>
+                </td>
+                <td><p>1-1</p></td>
+              </tr>
+              <tr>
+                <td><p>2</p></td>
+                <td>
+                  <p>AS Saint-Étienne (FRA)<br />CFR-ECOMAX CLUJ-NAPOCA</p>
+                </td>
+                <td><p>2-2</p></td>
+              </tr>
+              <tr>
+                <td colspan="4">
+                  <p>
+                    <b
+                      >3-3 on aggregate, CFR Ecomax Cluj won on away goals
+                      rule.</b
+                    >
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="4" style="text-align: center">
+                  <p><b>SEMI-FINALS</b></p>
+                </td>
+              </tr>
+              <tr>
+                <td><p>1</p></td>
+                <td>
+                  <p>
+                    FK ŽALGIRIS Vilnius (LTU)<br /><b>CFR-ECOMAX CLUJ-NAPOCA</b>
+                  </p>
+                </td>
+                <td><p>1-2</p></td>
+              </tr>
+              <tr>
+                <td><p>2</p></td>
+                <td>
+                  <p>
+                    <b>CFR-ECOMAX CLUJ-NAPOCA</b><br />FK ŽALGIRIS Vilnius (LTU)
+                  </p>
+                </td>
+                <td><p>5-1</p></td>
+              </tr>
+              <tr>
+                <td colspan="4">
+                  <p><b>CFR Ecomax Cluj won 7-2 on aggregate.</b></p>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="4" style="text-align: center">
+                  <p><b>FINALS</b></p>
+                </td>
+              </tr>
+              <tr>
+                <td><p>1</p></td>
+                <td>
+                  <p>CFR-ECOMAX CLUJ-NAPOCA<br />RC Lens (FRA)</p>
+                </td>
+                <td><p>1-1</p></td>
+              </tr>
+              <tr>
+                <td><p>2</p></td>
+                <td>
+                  <p><b>RC Lens (FRA)</b><br />CFR-ECOMAX CLUJ-NAPOCA</p>
+                </td>
+                <td><p>3-1</p></td>
+              </tr>
+              <tr>
+                <td colspan="4">
+                  <p><b>RC Lens won 4-2 on aggregate.</b></p>
+                </td>
+              </tr>
+            </table>
           </div>
         </div>
       </div>
     </div>
-    <script src="rezultate2004-2005events.js"></script>
+    <script type="text/javascript" src="rezultate2004-2005events.js"></script>
   </body>
 </html>

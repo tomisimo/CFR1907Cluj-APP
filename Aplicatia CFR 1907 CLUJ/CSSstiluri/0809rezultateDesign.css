@@ -17,7 +17,7 @@
     background-color: #b9b6b6;
 }
 .ChampionshipTable0809{
-    height: 8cm;
+    height: 9cm;
     width: 13cm;
     margin-top: 1cm;
     margin-left: 3cm;
@@ -28,7 +28,7 @@
     border-color: brown;
 }
 .CupTable0809{
-    height: 3cm;
+    height: 4cm;
     width: 15cm;
     margin-top: 1cm;
     margin-left: 3cm;
@@ -39,7 +39,7 @@
     border-color: brown;
 }
 .SuperCupTable09{
-    height: 3cm;
+    height: 4cm;
     width: 13cm;
     margin-top: 1cm;
     margin-left: 3cm;
@@ -50,7 +50,7 @@
     border-color: brown;
 }
 .UefaChampLeagueTable0809{
-    height: 3cm;
+    height: 4cm;
     width: 17cm;
     margin-top: 1cm;
     margin-left: 3cm;
@@ -59,24 +59,6 @@
     border-style: ridge;
     border-width: 3mm;
     border-color: brown;
-}
-.ChampDropdown0809{
-    background-color: rgb(247, 195, 176);
-}
-.RelegatedDropdown0809{
-    background-color: rgb(247, 195, 176);
-}
-.PromotedDropdown0910{
-    background-color: rgb(247, 195, 176);
-}
-.CupDropdown0809{
-    background-color: rgb(247, 195, 176);
-}
-.SuperCupDropdown09{
-    background-color: rgb(247, 195, 176);
-}
-.UCHLDropdown0809{
-    background-color: rgb(247, 195, 176);
 }
 
 #ligaI0809button{
@@ -91,6 +73,7 @@
 }
 #ligaI0809button:hover{
     background-color: rgb(33, 33, 158);
+    cursor: pointer;
 }
 
 #ligaI0809text{
@@ -110,6 +93,7 @@
 }
 #cupaRomaniei0809button:hover{
     background-color: rgb(33, 33, 158);
+    cursor: pointer;
 }
 
 #cupaRomaniei0809text{
@@ -129,6 +113,7 @@
 }
 #supercupaRomaniei09button:hover{
     background-color: rgb(33, 33, 158);
+    cursor: pointer;
 }
 #supercupaRomaniei09text{
     color:aliceblue;
@@ -147,6 +132,7 @@
 }
 #uefaChampionsLeague0809button:hover{
     background-color: rgb(33, 33, 158);
+    cursor: pointer;
 }
 #uefaChampionsLeague0809text{
     color:aliceblue;
@@ -172,4 +158,56 @@
     margin-left: 1cm;
     height: 1cm;
     width: 13cm;
+}
+table, th, tr, td{
+    background-color: rgb(247, 195, 176);
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+#buttonText{
+    color: aliceblue;
+}
+#LigaI0809MainRoundResultsButton{
+    background-color: rgb(223, 56, 56);
+    margin-left: 7cm;
+}
+#LigaI0809MainRoundResultsButton:hover{
+    cursor: pointer;
+}
+#CupaRomaniei0809ResultsButton{
+    background-color: rgb(223, 56, 56);
+    margin-left: 9cm;
+}
+#CupaRomaniei0809ResultsButton:hover{
+    cursor: pointer;
+}
+#SupercupaRomaniei09ResultsButton{
+    background-color: rgb(223, 56, 56);
+    margin-left: 6cm;
+}
+#SupercupaRomaniei09ResultsButton:hover{
+    cursor: pointer;
+}
+#UefaChampionsLeague0809ResultsButton{
+    background-color: rgb(223, 56, 56);
+    margin-left: 9cm;
+}
+#UefaChampionsLeague0809ResultsButton:hover{
+    cursor: pointer;
+}
+#LigaI0809MainRoundResultsTable{
+    width: 14cm;
+    position: absolute;
+}
+#CupaRomaniei0809ResultsTable{
+    width: 13cm;
+    position: absolute;
+}
+#SupercupaRomaniei09ResultsTable{
+    width: 9cm;
+    position: absolute;
+}
+#UefaChampionsLeague0809ResultsTable{
+    width: 14cm;
+    position: absolute;
 }

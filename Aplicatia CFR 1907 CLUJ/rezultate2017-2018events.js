@@ -66,3 +66,44 @@ function showAndhideSupercupaRomaniei18table(){
     }
 }
 
+function closeLigaI1718MainAndPlayOffResults(){
+    if(ligaI1718Results.style.display === "none"){
+        ligaI1718Results.style.display = "block";
+    }
+    else if(ligaI1718Results.style.display === "block" && LigaI1718MainRoundTable.style.display === "block" && LigaI1718PlayOffTable.style.display === "block"){
+        LigaI1718PlayOffTable.style.display = "none"; LigaI1718MainRoundTable.style.display = "none"; ligaI1718Results.style.display = "none";
+    }
+    else if(ligaI1718Results.style.display === "block" && LigaI1718MainRoundTable.style.display === "none" && LigaI1718PlayOffTable.style.display === "none"){
+        ligaI1718Results.style.display = "none";
+    }
+    else if(ligaI1718Results.style.display === "block" && LigaI1718MainRoundTable.style.display === "block"){
+        LigaI1718MainRoundTable.style.display = "none"; ligaI1718Results.style.display = "none"
+    }
+    else if(ligaI1718Results.style.display === "block" && LigaI1718PlayOffTable.style.display === "block"){
+        LigaI1718PlayOffTable.style.display = "none"; ligaI1718Results.style.display = "none"
+    }
+}
+function closeCupaRomaniei1718Results(){
+    if(cupaRomaniei1718Results.style.display === "none"){
+        cupaRomaniei1718Results.style.display = "block";
+    }
+    else if(cupaRomaniei1718Results.style.display === "block" && CupaRomaniei1718Table.style.display === "block"){
+        CupaRomaniei1718Table.style.display = "none"; cupaRomaniei1718Results.style.display = "none"
+    }
+    else if(cupaRomaniei1718Results.style.display === "block" && CupaRomaniei1718Table.style.display === "none"){
+        cupaRomaniei1718Results.style.display = "none"
+    }
+}
+function closeSupercupaRomaniei18Results(){
+    if(supercupaRomaniei18Results.style.display === "none"){
+        supercupaRomaniei18Results.style.display = "block";
+    }
+    else if(supercupaRomaniei18Results.style.display === "block" && SupercupaRomanei18Table.style.display === "block"){
+        SupercupaRomanei18Table.style.display = "none"; supercupaRomaniei18Results.style.display = "none"
+    }
+    else if(supercupaRomaniei18Results.style.display === "block" && SupercupaRomanei18Table.style.display === "none"){
+        supercupaRomaniei18Results.style.display = "none"
+    }
+}
+
+

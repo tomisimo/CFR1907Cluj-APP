@@ -221,14 +221,14 @@ table, th, tr, td{
 }
 #UefaChampionsLeague1213ResultsButton{
     background-color: rgb(223, 56, 56);
-    margin-left: 11cm;
+    margin-left: 9cm;
 }
 #UefaChampionsLeague1213ResultsButton:hover{
     cursor: pointer;
 }
 #UefaEuropaLeague1213ResultsButton{
     background-color: rgb(223, 56, 56);
-    margin-left: 10cm;
+    margin-left: 8cm;
 }
 #UefaEuropaLeague1213ResultsButton:hover{
     cursor: pointer;

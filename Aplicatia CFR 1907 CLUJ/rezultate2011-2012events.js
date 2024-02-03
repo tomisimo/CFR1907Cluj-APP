@@ -56,3 +56,37 @@ function showAndHideSupercupaRomaniei12Results(){
         SupercupaRomaniei12Table.style.display = "none";
     }
 }
+
+function closeLigaI1112MainResults(){
+    if(ligaI1112Results.style.display === "none"){
+        ligaI1112Results.style.display = "block";
+    }
+    else if(ligaI1112Results.style.display === "block" && LigaI1112MainRoundTable.style.display === "block"){
+        LigaI1112MainRoundTable.style.display = "none"; ligaI1112Results.style.display = "none";
+    }
+    else if(ligaI1112Results.style.display === "block" && LigaI1112MainRoundTable.style.display === "none"){
+        ligaI1112Results.style.display = "none";
+    }
+}
+function closeCupaRomaniei1112Results(){
+    if(cupaRomaniei1112Results.style.display === "none"){
+        cupaRomaniei1112Results.style.display = "block";
+    }
+    else if(cupaRomaniei1112Results.style.display === "block" && CupaRomaniei1112Table.style.display === "block"){
+        CupaRomaniei1112Table.style.display = "none"; cupaRomaniei1112Results.style.display = "none";
+    }
+    else if(cupaRomaniei1112Results.style.display === "block" && CupaRomaniei1112Table.style.display === "none"){
+        cupaRomaniei1112Results.style.display = "none"
+    }
+}
+function closeSupercupaRomaniei12Results(){
+    if(supercupaRomaniei12Results.style.display === "none"){
+        supercupaRomaniei12Results.style.display = "block";
+    }
+    else if(supercupaRomaniei12Results.style.display === "block" && SupercupaRomaniei12Table.style.display === "block"){
+        SupercupaRomaniei12Table.style.display = "none"; supercupaRomaniei12Results.style.display = "none";
+    }
+    else if(supercupaRomaniei12Results.style.display === "block" && SupercupaRomaniei12Table.style.display === "none"){
+        supercupaRomaniei12Results.style.display = "none"
+    }
+}

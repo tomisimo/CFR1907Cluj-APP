@@ -226,14 +226,14 @@
 }
 #UefaChampionsLeague1819ResultsButton{
     background-color: rgb(223, 56, 56);
-    margin-left: 10cm;
+    margin-left: 8cm;
 }
 #UefaChampionsLeague1819ResultsButton:hover{
     cursor: pointer;
 }
 #UefaEuropaLeague1819ResultsButton{
     background-color: rgb(223, 56, 56);
-    margin-left: 9cm;
+    margin-left: 7cm;
 }
 #UefaEuropaLeague1819ResultsButton:hover{
     cursor: pointer;

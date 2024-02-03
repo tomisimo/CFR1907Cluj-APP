@@ -11,17 +11,20 @@
     <h4 id="pick2324Message">Click on desired competition !</h4>
     <div id="seasonElements2324">
       <div id="season2324buttons">
-        <button onclick="showAndHideLigaI2324()" id="ligaI2324button">
+        <button
+          onclick="closeLigaI2324MainAndPlayOffResults()"
+          id="ligaI2324button"
+        >
           <p id="ligaI2324text">Liga I. 2023-2024</p>
         </button>
         <button
-          onclick="showAndHideCupaRomaniei2324()"
+          onclick="closeCupaRomaniei2324Results()"
           id="cupaRomaniei2324button"
         >
           <p id="cupaRomaniei2324text">CUPA Romaniei 2023-2024</p>
         </button>
         <button
-          onclick="showAndHideUefaEuropaConferenceLeague2324()"
+          onclick="closeUefaEuropaConferenceLeague2324Results()"
           id="uefaEuropaConferenceLeague2324button"
         >
           <p id="uefaEuropaConferenceLeague2324text">
@@ -38,11 +41,11 @@
           <h1>LIGA I. 2023-2024</h1>
           <button
             id="LigaI2324MainRoundResultsButton"
-            onclick="showAndHideLigaI2324ResultsTable()"
+            onclick="showAndHideLigaI2324MainRoundResultsTable()"
           >
             <p id="buttonText">Show Main Round results</p>
           </button>
-          <table id="LigaI2324ResultsTable" style="display: none">
+          <table id="LigaI2324MainRoundResultsTable" style="display: none">
             <tr>
               <td><p>1</p></td>
               <td>
@@ -146,9 +149,9 @@
             <tr>
               <td><p>22</p></td>
               <td>
-                <p>FC Botoşani<br />CFR-1907 CLUJ-NAPOCA</p>
+                <p><b>FC Botoşani</b><br />CFR-1907 CLUJ-NAPOCA</p>
               </td>
-              <td><p></p></td>
+              <td><p>1-0</p></td>
             </tr>
             <tr>
               <td><p>8</p></td>
@@ -160,9 +163,9 @@
             <tr>
               <td><p>23</p></td>
               <td>
-                <p>CFR-1907 CLUJ-NAPOCA<br />FC Voluntari</p>
+                <p><b>CFR-1907 CLUJ-NAPOCA</b><br />FC Voluntari</p>
               </td>
-              <td><p></p></td>
+              <td><p>4-1</p></td>
             </tr>
             <tr>
               <td><p>9</p></td>
@@ -264,10 +267,64 @@
             </tr>
           </table>
           <h1>LIGA I. 2023-2024 PLAY-OFF</h1>
-          <button id="LigaI2324PlayOffResultsButton">
+          <button
+            id="LigaI2324PlayOffResultsButton"
+            onclick="showAndHideLigaI2324PlayOffRoundResultsTable()"
+          >
             <p id="buttonText">Show Play-Off results</p>
           </button>
-          <table></table>
+          <table id="LigaI2324PlayOffRoundResultsTable" style="display: none">
+            <tr>
+              <td><p></p></td>
+              <td><p></p></td>
+              <td><p></p></td>
+            </tr>
+            <tr>
+              <td><p></p></td>
+              <td><p></p></td>
+              <td><p></p></td>
+            </tr>
+            <tr>
+              <td><p></p></td>
+              <td><p></p></td>
+              <td><p></p></td>
+            </tr>
+            <tr>
+              <td><p></p></td>
+              <td><p></p></td>
+              <td><p></p></td>
+            </tr>
+            <tr>
+              <td><p></p></td>
+              <td><p></p></td>
+              <td><p></p></td>
+            </tr>
+            <tr>
+              <td><p></p></td>
+              <td><p></p></td>
+              <td><p></p></td>
+            </tr>
+            <tr>
+              <td><p></p></td>
+              <td><p></p></td>
+              <td><p></p></td>
+            </tr>
+            <tr>
+              <td><p></p></td>
+              <td><p></p></td>
+              <td><p></p></td>
+            </tr>
+            <tr>
+              <td><p></p></td>
+              <td><p></p></td>
+              <td><p></p></td>
+            </tr>
+            <tr>
+              <td><p></p></td>
+              <td><p></p></td>
+              <td><p></p></td>
+            </tr>
+          </table>
         </div>
         <div
           class="CupTable2324"
@@ -360,7 +417,7 @@
             id="UefaEuropaConferenceLeague2324ResultsButton"
             onclick="showAndHideUECL2324ResultsTable()"
           >
-            <p id="buttonText">Show U.E.C.L. results</p>
+            <p id="buttonText">Show Uefa Europa Conference League results</p>
           </button>
           <table
             id="UefaEuropaConferenceLeague2324ResultsTable"

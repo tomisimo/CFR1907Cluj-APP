@@ -74,3 +74,48 @@ function showAndHideUefaEuropaLeague1213Results(){
         UefaEuropaLeague1213Table.style.display = "none";
     }
 }
+
+function closeLigaI1213MainResults(){
+    if(ligaI1213Results.style.display === "none"){
+        ligaI1213Results.style.display = "block";
+    }
+    else if(ligaI1213Results.style.display === "block" && LigaI1213MainRoundTable.style.display === "block"){
+        LigaI1213MainRoundTable.style.display = "none"; ligaI1213Results.style.display = "none";
+    }
+    else if(ligaI1213Results.style.display === "block" && LigaI1213MainRoundTable.style.display === "none"){
+        ligaI1213Results.style.display = "none"
+    }
+}
+function closeCupaRomaniei1213Results(){
+    if(cupaRomaniei1213Results.style.display === "none"){
+        cupaRomaniei1213Results.style.display = "block";
+    }
+    else if(cupaRomaniei1213Results.style.display === "block" && CupaRomaniei1213Table.style.display === "block"){
+        CupaRomaniei1213Table.style.display = "none"; cupaRomaniei1213Results.style.display = "none";
+    }
+    else if(cupaRomaniei1213Results.style.display === "block" && CupaRomaniei1213Table.style.display === "none"){
+        cupaRomaniei1213Results.style.display = "none"
+    }
+}
+function closeUefaChampionsLeague1213Results(){
+    if(uefaChampionsLeague1213Results.style.display === "none"){
+        uefaChampionsLeague1213Results.style.display = "block";
+    }
+    else if(uefaChampionsLeague1213Results.style.display === "block" && UefaChampionsLeague1213Table.style.display === "block"){
+        UefaChampionsLeague1213Table.style.display = "none"; uefaChampionsLeague1213Results.style.display = "none";
+    }
+    else if(uefaChampionsLeague1213Results.style.display === "block" && UefaChampionsLeague1213Table.style.display === "none"){
+        uefaChampionsLeague1213Results.style.display = "none"
+    }
+}
+function closeUefaEuropaLeague1213Results(){
+    if(uefaEuropaLeague1213Results.style.display === "none"){
+        uefaEuropaLeague1213Results.style.display = "block";
+    }
+    else if(uefaEuropaLeague1213Results.style.display === "block" && UefaEuropaLeague1213Table.style.display === "block"){
+        UefaEuropaLeague1213Table.style.display = "none"; uefaEuropaLeague1213Results.style.display = "none";
+    }
+    else if(uefaEuropaLeague1213Results.style.display === "block" && UefaEuropaLeague1213Table.style.display === "none"){
+        uefaEuropaLeague1213Results.style.display = "none"
+    }
+}

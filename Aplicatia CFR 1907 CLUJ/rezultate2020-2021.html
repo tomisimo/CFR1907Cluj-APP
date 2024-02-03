@@ -11,23 +11,24 @@
     <h2 id="pick2021Message">Click on desired competition !</h2>
     <div id="seasonElements2021">
       <div id="season2021buttons">
-        <button onclick="showAndHideLigaI2021()" id="ligaI2021button">
+        <button 
+        onclick="closeLigaI2021MainAndPlayOffResults()" id="ligaI2021button">
           <p id="ligaI2021text">Liga I. 2020-2021</p>
         </button>
         <button
-          onclick="showAndHideCupaRomaniei2021()"
+          onclick="closeCupaRomaniei2021Results()"
           id="cupaRomaniei2021button"
         >
           <p id="cupaRomaniei2021text">CUPA Romaniei 2020-2021</p>
         </button>
         <button
-          onclick="showAndHideSupercupaRomaniei21()"
+          onclick="closeSupercupaRomaniei21Results()"
           id="supercupaRomaniei21button"
         >
           <p id="supercupaRomaniei21text">SUPERCUPA Romaniei 2021</p>
         </button>
         <button
-          onclick="showAndHideUefaChampionsLeague2021()"
+          onclick="closeUefaChampionsLeague2021Results()"
           id="uefaChampionsLeague2021button"
         >
           <p id="uefaChampionsLeague2021text">
@@ -35,7 +36,7 @@
           </p>
         </button>
         <button
-          onclick="showAndHideUefaEuropaLeague2021()"
+          onclick="closeUefaEuropaLeague2021Results()"
           id="uefaEuropaLeague2021button"
         >
           <p id="uefaEuropaLeague2021text">UEFA Europa League<br />2020-2021</p>
@@ -462,11 +463,6 @@
                 <p>Penalties<br />2-4</p>
               </td>
             </tr>
-            <tr>
-              <td colspan="4">
-                <p><b>CS UNIVERSITATEA Craiova 1948 won 4-2 on penalties.</b></p>
-              </td>
-            </tr>
           </table>
         </div>
         <div
@@ -476,7 +472,7 @@
         >
           <h1>UEFA CHAMPIONS LEAGUE 2020-2021</h1>
           <button id="UefaChampionsLeague2021ResultsButton" onclick="showAndHideUefaChL2021Table()">
-            <p id="buttonText">Show U.CH.L. results</p>
+            <p id="buttonText">Show Uefa Champions League results</p>
           </button>
           <table id="UCHL2021Table" style="display: none">
             <tr>
@@ -517,7 +513,7 @@
         >
           <h1>UEFA EUROPA LEAGUE 2020-2021</h1>
           <button id="UefaEuropaLeague2021ResultsButton" onclick="showAndHideUefaEuropaLeague2021Table()">
-            <p id="buttonText">Show U.E.L results</p>
+            <p id="buttonText">Show Uefa Europa League results</p>
           </button>
           <table id="UefaEuropaLeagueTable2021" style="display: none;">
             <tr>

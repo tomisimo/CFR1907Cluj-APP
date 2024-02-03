@@ -11,17 +11,17 @@
     <h2 id="pick1415Message">Click on desired competition !</h2>
     <div id="seasonElements1415">
       <div id="season1415buttons">
-        <button onclick="showAndHideLigaI1415()" id="ligaI1415button">
+        <button onclick="closeLigaI1415MainResults()" id="ligaI1415button">
           <p id="ligaI1415text">Liga I. 2014-2015</p>
         </button>
         <button
-          onclick="showAndHideCupaRomaniei1415()"
+          onclick="closeCupaRomaniei1415Results()"
           id="cupaRomaniei1415button"
         >
           <p id="cupaRomaniei1415text">CUPA Romaniei 2014-2015</p>
         </button>
         <button
-          onclick="showAndHideCupaLigiiRomaniei1415()"
+          onclick="closeCupaLigiiRomaniei1415Results()"
           id="cupaLigiiRomaniei1415button"
         >
           <p id="cupaLigiiRomaniei1415text">
@@ -29,7 +29,7 @@
           </p>
         </button>
         <button
-          onclick="showAndHideUefaEuropaLeague1415()"
+          onclick="closeUefaEuropaLeague1415Results()"
           id="uefaEuropaLeague1415button"
         >
           <p id="uefaEuropaLeague1415text">UEFA Europa League<br />2014-2015</p>
@@ -357,7 +357,7 @@
           </button>
           <table id="CupaRomaniei1415ResultsTable" style="display: none">
             <tr>
-              <td class="CR1415Rounds" colspan="4">
+              <td colspan="4">
                 <p style="text-align: center"><b>ROUND OF 32</b></p>
               </td>
             </tr>
@@ -373,7 +373,7 @@
               <td><p>0-2</p></td>
             </tr>
             <tr>
-              <td class="CR1415Rounds" colspan="4">
+              <td colspan="4">
                 <p style="text-align: center"><b>ROUND OF 16</b></p>
               </td>
             </tr>
@@ -385,7 +385,7 @@
               <td><p>1-2</p></td>
             </tr>
             <tr>
-              <td class="CR1415Rounds" colspan="4">
+              <td colspan="4">
                 <p style="text-align: center"><b>QUARTER-FINALS</b></p>
               </td>
             </tr>
@@ -397,7 +397,7 @@
               <td><p>3-4</p></td>
             </tr>
             <tr>
-              <td class="CR1415Rounds" colspan="4">
+              <td colspan="4">
                 <p style="text-align: center"><b>SEMI-FINALS</b></p>
               </td>
             </tr>
@@ -444,7 +444,7 @@
           </button>
           <table id="CupaLigiiRomaniei1415ResultsTable" style="display: none">
             <tr>
-              <td class="CLR1415Rounds" colspan="3">
+              <td colspan="3">
                 <p style="text-align: center"><b>ROUND OF 16</b></p>
               </td>
             </tr>
@@ -473,7 +473,7 @@
           </button>
           <table id="UefaEuropaLeague1415ResultsTable" style="display: none">
             <tr>
-              <td class="UEL1415Rounds" colspan="3">
+              <td colspan="3">
                 <p style="text-align: center"><b>SECOND QUALIFYING ROUND</b></p>
               </td>
             </tr>
@@ -499,7 +499,7 @@
               </td>
             </tr>
             <tr>
-              <td class="UEL1415Rounds" colspan="3">
+              <td colspan="3">
                 <p style="text-align: center"><b>THIRD QUALIFYING ROUND</b></p>
               </td>
             </tr>

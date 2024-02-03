@@ -262,21 +262,21 @@
 }
 #UefaChampionsLeague2122ResultsButton{
     background-color: rgb(223, 56, 56);
-    margin-left: 11cm;
+    margin-left: 8cm;
 }
 #UefaChampionsLeague2122ResultsButton:hover{
     cursor: pointer;
 }
 #UefaEuropaLeague2122ResultsButton{
     background-color: rgb(223, 56, 56);
-    margin-left: 10cm;
+    margin-left: 8cm;
 }
 #UefaEuropaLeague2122ResultsButton:hover{
     cursor: pointer;
 }
 #UefaEuropaConferenceLeague2122ResultsButton{
     background-color: rgb(223, 56, 56);
-    margin-left: 16cm;
+    margin-left: 12cm;
 }
 #UefaEuropaConferenceLeague2122ResultsButton:hover{
     cursor: pointer;

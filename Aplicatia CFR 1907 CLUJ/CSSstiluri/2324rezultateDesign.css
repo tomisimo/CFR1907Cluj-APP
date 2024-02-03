@@ -52,6 +52,9 @@
     margin-left: 10cm;
     background-color: rgb(223, 56, 56);
 }
+#LigaI2324PlayOffResultsButton:hover{
+    cursor: pointer;
+}
 #CupaRomaniei2324ResultsButton{
     margin-left: 10cm;
     background-color: rgb(223, 56, 56);
@@ -60,7 +63,7 @@
     cursor: pointer;
 }
 #UefaEuropaConferenceLeague2324ResultsButton{
-    margin-left: 18cm;
+    margin-left: 14cm;
     background-color: rgb(223, 56, 56);
 }
 #UefaEuropaConferenceLeague2324ResultsButton:hover{
@@ -76,7 +79,11 @@ table, th, tr, td{
     border-collapse: collapse;
 
 }
-#LigaI2324ResultsTable{
+#LigaI2324MainRoundResultsTable{
+    width: 9cm;
+    position: absolute;
+}
+#LigaI2324PlayOffRoundResultsTable{
     width: 9cm;
     position: absolute;
 }

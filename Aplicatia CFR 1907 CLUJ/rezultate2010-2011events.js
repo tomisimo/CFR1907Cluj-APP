@@ -55,3 +55,37 @@ function showAndHideUefaChampionsLeague1011Results(){
         UefaChampionsLeague1011Table.style.display = "none";
     }
 }
+
+function closeLigaI1011MainResults(){
+    if(ligaI1011Results.style.display === "none"){
+        ligaI1011Results.style.display = "block";
+    }
+    else if(ligaI1011Results.style.display === "block" && LigaI1011MainRoundTable.style.display === "block"){
+        LigaI1011MainRoundTable.style.display = "none"; ligaI1011Results.style.display = "none";
+    }
+    else if(ligaI1011Results.style.display === "block" && LigaI1011MainRoundTable.style.display === "none"){
+        ligaI1011Results.style.display = "none"
+    }
+}
+function closeCupaRomaniei1011Results(){
+    if(cupaRomaniei1011Results.style.display === "none"){
+        cupaRomaniei1011Results.style.display = "block";
+    }
+    else if(cupaRomaniei1011Results.style.display === "block" && CupaRomaniei1011Table.style.display === "block"){
+        CupaRomaniei1011Table.style.display = "none"; cupaRomaniei1011Results.style.display = "none";
+    }
+    else if(cupaRomaniei1011Results.style.display === "block" && CupaRomaniei1011Table.style.display === "none"){
+        cupaRomaniei1011Results.style.display = "none"
+    }
+}
+function closeUefaChampionsLeague1011Results(){
+    if(uefaChampionsLeague1011Results.style.display === "none"){
+        uefaChampionsLeague1011Results.style.display = "block"
+    }
+    else if(uefaChampionsLeague1011Results.style.display === "block" && UefaChampionsLeague1011Table.style.display === "block"){
+        UefaChampionsLeague1011Table.style.display = "none"; uefaChampionsLeague1011Results.style.display = "none";
+    }
+    else if(uefaChampionsLeague1011Results.style.display === "block" && UefaChampionsLeague1011Table.style.display === "none"){
+        uefaChampionsLeague1011Results.style.display = "none"
+    }
+}

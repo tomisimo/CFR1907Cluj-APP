@@ -11,23 +11,24 @@
     <h2 id="pick2122Message">Click on desired competition !</h2>
     <div id="seasonElements2122">
       <div id="season2122buttons">
-        <button onclick="showAndHideLigaI2122()" id="ligaI2122button">
+        <button 
+        onclick="closeLigaI2122MainAndPlayOffResults()" id="ligaI2122button">
           <p id="ligaI2122text">Liga I. 2021-2022</p>
         </button>
         <button
-          onclick="showAndHideCupaRomaniei2122()"
+          onclick="closeCupaRomaniei2122Results()"
           id="cupaRomaniei2122button"
         >
           <p id="cupaRomaniei2122text">CUPA Romaniei 2021-2022</p>
         </button>
         <button
-          onclick="showAndHideSupercupaRomaniei22()"
+          onclick="closeSupercupaRomaniei22Results()"
           id="supercupaRomaniei22button"
         >
           <p id="supercupaRomaniei22text">SUPERCUPA Romaniei 2022</p>
         </button>
         <button
-          onclick="showAndHideUefaChampionsLeague2122()"
+          onclick="closeUefaChampionsLeague2122Results()"
           id="uefaChampionsLeague2122button"
         >
           <p id="uefaChampionsLeague2122text">
@@ -35,13 +36,13 @@
           </p>
         </button>
         <button
-          onclick="showAndHideUefaEuropaLeague2122()"
+          onclick="closeUefaEuropaLeague2122Results()"
           id="uefaEuropaLeague2122button"
         >
           <p id="uefaEuropaLeague2122text">UEFA Europa League<br />2021-2022</p>
         </button>
         <button
-          onclick="showAndHideUefaEuropaConferenceLeague2122()"
+          onclick="closeUefaEuropaConferenceLeague2122Results()"
           id="uefaEuropaConferenceLeague2122button"
         >
           <p id="uefaEuropaConferenceLeague2122text">
@@ -481,7 +482,7 @@
         >
           <h1>UEFA CHAMPIONS LEAGUE 2021-2022</h1>
           <button id="UefaChampionsLeague2122ResultsButton" onclick="showAndHideUefaChL2122Table()">
-            <p id="buttonText">Show U.CH.L. results</p>
+            <p id="buttonText">Show Uefa Champions League results</p>
           </button>
           <table id="UCHL2122Table" style="display: none">
             <tr>
@@ -572,7 +573,7 @@
         >
           <h1>UEFA EUROPA LEAGUE 2021-2022</h1>
           <button id="UefaEuropaLeague2122ResultsButton" onclick="showAndHideUefaEuropaLeague2122Table()">
-            <p id="buttonText">Show U.E.L results</p>
+            <p id="buttonText">Show Uefa Europa League results</p>
           </button>
           <table id="UefaEuropaLeagueTable2122" style="display: none;">
             <tr>
@@ -612,7 +613,7 @@
         >
           <h1>UEFA EUROPA CONFERENCE LEAGUE 2021-2022</h1>
           <button id="UefaEuropaConferenceLeague2122ResultsButton" onclick="showAndHideUefaEuropaConferenceLeague2122Table()">
-            <p id="buttonText">Show U.E.C.L. results</p>
+            <p id="buttonText">Show Uefa Europa Conference League results</p>
           </button>
           <table id="UefaEuropaConferenceLeagueTable2122" style="display: none;">
             <tr>

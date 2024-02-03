@@ -11,23 +11,26 @@
     <h2 id="pick1819Message">Click on desired competition !</h2>
     <div id="seasonElements1819">
       <div id="season1819buttons">
-        <button onclick="showAndHideLigaI1819()" id="ligaI1819button">
+        <button
+          onclick="closeLigaI1819MainAndPlayOffResults()"
+          id="ligaI1819button"
+        >
           <p id="ligaI1819text">Liga I. 2018-2019</p>
         </button>
         <button
-          onclick="showAndHideCupaRomaniei1819()"
+          onclick="closeCupaRomaniei1819Results()"
           id="cupaRomaniei1819button"
         >
           <p id="cupaRomaniei1819text">CUPA Romaniei 2018-2019</p>
         </button>
         <button
-          onclick="showAndHideSupercupaRomaniei19()"
+          onclick="closeSupercupaRomaniei19Results()"
           id="supercupaRomaniei19button"
         >
           <p id="supercupaRomaniei19text">SUPERCUPA Romaniei 2019</p>
         </button>
         <button
-          onclick="showAndHideUefaChampionsLeague1819()"
+          onclick="closeUefaChampionsLeague1819Results()"
           id="uefaChampionsLeague1819button"
         >
           <p id="uefaChampionsLeague1819text">
@@ -35,7 +38,7 @@
           </p>
         </button>
         <button
-          onclick="showAndHideUefaEuropaLeague1819()"
+          onclick="closeUefaEuropaLeague1819Results()"
           id="uefaEuropaLeague1819button"
         >
           <p id="uefaEuropaLeague1819text">UEFA Europa League<br />2018-2019</p>
@@ -525,7 +528,7 @@
             id="UefaChampionsLeague1819ResultsButton"
             onclick="showAndHideUefaChL1819Table()"
           >
-            <p id="buttonText">Show U.CH.L results</p>
+            <p id="buttonText">Show Uefa Champions League results</p>
           </button>
           <table id="UCHL1819Table" style="display: none">
             <tr>
@@ -564,7 +567,7 @@
             id="UefaEuropaLeague1819ResultsButton"
             onclick="showAndHideUefaEL1819Table()"
           >
-            <p id="buttonText">Show U.E.L results</p>
+            <p id="buttonText">Show Uefa Europa League results</p>
           </button>
           <table id="UefaEuropaLeagueTable1819" style="display: none">
             <tr>

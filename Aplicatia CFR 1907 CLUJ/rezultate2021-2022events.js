@@ -124,3 +124,77 @@ function showAndHideUefaEuropaConferenceLeague2122Table(){
         UEFAEUROPACL2122.style.display = "none";
     }
 }
+
+function closeLigaI2122MainAndPlayOffResults(){
+    if(ligaI2122Results.style.display === "none"){
+        ligaI2122Results.style.display = "block";
+    }
+    else if(ligaI2122Results.style.display === "block" && LigaI2122MainRound.style.display === "block" && LigaI2122PlayOffRound.style.display === "block"){
+        LigaI2122PlayOffRound.style.display = "none"; LigaI2122MainRound.style.display = "none"; ligaI2122Results.style.display = "none";
+    }
+    else if(ligaI2122Results.style.display === "block" && LigaI2122MainRound.style.display === "none" && LigaI2122PlayOffRound.style.display === "none"){
+        ligaI2122Results.style.display = "none"
+    }
+    else if(ligaI2122Results.style.display === "block" && LigaI2122MainRound.style.display === "block"){
+        LigaI2122MainRound.style.display = "none"; ligaI2122Results.style.display = "none";
+    }
+    else if(ligaI2122Results.style.display === "block" && LigaI2122PlayOffRound.style.display === "block"){
+        LigaI2122PlayOffRound.style.display = "none"; ligaI2122Results.style.display = "none"
+    }
+}
+function closeCupaRomaniei2122Results(){
+    if(cupaRomaniei2122Results.style.display === "none"){
+        cupaRomaniei2122Results.style.display = "block";
+    }
+    else if(cupaRomaniei2122Results.style.display === "block" && CUPAR2122.style.display === "block"){
+        CUPAR2122.style.display = "none"; cupaRomaniei2122Results.style.display = "none"
+    }
+    else if(cupaRomaniei2122Results.style.display === "block" && CUPAR2122.style.display === "none"){
+        cupaRomaniei2122Results.style.display = "none"
+    }
+}
+function closeSupercupaRomaniei22Results(){
+    if(supercupaRomaniei22Results.style.display === "none"){
+        supercupaRomaniei22Results.style.display = "block";
+    }
+    else if(supercupaRomaniei22Results.style.display === "block" && SUPERCR22.style.display === "block"){
+        SUPERCR22.style.display = "none"; supercupaRomaniei22Results.style.display = "none";
+    }
+    else if(supercupaRomaniei22Results.style.display === "block" && SUPERCR22.style.display === "none"){
+        supercupaRomaniei22Results.style.display = "none"
+    }
+}
+function closeUefaChampionsLeague2122Results(){
+    if(uefaChampionsLeague2122Results.style.display === "none"){
+        uefaChampionsLeague2122Results.style.display = "block";
+    }
+    else if(uefaChampionsLeague2122Results.style.display === "block" && UEFACHL2122.style.display === "block"){
+        UEFACHL2122.style.display = "none"; uefaChampionsLeague2122Results.style.display = "none";
+    }
+    else if(uefaChampionsLeague2122Results.style.display === "block" && UEFACHL2122.style.display === "none"){
+        uefaChampionsLeague2122Results.style.display = "none";
+    }
+}
+function closeUefaEuropaLeague2122Results(){
+    if(uefaEuropaLeague2122Results.style.display === "none"){
+        uefaEuropaLeague2122Results.style.display = "block";
+    }
+    else if(uefaEuropaLeague2122Results.style.display === "block" && UEFAEUROPAL2122.style.display === "block"){
+        UEFAEUROPAL2122.style.display = "none"; uefaEuropaLeague2122Results.style.display = "none";
+    }
+    else if(uefaEuropaLeague2122Results.style.display === "block" && UEFAEUROPAL2122.style.display === "none"){
+        uefaEuropaLeague2122Results.style.display = "none";
+    }
+}
+function closeUefaEuropaConferenceLeague2122Results(){
+    if(uefaEuropaConferenceLeague2122Results.style.display === "none"){
+        uefaEuropaConferenceLeague2122Results.style.display = "block";
+    }
+    else if(uefaEuropaConferenceLeague2122Results.style.display === "block" && UEFAEUROPACL2122.style.display === "block"){
+        UEFAEUROPACL2122.style.display = "none"; uefaEuropaConferenceLeague2122Results.style.display = "none";
+    }
+    else if(uefaEuropaConferenceLeague2122Results.style.display === "block" && UEFAEUROPACL2122.style.display === "none"){
+        uefaEuropaConferenceLeague2122Results.style.display = "none";
+    }
+}
+

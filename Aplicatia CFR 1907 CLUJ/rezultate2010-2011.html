@@ -11,17 +11,19 @@
     <h2 id="pick1011Message">Click on desired competition !</h2>
     <div id="seasonElements1011">
       <div id="season1011buttons">
-        <button onclick="showAndHideLigaI1011()" id="ligaI1011button">
+        <button  
+        onclick="closeLigaI1011MainResults()" id="ligaI1011button">
           <p id="ligaI1011text">Liga I. 2010-2011</p>
         </button>
         <button
-          onclick="showAndHideCupaRomaniei1011()"
+          onclick="closeCupaRomaniei1011Results()"
+          
           id="cupaRomaniei1011button"
         >
           <p id="cupaRomaniei1011text">CUPA Romaniei 2010-2011</p>
         </button>
         <button
-          onclick="showAndHideUefaChampionsLeague1011()"
+          onclick="closeUefaChampionsLeague1011Results()"
           id="uefaChampionsLeague1011button"
         >
           <p id="uefaChampionsLeague1011text">
@@ -380,7 +382,7 @@
           style="display: none"
         >
           <h1>UEFA CHAMPIONS LEAGUE 2010-2011</h1>
-          <button id="UefaChampionsLeague1011ResultsButton" onclick="showAndHideUefaChampionsLeague1011Results()"><p id="buttonText">Show U.CH.L. results</p></button>
+          <button id="UefaChampionsLeague1011ResultsButton" onclick="showAndHideUefaChampionsLeague1011Results()"><p id="buttonText">Show Uefa Champions League results</p></button>
           <table id="UefaChampionsLeague1011ResultsTable" style="display: none;">
             <tr>
             <td colspan="10"><p style="text-align: center;"><b>GROUP E</b></p></td>

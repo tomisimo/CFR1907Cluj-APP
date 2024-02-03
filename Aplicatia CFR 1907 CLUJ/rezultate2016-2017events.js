@@ -65,3 +65,45 @@ function showAndHideCupaLigiiRomaniei1617Table(){
         CupaLigiiRomaniei1617Table.style.display = "none"
     }
 }
+
+function closeLigaI1617MainAndPlayOffResults(){
+    if(ligaI1617Results.style.display === "none"){
+        ligaI1617Results.style.display = "block";
+    }
+    else if(ligaI1617Results.style.display === "block" && LigaI1617MainRoundTable.style.display === "block" && LigaI1617PlayOffTable.style.display === "block"){
+        LigaI1617PlayOffTable.style.display = "none"; LigaI1617MainRoundTable.style.display = "none"; ligaI1617Results.style.display = "none";
+    }
+    else if(ligaI1617Results.style.display === "block" && LigaI1617MainRoundTable.style.display === "none" && LigaI1617PlayOffTable.style.display === "none"){
+        ligaI1617Results.style.display = "none";
+    }
+    else if(ligaI1617Results.style.display === "block" && LigaI1617MainRoundTable.style.display === "block"){
+        LigaI1617MainRoundTable.style.display = "none"; ligaI1617Results.style.display = "none";
+    }
+    else if(ligaI1617Results.style.display === "block" && LigaI1617PlayOffTable.style.display === "block"){
+        LigaI1617PlayOffTable.style.display = "none"; ligaI1617Results.style.display = "none";
+    }
+}
+function closeCupaRomaniei1617Results(){
+    if(cupaRomaniei1617Results.style.display === "none"){
+        cupaRomaniei1617Results.style.display = "block";
+    }
+    else if(cupaRomaniei1617Results.style.display === "block" && CupaRomaniei1617Table.style.display === "block"){
+        CupaRomaniei1617Table.style.display = "none"; cupaRomaniei1617Results.style.display = "none";
+    }
+    else if(cupaRomaniei1617Results.style.display === "block" && CupaRomaniei1617Table.style.display === "none"){
+        cupaRomaniei1617Results.style.display = "none"
+    }
+}
+function closeCupaLigiiRomaniei1617Results(){
+    if(cupaLigiiRomaniei1617Results.style.display === "none"){
+        cupaLigiiRomaniei1617Results.style.display = "block";
+    }
+    else if(cupaLigiiRomaniei1617Results.style.display === "block" && CupaLigiiRomaniei1617Table.style.display === "block"){
+        CupaLigiiRomaniei1617Table.style.display = "none"; cupaLigiiRomaniei1617Results.style.display = "none";
+    }
+    else if(cupaLigiiRomaniei1617Results.style.display === "block" && CupaLigiiRomaniei1617Table.style.display === "none"){
+        cupaLigiiRomaniei1617Results.style.display = "none"
+    }
+}
+
+
