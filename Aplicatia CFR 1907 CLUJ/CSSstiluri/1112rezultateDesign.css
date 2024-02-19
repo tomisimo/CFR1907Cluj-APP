@@ -14,7 +14,8 @@
     height: 9cm;
     width: 14cm;
     margin-top: 1cm;
-    margin-left: 3cm;
+    margin-bottom: 1cm;
+    margin-left: 1cm;
     background-color: #fff;
     border-radius: 10px;
     border-style: ridge;
@@ -25,7 +26,8 @@
     height: 4cm;
     width: 12cm;
     margin-top: 1cm;
-    margin-left: 3cm;
+    margin-bottom: 1cm;
+    margin-left: 1cm;
     background-color: #fff;
     border-radius: 10px;
     border-style: ridge;
@@ -36,7 +38,8 @@
     height: 4cm;
     width: 13cm;
     margin-top: 1cm;
-    margin-left: 3cm;
+    margin-bottom: 1cm;
+    margin-left: 1cm;
     background-color: #fff;
     border-radius: 10px;
     border-style: ridge;
@@ -60,10 +63,11 @@
 }
 
 #ligaI1112button{
-    margin-top: 0.5cm;
+    margin-top: 1cm;
+    margin-left: 1cm;
     background-color: darkslateblue;
     height: 15mm;
-    width: 7cm;
+    width: 8cm;
     border-radius: 1cm;
     border: 1mm;
     border-style:ridge;
@@ -80,10 +84,11 @@
 }
 
 #cupaRomaniei1112button{
-    margin-top: 0.5cm;
+    margin-top: 1cm;
+    margin-left: 1cm;
     background-color: darkslateblue;
     height: 15mm;
-    width: 7cm;
+    width: 8cm;
     border-radius: 1cm;
     border: 1mm;
     border-style:ridge;
@@ -98,10 +103,11 @@
     font-size: 5mm;
 }
 #supercupaRomaniei12button{
-    margin-top: 0.5cm;
+    margin-top: 1cm;
+    margin-left: 1cm;
     background-color: darkslateblue;
     height: 20mm;
-    width: 7cm;
+    width: 8cm;
     border-radius: 1cm;
     border: 1mm;
     border-style:ridge;
@@ -176,4 +182,21 @@ table, th, tr, td{
 #SupercupaRomaniei12ResultsTable{
     position: absolute;
     width: 9cm;
+}
+#season1112buttons{
+    background-color: #514e72;
+    border: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    height: 9cm;
+    width: 10cm;
+    margin-left: 1cm;
+}
+#competitionsTable1112{
+    background-color: grey;
+    margin-left: 1cm;
+    width: 22cm;
+    border: 1px;
+    border-style: solid;
+    border-radius: 4px;
 }

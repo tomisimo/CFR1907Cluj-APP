@@ -11,7 +11,8 @@
     height: 8cm;
     width: 16cm;
     margin-top: 1cm;
-    margin-left: 3cm;
+    margin-bottom: 1cm;
+    margin-left: 1cm;
     background-color:#fff;
     border-radius: 10px;
     border-style: ridge;
@@ -22,7 +23,8 @@
     height: 4cm;
     width: 16cm;
     margin-top: 1cm;
-    margin-left: 3cm;
+    margin-bottom: 1cm;
+    margin-left: 1cm;
     background-color: #fff;
     border-radius: 10px;
     border-style: ridge;
@@ -30,10 +32,11 @@
     border-color: brown;
 }
 .UefaEuropaConferenceLeagueTable2324{
-    height: 4cm;
-    width: 23cm;
+    height: 6cm;
+    width: 17cm;
     margin-top: 1cm;
-    margin-left: 3cm;
+    margin-bottom: 1cm;
+    margin-left: 1cm;
     background-color: #fff;
     border-radius: 10px;
     border-style: ridge;
@@ -63,7 +66,7 @@
     cursor: pointer;
 }
 #UefaEuropaConferenceLeague2324ResultsButton{
-    margin-left: 14cm;
+    margin-left: 8cm;
     background-color: rgb(223, 56, 56);
 }
 #UefaEuropaConferenceLeague2324ResultsButton:hover{
@@ -105,9 +108,11 @@ table, th, tr, td{
 }
 
 #ligaI2324button{
+    margin-top: 1cm;
+    margin-left: 1cm;
     background-color: darkslateblue;
     height: 15mm;
-    width: 7cm;
+    width: 8cm;
     border-radius: 1cm;
     border: 1mm;
     border-style:ridge;
@@ -124,10 +129,11 @@ table, th, tr, td{
 }
 
 #cupaRomaniei2324button{
-    margin-top: 0.5cm;
+    margin-top: 1cm;
+    margin-left: 1cm;
     background-color: darkslateblue;
     height: 15mm;
-    width: 7cm;
+    width: 8cm;
     border-radius: 1cm;
     border: 1mm;
     border-style:ridge;
@@ -142,10 +148,11 @@ table, th, tr, td{
     font-size: 5mm;
 }
 #uefaEuropaConferenceLeague2324button{
-    margin-top: 0.5cm;
+    margin-top: 1cm;
+    margin-left: 1cm;
     background-color: darkslateblue;
     height: 20mm;
-    width: 7cm;
+    width: 8cm;
     border-radius: 1cm;
     border: 1mm;
     border-style:ridge;
@@ -179,5 +186,22 @@ table, th, tr, td{
     margin-left: 1cm;
     height: 1cm;
     width: 13cm;
+}
+#season2324buttons{
+    background-color: #514e72;
+    border: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    height: 9cm;
+    width: 10cm;
+    margin-left: 1cm;
+}
+#competitionsTable2324{
+    background-color: grey;
+    margin-left: 1cm;
+    width: 22cm;
+    border: 1px;
+    border-style: solid;
+    border-radius: 4px;
 }
 
