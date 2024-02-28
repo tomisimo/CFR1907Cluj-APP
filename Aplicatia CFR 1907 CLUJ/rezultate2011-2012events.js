@@ -30,6 +30,7 @@ function showAndHideSupercupaRomaniei12(){
 var LigaI1112MainRoundTable = document.getElementById("LigaI1112MainRoundResultsTable");
 var CupaRomaniei1112Table = document.getElementById("CupaRomaniei1112ResultsTable");
 var SupercupaRomaniei12Table = document.getElementById("SupercupaRomaniei12ResultsTable");
+var competitionsPresentationTable1112 = document.getElementById("competitionsTable1112")
 
 function showAndHideLigaI1112MainRoundResults(){
     if(LigaI1112MainRoundTable.style.display === "none"){
@@ -59,7 +60,7 @@ function showAndHideSupercupaRomaniei12Results(){
 
 function closeLigaI1112MainResults(){
     if(ligaI1112Results.style.display === "none"){
-        ligaI1112Results.style.display = "block";
+        ligaI1112Results.style.display = "block"; competitionsPresentationTable1112.style.borderColor = "rgb(15, 245, 7)"
     }
     else if(ligaI1112Results.style.display === "block" && LigaI1112MainRoundTable.style.display === "block"){
         LigaI1112MainRoundTable.style.display = "none"; ligaI1112Results.style.display = "none";
@@ -70,7 +71,7 @@ function closeLigaI1112MainResults(){
 }
 function closeCupaRomaniei1112Results(){
     if(cupaRomaniei1112Results.style.display === "none"){
-        cupaRomaniei1112Results.style.display = "block";
+        cupaRomaniei1112Results.style.display = "block"; competitionsPresentationTable1112.style.borderColor = "rgb(15, 245, 7)"
     }
     else if(cupaRomaniei1112Results.style.display === "block" && CupaRomaniei1112Table.style.display === "block"){
         CupaRomaniei1112Table.style.display = "none"; cupaRomaniei1112Results.style.display = "none";
@@ -81,7 +82,7 @@ function closeCupaRomaniei1112Results(){
 }
 function closeSupercupaRomaniei12Results(){
     if(supercupaRomaniei12Results.style.display === "none"){
-        supercupaRomaniei12Results.style.display = "block";
+        supercupaRomaniei12Results.style.display = "block"; competitionsPresentationTable1112.style.borderColor = "rgb(15, 245, 7)"
     }
     else if(supercupaRomaniei12Results.style.display === "block" && SupercupaRomaniei12Table.style.display === "block"){
         SupercupaRomaniei12Table.style.display = "none"; supercupaRomaniei12Results.style.display = "none";

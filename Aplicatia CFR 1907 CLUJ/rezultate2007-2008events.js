@@ -30,6 +30,7 @@ function showAndHideUefaCup0708(){
 var LigaI0708MainRoundTable = document.getElementById("LigaI0708MainRoundResultsTable")
 var CupaRomaniei0708Table = document.getElementById("CupaRomaniei0708ResultsTable")
 var UefaCup0708Table = document.getElementById("UefaCup0708ResultsTable")
+var competitionsPresentationTable0708 = document.getElementById("competitionsTable0708")
 
 function showAndHideLigaI0708MainRoundResults(){
     if(LigaI0708MainRoundTable.style.display === "none"){
@@ -57,7 +58,7 @@ function showAndHideUefaCup0708Results(){
 }
 function closeLigaI0708Results(){
     if(ligaI0708Results.style.display === "none"){
-        ligaI0708Results.style.display = "block";
+        ligaI0708Results.style.display = "block"; competitionsPresentationTable0708.style.borderColor = "rgb(15, 245, 7)"
     }
     else if(ligaI0708Results.style.display === "block" && LigaI0708MainRoundTable.style.display === "block"){
         LigaI0708MainRoundTable.style.display = "none"; ligaI0708Results.style.display = "none";
@@ -68,7 +69,7 @@ function closeLigaI0708Results(){
 }
 function closeCupaRomaniei0708Results(){
     if(cupaRomaniei0708Results.style.display === "none"){
-        cupaRomaniei0708Results.style.display = "block";
+        cupaRomaniei0708Results.style.display = "block"; competitionsPresentationTable0708.style.borderColor = "rgb(15, 245, 7)"
     }
     else if(cupaRomaniei0708Results.style.display === "block" && CupaRomaniei0708Table.style.display === "block"){
         CupaRomaniei0708Table.style.display = "none"; cupaRomaniei0708Results.style.display = "none";
@@ -79,7 +80,7 @@ function closeCupaRomaniei0708Results(){
 }
 function closeUefaCup0708Results(){
     if(uefaCup0708Results.style.display === "none"){
-        uefaCup0708Results.style.display = "block";
+        uefaCup0708Results.style.display = "block"; competitionsPresentationTable0708.style.borderColor = "rgb(15, 245, 7)"
     }
     else if(uefaCup0708Results.style.display === "block" && UefaCup0708Table.style.display === "block"){
         UefaCup0708Table.style.display = "none"; uefaCup0708Results.style.display = "none";

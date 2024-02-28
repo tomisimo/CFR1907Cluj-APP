@@ -30,6 +30,7 @@ function showAndHideUefaChampionsLeague1011(){
 var LigaI1011MainRoundTable = document.getElementById("LigaI1011MainRoundResultsTable");
 var CupaRomaniei1011Table = document.getElementById("CupaRomaniei1011ResultsTable");
 var UefaChampionsLeague1011Table = document.getElementById("UefaChampionsLeague1011ResultsTable");
+var competitionsPresentationTable1011 = document.getElementById("competitionsTable1011")
 
 function showAndHideLigaI1011MainRoundResults(){
     if(LigaI1011MainRoundTable.style.display === "none"){
@@ -58,7 +59,7 @@ function showAndHideUefaChampionsLeague1011Results(){
 
 function closeLigaI1011MainResults(){
     if(ligaI1011Results.style.display === "none"){
-        ligaI1011Results.style.display = "block";
+        ligaI1011Results.style.display = "block"; competitionsPresentationTable1011.style.borderColor = "rgb(15, 245, 7)"
     }
     else if(ligaI1011Results.style.display === "block" && LigaI1011MainRoundTable.style.display === "block"){
         LigaI1011MainRoundTable.style.display = "none"; ligaI1011Results.style.display = "none";
@@ -69,7 +70,7 @@ function closeLigaI1011MainResults(){
 }
 function closeCupaRomaniei1011Results(){
     if(cupaRomaniei1011Results.style.display === "none"){
-        cupaRomaniei1011Results.style.display = "block";
+        cupaRomaniei1011Results.style.display = "block"; competitionsPresentationTable1011.style.borderColor = "rgb(15, 245, 7)"
     }
     else if(cupaRomaniei1011Results.style.display === "block" && CupaRomaniei1011Table.style.display === "block"){
         CupaRomaniei1011Table.style.display = "none"; cupaRomaniei1011Results.style.display = "none";
@@ -80,7 +81,7 @@ function closeCupaRomaniei1011Results(){
 }
 function closeUefaChampionsLeague1011Results(){
     if(uefaChampionsLeague1011Results.style.display === "none"){
-        uefaChampionsLeague1011Results.style.display = "block"
+        uefaChampionsLeague1011Results.style.display = "block" ; competitionsPresentationTable1011.style.borderColor = "rgb(15, 245, 7)"
     }
     else if(uefaChampionsLeague1011Results.style.display === "block" && UefaChampionsLeague1011Table.style.display === "block"){
         UefaChampionsLeague1011Table.style.display = "none"; uefaChampionsLeague1011Results.style.display = "none";

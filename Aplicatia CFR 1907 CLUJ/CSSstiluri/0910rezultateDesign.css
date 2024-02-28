@@ -142,6 +142,7 @@
     background-color: rgb(33, 33, 158);
     cursor: pointer;
 }
+
 #uefaEuropaLeague0910text{
     color:aliceblue;
     font-size: 5mm;
@@ -240,7 +241,8 @@ table, th, tr, td{
     background-color: grey;
     margin-left: 1cm;
     width: 22cm;
-    border: 1px;
+    border: 2px;
+    border-color: black;
     border-style: solid;
     border-radius: 4px;
 }

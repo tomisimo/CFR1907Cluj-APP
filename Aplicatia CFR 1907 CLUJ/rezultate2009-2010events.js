@@ -40,6 +40,7 @@ var LigaI0910MainRoundTable = document.getElementById("LigaI0910MainRoundResults
 var CupaRomaniei0910Table = document.getElementById("CupaRomaniei0910ResultsTable")
 var SupercupaRomaniei10Table = document.getElementById("SupercupaRomaniei10ResultsTable")
 var UefaEuropaLeague0910Table = document.getElementById("UefaEuropaLeague0910ResultsTable")
+var competitionsPresentationTable0910 = document.getElementById("competitionsTable0910")
 
 function showAndHideLigaI0910MainRoundResults(){
     if(LigaI0910MainRoundTable.style.display === "none"){
@@ -76,7 +77,7 @@ function showAndHideUefaEuropaLeague0910Results(){
 
 function closeLigaI0910MainResults(){
     if(ligaI0910Results.style.display === "none"){
-        ligaI0910Results.style.display = "block";
+        ligaI0910Results.style.display = "block"; competitionsPresentationTable0910.style.borderColor = "rgb(15, 245, 7)"
     }
     else if(ligaI0910Results.style.display === "block" && LigaI0910MainRoundTable.style.display === "block"){
         LigaI0910MainRoundTable.style.display = "none"; ligaI0910Results.style.display = "none";
@@ -87,7 +88,7 @@ function closeLigaI0910MainResults(){
 }
 function closeCupaRomaniei0910Results(){
     if(cupaRomaniei0910Results.style.display === "none"){
-        cupaRomaniei0910Results.style.display = "block";
+        cupaRomaniei0910Results.style.display = "block"; competitionsPresentationTable0910.style.borderColor = "rgb(15, 245, 7)"
     }
     else if(cupaRomaniei0910Results.style.display === "block" && CupaRomaniei0910Table.style.display === "block"){
         CupaRomaniei0910Table.style.display = "none"; cupaRomaniei0910Results.style.display = "none";
@@ -98,7 +99,7 @@ function closeCupaRomaniei0910Results(){
 }
 function closeSupercupaRomaniei10Results(){
     if(supercup2010Results.style.display === "none"){
-        supercup2010Results.style.display = "block";
+        supercup2010Results.style.display = "block"; competitionsPresentationTable0910.style.borderColor = "rgb(15, 245, 7)"
     }
     else if(supercup2010Results.style.display === "block" && SupercupaRomaniei10Table.style.display === "block"){
         SupercupaRomaniei10Table.style.display = "none"; supercup2010Results.style.display = "none";
@@ -109,7 +110,7 @@ function closeSupercupaRomaniei10Results(){
 }
 function closeUefaEuropaLeague0910Results(){
     if(uefaEuropaLeague0910Results.style.display === "none"){
-        uefaEuropaLeague0910Results.style.display = "block";
+        uefaEuropaLeague0910Results.style.display = "block"; competitionsPresentationTable0910.style.borderColor = "rgb(15, 245, 7)"
     }
     else if(uefaEuropaLeague0910Results.style.display === "block" && UefaEuropaLeague0910Table.style.display === "block"){
         UefaEuropaLeague0910Table.style.display = "none"; uefaEuropaLeague0910Results.style.display = "none";

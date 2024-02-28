@@ -47,13 +47,6 @@
     border-width: 3mm;
     border-color: brown;
 }
-
-#labelDiviziaA0405{
-    background-color: rgb(189, 20, 43);
-    border-color: chartreuse;
-    border-width: 2mm;
-    border-style: groove;
-}
 #diviziaA0405button{
     margin-top: 1cm;
     margin-left: 1cm;
@@ -199,7 +192,8 @@ table, th, tr, td{
     background-color: grey;
     margin-left: 1cm;
     width: 22cm;
-    border: 1px;
+    border: 2px;
+    border-color: black;
     border-style: solid;
     border-radius: 4px;
 }

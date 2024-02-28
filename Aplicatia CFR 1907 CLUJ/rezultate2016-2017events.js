@@ -31,6 +31,7 @@ var LigaI1617MainRoundTable = document.getElementById("LigaI1617MainRoundTable")
 var LigaI1617PlayOffTable = document.getElementById("LigaI1617PlayOffTable")
 var CupaRomaniei1617Table = document.getElementById("cupaRomaniei1617Table")
 var CupaLigiiRomaniei1617Table = document.getElementById("cupaLigiiRomaniei1617Table")
+var competitionsPresentationTable1617 = document.getElementById("competitionsTable1617")
 
 function showAndHideLigaI1617MainRound(){
     if(LigaI1617MainRoundTable.style.display === "none"){
@@ -68,7 +69,7 @@ function showAndHideCupaLigiiRomaniei1617Table(){
 
 function closeLigaI1617MainAndPlayOffResults(){
     if(ligaI1617Results.style.display === "none"){
-        ligaI1617Results.style.display = "block";
+        ligaI1617Results.style.display = "block"; competitionsPresentationTable1617.style.borderColor = "rgb(15, 245, 7)"
     }
     else if(ligaI1617Results.style.display === "block" && LigaI1617MainRoundTable.style.display === "block" && LigaI1617PlayOffTable.style.display === "block"){
         LigaI1617PlayOffTable.style.display = "none"; LigaI1617MainRoundTable.style.display = "none"; ligaI1617Results.style.display = "none";
@@ -85,7 +86,7 @@ function closeLigaI1617MainAndPlayOffResults(){
 }
 function closeCupaRomaniei1617Results(){
     if(cupaRomaniei1617Results.style.display === "none"){
-        cupaRomaniei1617Results.style.display = "block";
+        cupaRomaniei1617Results.style.display = "block"; competitionsPresentationTable1617.style.borderColor = "rgb(15, 245, 7)"
     }
     else if(cupaRomaniei1617Results.style.display === "block" && CupaRomaniei1617Table.style.display === "block"){
         CupaRomaniei1617Table.style.display = "none"; cupaRomaniei1617Results.style.display = "none";
@@ -96,7 +97,7 @@ function closeCupaRomaniei1617Results(){
 }
 function closeCupaLigiiRomaniei1617Results(){
     if(cupaLigiiRomaniei1617Results.style.display === "none"){
-        cupaLigiiRomaniei1617Results.style.display = "block";
+        cupaLigiiRomaniei1617Results.style.display = "block"; competitionsPresentationTable1617.style.borderColor = "rgb(15, 245, 7)"
     }
     else if(cupaLigiiRomaniei1617Results.style.display === "block" && CupaLigiiRomaniei1617Table.style.display === "block"){
         CupaLigiiRomaniei1617Table.style.display = "none"; cupaLigiiRomaniei1617Results.style.display = "none";

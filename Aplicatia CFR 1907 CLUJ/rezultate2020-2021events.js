@@ -51,6 +51,7 @@ var CUPAR2021 = document.getElementById("CupaRomaniei2021Table");
 var SUPERCR21 = document.getElementById("SupercupaRomaniei21Table");
 var UEFACHL2021 = document.getElementById("UCHL2021Table");
 var UEFAEUROPAL2021 = document.getElementById("UefaEuropaLeagueTable2021");
+var competitionsPresentationTable2021 = document.getElementById("competitionsTable2021")
 
 function showAndHideLigaI2021MainRoundTable(){
     if(LigaI2021MainRound.style.display === "none"){
@@ -108,7 +109,7 @@ function showAndHideUefaEuropaLeague2021Table(){
 
 function closeLigaI2021MainAndPlayOffResults(){
     if(ligaI2021Results.style.display === "none"){
-        ligaI2021Results.style.display = "block";
+        ligaI2021Results.style.display = "block"; competitionsPresentationTable2021.style.borderColor = "rgb(15, 245, 7)"
     }
     else if(ligaI2021Results.style.display === "block" && LigaI2021MainRound.style.display === "block" && LigaI2021PlayOffRound.style.display === "block"){
         LigaI2021PlayOffRound.style.display = "none"; LigaI2021MainRound.style.display = "none"; ligaI2021Results.style.display = "none";
@@ -125,7 +126,7 @@ function closeLigaI2021MainAndPlayOffResults(){
 }
 function closeCupaRomaniei2021Results(){
     if(cupaRomaniei2021Results.style.display === "none"){
-        cupaRomaniei2021Results.style.display = "block";
+        cupaRomaniei2021Results.style.display = "block"; competitionsPresentationTable2021.style.borderColor = "rgb(15, 245, 7)"
     }
     else if(cupaRomaniei2021Results.style.display === "block" && CUPAR2021.style.display === "block"){
         CUPAR2021.style.display = "none"; cupaRomaniei2021Results.style.display = "none"
@@ -136,7 +137,7 @@ function closeCupaRomaniei2021Results(){
 }
 function closeSupercupaRomaniei21Results(){
     if(supercupaRomaniei21Results.style.display === "none"){
-        supercupaRomaniei21Results.style.display = "block";
+        supercupaRomaniei21Results.style.display = "block"; competitionsPresentationTable2021.style.borderColor = "rgb(15, 245, 7)"
     }
     else if(supercupaRomaniei21Results.style.display === "block" && SUPERCR21.style.display === "block"){
         SUPERCR21.style.display = "none"; supercupaRomaniei21Results.style.display = "none";
@@ -147,7 +148,7 @@ function closeSupercupaRomaniei21Results(){
 }
 function closeUefaChampionsLeague2021Results(){
     if(uefaChampionsLeague2021Results.style.display === "none"){
-        uefaChampionsLeague2021Results.style.display = "block";
+        uefaChampionsLeague2021Results.style.display = "block"; competitionsPresentationTable2021.style.borderColor = "rgb(15, 245, 7)"
     }
     else if(uefaChampionsLeague2021Results.style.display === "block" && UEFACHL2021.style.display === "block"){
         UEFACHL2021.style.display = "none"; uefaChampionsLeague2021Results.style.display = "none";
@@ -158,7 +159,7 @@ function closeUefaChampionsLeague2021Results(){
 }
 function closeUefaEuropaLeague2021Results(){
     if(uefaEuropaLeague2021Results.style.display === "none"){
-        uefaEuropaLeague2021Results.style.display = "block";
+        uefaEuropaLeague2021Results.style.display = "block"; competitionsPresentationTable2021.style.borderColor = "rgb(15, 245, 7)"
     }
     else if(uefaEuropaLeague2021Results.style.display === "block" && UEFAEUROPAL2021.style.display === "block"){
         UEFAEUROPAL2021.style.display = "none"; uefaEuropaLeague2021Results.style.display = "none";

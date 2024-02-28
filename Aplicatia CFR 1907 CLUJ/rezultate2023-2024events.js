@@ -31,6 +31,7 @@ var LIGAI2324MainRoundTable = document.getElementById("LigaI2324MainRoundResults
 var LIGAI2324PlayOffRoundTable = document.getElementById("LigaI2324PlayOffRoundResultsTable");
 var CUPAR2324Table = document.getElementById("CupaRomaniei2324ResultsTable");
 var UECL2324Table = document.getElementById("UefaEuropaConferenceLeague2324ResultsTable");
+var competitionsPresentationTable2324 = document.getElementById("competitionsTable2324")
 
 function showAndHideLigaI2324MainRoundResultsTable(){
     if(LIGAI2324MainRoundTable.style.display === "none"){
@@ -69,7 +70,7 @@ function showAndHideUECL2324ResultsTable(){
 
 function closeLigaI2324MainAndPlayOffResults(){
     if(ligaI2324Results.style.display === "none"){
-        ligaI2324Results.style.display = "block";
+        ligaI2324Results.style.display = "block"; competitionsPresentationTable2324.style.borderColor = "rgb(15, 245, 7)"
     }
     else if(ligaI2324Results.style.display === "block" && LIGAI2324MainRoundTable.style.display === "block" && LIGAI2324PlayOffRoundTable.style.display === "block"){
         LIGAI2324PlayOffRoundTable.style.display = "none"; LIGAI2324MainRoundTable.style.display = "none"; ligaI2324Results.style.display = "none";
@@ -86,7 +87,7 @@ function closeLigaI2324MainAndPlayOffResults(){
 }
 function closeCupaRomaniei2324Results(){
     if(cupaRomaniei2324Results.style.display === "none"){
-        cupaRomaniei2324Results.style.display = "block";
+        cupaRomaniei2324Results.style.display = "block"; competitionsPresentationTable2324.style.borderColor = "rgb(15, 245, 7)"
     }
     else if(cupaRomaniei2324Results.style.display === "block" && CUPAR2324Table.style.display === "block"){
         CUPAR2324Table.style.display = "none"; cupaRomaniei2324Results.style.display = "none";
@@ -97,7 +98,7 @@ function closeCupaRomaniei2324Results(){
 }
 function closeUefaEuropaConferenceLeague2324Results(){
     if(uefaEuropaConferenceLeague2324Results.style.display === "none"){
-        uefaEuropaConferenceLeague2324Results.style.display = "block";
+        uefaEuropaConferenceLeague2324Results.style.display = "block"; competitionsPresentationTable2324.style.borderColor = "rgb(15, 245, 7)"
     }
     else if(uefaEuropaConferenceLeague2324Results.style.display === "block" && UECL2324Table.style.display === "block"){
         UECL2324Table.style.display = "none"; uefaEuropaConferenceLeague2324Results.style.display = "none";

@@ -30,6 +30,7 @@ function showAndHideIntertoto2005(){
 var DiviziaA0405MainRoundTable = document.getElementById("DiviziaA0405MainRoundResultsTable")
 var CupaRomaniei0405Table = document.getElementById("CupaRomaniei0405ResultsTable")
 var UefaIntertotoCup05Table = document.getElementById("IntertotoCup05ResultsTable")
+var competitionsPresentationTable0405 = document.getElementById("competitionsTable0405");
 
 function showAndHideDiviziaA0405MainRoundResults(){
     if(DiviziaA0405MainRoundTable.style.display === "none"){
@@ -57,36 +58,44 @@ function showAndHideUefaIntertotoCup05Results(){
 }
 function closeDiviziaA0405MainResults(){
     if(diviziaA0405Results.style.display === "none"){
-        diviziaA0405Results.style.display = "block";
+        diviziaA0405Results.style.display = "block"; competitionsPresentationTable0405.style.borderColor = "rgb(15, 245, 7)"
     }
     else if(diviziaA0405Results.style.display === "block" && DiviziaA0405MainRoundTable.style.display === "block"){
-        DiviziaA0405MainRoundTable.style.display = "none"; diviziaA0405Results.style.display = "none"
+        DiviziaA0405MainRoundTable.style.display = "none"; diviziaA0405Results.style.display = "none" ; 
     }
     else if(diviziaA0405Results.style.display === "block" && DiviziaA0405MainRoundTable.style.display === "none"){
-        diviziaA0405Results.style.display = "none"
+        diviziaA0405Results.style.display = "none"; 
     }
 }
+
 function closeCupaRomaniei0405Results(){
     if(cupaRomaniei0405Results.style.display === "none"){
-        cupaRomaniei0405Results.style.display = "block";
+        cupaRomaniei0405Results.style.display = "block"; competitionsPresentationTable0405.style.borderColor = "rgb(15, 245, 7)"
     }
     else if(cupaRomaniei0405Results.style.display === "block" && CupaRomaniei0405Table.style.display === "block"){
         CupaRomaniei0405Table.style.display = "none"; cupaRomaniei0405Results.style.display = "none"
     }
     else if(cupaRomaniei0405Results.style.display === "block" && CupaRomaniei0405Table.style.display === "none"){
-        cupaRomaniei0405Results.style.display = "none"
+        cupaRomaniei0405Results.style.display = "none"; 
     }
 }
 function closeUefaIntertotoCup05Results(){
     if(intertotoCup2005Results.style.display === "none"){
-        intertotoCup2005Results.style.display = "block";
+        intertotoCup2005Results.style.display = "block"; competitionsPresentationTable0405.style.borderColor = "rgb(15, 245, 7)"
     }
     else if(intertotoCup2005Results.style.display === "block" && UefaIntertotoCup05Table.style.display === "block"){
         UefaIntertotoCup05Table.style.display = "none"; intertotoCup2005Results.style.display = "none"
     }
     else if(intertotoCup2005Results.style.display === "block" && UefaIntertotoCup05Table.style.display === "none"){
-        intertotoCup2005Results.style.display = "none"
+        intertotoCup2005Results.style.display = "none"; 
+    }
+    else if(intertotoCup2005Results.style.display === "none"){
+        
+        
     }
 }
+
+
+
 
 

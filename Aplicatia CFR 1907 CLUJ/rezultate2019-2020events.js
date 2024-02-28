@@ -51,6 +51,7 @@ var CUPAR1920 = document.getElementById("CupaRomaniei1920Table");
 var SUPERCR20 = document.getElementById("SupercupaRomaniei20Table");
 var UEFACHL1920 = document.getElementById("UCHL1920Table");
 var UEFAEUROPAL1920 = document.getElementById("UefaEuropaLeagueTable1920");
+var competitionsPresentationTable1920 = document.getElementById("competitionsTable1920")
 
 function showAndHideLigaI1920MainRoundTable(){
     if(LigaI1920MainRound.style.display === "none"){
@@ -108,7 +109,7 @@ function showAndHideUefaEuropaLeague1920Table(){
 
 function closeLigaI1920MainAndPlayOffResults(){
     if(ligaI1920Results.style.display === "none"){
-        ligaI1920Results.style.display = "block";
+        ligaI1920Results.style.display = "block"; competitionsPresentationTable1920.style.borderColor = "rgb(15, 245, 7)"
     }
     else if(ligaI1920Results.style.display === "block" && LigaI1920MainRound.style.display === "block" && LigaI1920PlayOffRound.style.display === "block"){
         LigaI1920PlayOffRound.style.display = "none"; LigaI1920MainRound.style.display = "none"; ligaI1920Results.style.display = "none";
@@ -125,7 +126,7 @@ function closeLigaI1920MainAndPlayOffResults(){
 }
 function closeCupaRomaniei1920Results(){
     if(cupaRomaniei1920Results.style.display === "none"){
-        cupaRomaniei1920Results.style.display = "block"
+        cupaRomaniei1920Results.style.display = "block"; competitionsPresentationTable1920.style.borderColor = "rgb(15, 245, 7)"
     }
     else if(cupaRomaniei1920Results.style.display === "block" && CUPAR1920.style.display === "block"){
         CUPAR1920.style.display = "none"; cupaRomaniei1920Results.style.display = "none"
@@ -136,7 +137,7 @@ function closeCupaRomaniei1920Results(){
 }
 function closeSupercupaRomaniei20Results(){
     if(supercupaRomaniei20Results.style.display === "none"){
-        supercupaRomaniei20Results.style.display = "block";
+        supercupaRomaniei20Results.style.display = "block"; competitionsPresentationTable1920.style.borderColor = "rgb(15, 245, 7)"
     }
     else if(supercupaRomaniei20Results.style.display === "block" && SUPERCR20.style.display === "block"){
         SUPERCR20.style.display = "none"; supercupaRomaniei20Results.style.display = "none";
@@ -147,7 +148,7 @@ function closeSupercupaRomaniei20Results(){
 }
 function closeUefaChampionsLeague1920Results(){
     if(uefaChampionsLeague1920Results.style.display === "none"){
-    uefaChampionsLeague1920Results.style.display = "block";
+    uefaChampionsLeague1920Results.style.display = "block"; competitionsPresentationTable1920.style.borderColor = "rgb(15, 245, 7)"
     }
     else if(uefaChampionsLeague1920Results.style.display === "block" && UEFACHL1920.style.display === "block"){
         UEFACHL1920.style.display = "none"; uefaChampionsLeague1920Results.style.display = "none";
@@ -158,7 +159,7 @@ function closeUefaChampionsLeague1920Results(){
 }
 function closeUefaEuropaLeague1920Results(){
     if(uefaEuropaLeague1920Results.style.display === "none"){
-        uefaEuropaLeague1920Results.style.display = "block";
+        uefaEuropaLeague1920Results.style.display = "block"; competitionsPresentationTable1920.style.borderColor = "rgb(15, 245, 7)"
     }
     else if(uefaEuropaLeague1920Results.style.display === "block" && UEFAEUROPAL1920.style.display === "block"){
         UEFAEUROPAL1920.style.display = "none"; uefaEuropaLeague1920Results.style.display = "none";

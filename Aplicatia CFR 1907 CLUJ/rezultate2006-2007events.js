@@ -20,6 +20,7 @@ function showAndHideCupaRomaniei0607(){
 
 var LigaI0607MainRoundTable = document.getElementById("LigaI0607MainRoundResultsTable")
 var CupaRomaniei0607Table = document.getElementById("CupaRomaniei0607ResultsTable")
+var competitionsPresentationTable0607 = document.getElementById("competitionsTable0607")
 
 function showAndHideLigaI0607MainRoundResults(){
     if(LigaI0607MainRoundTable.style.display === "none"){
@@ -39,7 +40,7 @@ function showAndHideCupaRomaniei0607Results(){
 }
 function closeLigaI0607MainResults(){
     if(ligaI0607Results.style.display === "none"){
-        ligaI0607Results.style.display = "block";
+        ligaI0607Results.style.display = "block"; competitionsPresentationTable0607.style.borderColor = "rgb(15, 245, 7)"
     }
     else if(ligaI0607Results.style.display === "block" && LigaI0607MainRoundTable.style.display === "block"){
         LigaI0607MainRoundTable.style.display = "none"; ligaI0607Results.style.display = "none";
@@ -50,7 +51,7 @@ function closeLigaI0607MainResults(){
 }
 function closeCupaRomaniei0607Results(){
     if(cupaRomaniei0607Results.style.display === "none"){
-        cupaRomaniei0607Results.style.display = "block";
+        cupaRomaniei0607Results.style.display = "block"; competitionsPresentationTable0607.style.borderColor = "rgb(15, 245, 7)"
     }
     else if(cupaRomaniei0607Results.style.display === "block" && CupaRomaniei0607Table.style.display === "block"){
         CupaRomaniei0607Table.style.display = "none"; cupaRomaniei0607Results.style.display = "none";

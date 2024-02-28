@@ -61,6 +61,7 @@ var SUPERCR22 = document.getElementById("SupercupaRomaniei22Table");
 var UEFACHL2122 = document.getElementById("UCHL2122Table");
 var UEFAEUROPAL2122 = document.getElementById("UefaEuropaLeagueTable2122");
 var UEFAEUROPACL2122 = document.getElementById("UefaEuropaConferenceLeagueTable2122");
+var competitionsPresentationTable2122 = document.getElementById("competitionsTable2122")
 
 function showAndHideLigaI2122MainRoundTable(){
     if(LigaI2122MainRound.style.display === "none"){
@@ -127,7 +128,7 @@ function showAndHideUefaEuropaConferenceLeague2122Table(){
 
 function closeLigaI2122MainAndPlayOffResults(){
     if(ligaI2122Results.style.display === "none"){
-        ligaI2122Results.style.display = "block";
+        ligaI2122Results.style.display = "block"; competitionsPresentationTable2122.style.borderColor = "rgb(15, 245, 7)"
     }
     else if(ligaI2122Results.style.display === "block" && LigaI2122MainRound.style.display === "block" && LigaI2122PlayOffRound.style.display === "block"){
         LigaI2122PlayOffRound.style.display = "none"; LigaI2122MainRound.style.display = "none"; ligaI2122Results.style.display = "none";
@@ -144,7 +145,7 @@ function closeLigaI2122MainAndPlayOffResults(){
 }
 function closeCupaRomaniei2122Results(){
     if(cupaRomaniei2122Results.style.display === "none"){
-        cupaRomaniei2122Results.style.display = "block";
+        cupaRomaniei2122Results.style.display = "block"; competitionsPresentationTable2122.style.borderColor = "rgb(15, 245, 7)"
     }
     else if(cupaRomaniei2122Results.style.display === "block" && CUPAR2122.style.display === "block"){
         CUPAR2122.style.display = "none"; cupaRomaniei2122Results.style.display = "none"
@@ -155,7 +156,7 @@ function closeCupaRomaniei2122Results(){
 }
 function closeSupercupaRomaniei22Results(){
     if(supercupaRomaniei22Results.style.display === "none"){
-        supercupaRomaniei22Results.style.display = "block";
+        supercupaRomaniei22Results.style.display = "block"; competitionsPresentationTable2122.style.borderColor = "rgb(15, 245, 7)"
     }
     else if(supercupaRomaniei22Results.style.display === "block" && SUPERCR22.style.display === "block"){
         SUPERCR22.style.display = "none"; supercupaRomaniei22Results.style.display = "none";
@@ -166,7 +167,7 @@ function closeSupercupaRomaniei22Results(){
 }
 function closeUefaChampionsLeague2122Results(){
     if(uefaChampionsLeague2122Results.style.display === "none"){
-        uefaChampionsLeague2122Results.style.display = "block";
+        uefaChampionsLeague2122Results.style.display = "block"; competitionsPresentationTable2122.style.borderColor = "rgb(15, 245, 7)"
     }
     else if(uefaChampionsLeague2122Results.style.display === "block" && UEFACHL2122.style.display === "block"){
         UEFACHL2122.style.display = "none"; uefaChampionsLeague2122Results.style.display = "none";
@@ -177,7 +178,7 @@ function closeUefaChampionsLeague2122Results(){
 }
 function closeUefaEuropaLeague2122Results(){
     if(uefaEuropaLeague2122Results.style.display === "none"){
-        uefaEuropaLeague2122Results.style.display = "block";
+        uefaEuropaLeague2122Results.style.display = "block"; competitionsPresentationTable2122.style.borderColor = "rgb(15, 245, 7)"
     }
     else if(uefaEuropaLeague2122Results.style.display === "block" && UEFAEUROPAL2122.style.display === "block"){
         UEFAEUROPAL2122.style.display = "none"; uefaEuropaLeague2122Results.style.display = "none";
@@ -188,7 +189,7 @@ function closeUefaEuropaLeague2122Results(){
 }
 function closeUefaEuropaConferenceLeague2122Results(){
     if(uefaEuropaConferenceLeague2122Results.style.display === "none"){
-        uefaEuropaConferenceLeague2122Results.style.display = "block";
+        uefaEuropaConferenceLeague2122Results.style.display = "block"; competitionsPresentationTable2122.style.borderColor = "rgb(15, 245, 7)"
     }
     else if(uefaEuropaConferenceLeague2122Results.style.display === "block" && UEFAEUROPACL2122.style.display === "block"){
         UEFAEUROPACL2122.style.display = "none"; uefaEuropaConferenceLeague2122Results.style.display = "none";
