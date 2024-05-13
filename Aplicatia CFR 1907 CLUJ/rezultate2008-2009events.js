@@ -44,7 +44,7 @@ var competitionsPresentationTable0809 = document.getElementById("competitionsTab
 
 function showAndHideLigaI0809MainRoundResults(){
     if(LigaI0809MainRoundTable.style.display === "none"){
-        LigaI0809MainRoundTable.style.display = "block";
+        LigaI0809MainRoundTable.style.display = "block"; LigaI0809MainRoundTable.style.borderColor = "rgb(15, 245, 7)"
     }
     else{
         LigaI0809MainRoundTable.style.display = "none";
@@ -52,7 +52,7 @@ function showAndHideLigaI0809MainRoundResults(){
 }
 function showAndHideCupaRomaniei0809Results(){
     if(CupaRomaniei0809Table.style.display === "none"){
-        CupaRomaniei0809Table.style.display = "block";
+        CupaRomaniei0809Table.style.display = "block"; CupaRomaniei0809Table.style.borderColor = "rgb(15, 245, 7)"
     }
     else{
         CupaRomaniei0809Table.style.display = "none"
@@ -60,7 +60,7 @@ function showAndHideCupaRomaniei0809Results(){
 }
 function showAndHideSupercupaRomaniei09Results(){
     if(SupercupaRomaniei09Table.style.display === "none"){
-        SupercupaRomaniei09Table.style.display = "block";
+        SupercupaRomaniei09Table.style.display = "block"; SupercupaRomaniei09Table.style.borderColor = "rgb(15, 245, 7)"
     }
     else{
         SupercupaRomaniei09Table.style.display = "none";
@@ -68,7 +68,7 @@ function showAndHideSupercupaRomaniei09Results(){
 }
 function showAndHideUefaChampionsLeague0809Results(){
     if(UefaChampionsLeague0809Table.style.display === "none"){
-        UefaChampionsLeague0809Table.style.display = "block";
+        UefaChampionsLeague0809Table.style.display = "block"; UefaChampionsLeague0809Table.style.borderColor = "rgb(15, 245, 7)"
     }
     else{
         UefaChampionsLeague0809Table.style.display = "none";
@@ -120,4 +120,26 @@ function closeUefaChampionsLeague0809Results(){
     }
 }
 
+var relegatedTeams0809LigaI = document.getElementById("RelegatedTeamsDropdown0809Elements");
 
+function showAndHideRelegated0809LigaI(){
+    if(relegatedTeams0809LigaI.style.display === "none"){
+        relegatedTeams0809LigaI.style.display = "block"
+    }
+    else if(relegatedTeams0809LigaI.style.display === "block"){
+        relegatedTeams0809LigaI.style.display = "none"
+    }
+
+}
+
+var promotedTeams0910LigaI = document.getElementById("PromotedTeamsDropdown0910Elements");
+
+function showAndhidePromoted0910LigaI(){
+    if(promotedTeams0910LigaI.style.display === "none"){
+        promotedTeams0910LigaI.style.display = "block"
+    }
+    else if(promotedTeams0910LigaI.style.display === "block"){
+        promotedTeams0910LigaI.style.display = "none"
+    }
+
+}

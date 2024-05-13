@@ -34,7 +34,7 @@ var competitionsPresentationTable0708 = document.getElementById("competitionsTab
 
 function showAndHideLigaI0708MainRoundResults(){
     if(LigaI0708MainRoundTable.style.display === "none"){
-        LigaI0708MainRoundTable.style.display = "block";
+        LigaI0708MainRoundTable.style.display = "block"; LigaI0708MainRoundTable.style.borderColor = "rgb(15, 245, 7)"
     }
     else{
         LigaI0708MainRoundTable.style.display = "none";
@@ -42,7 +42,7 @@ function showAndHideLigaI0708MainRoundResults(){
 }
 function showAndHideCupaRomaniei0708Results(){
     if(CupaRomaniei0708Table.style.display === "none"){
-        CupaRomaniei0708Table.style.display = "block";
+        CupaRomaniei0708Table.style.display = "block"; CupaRomaniei0708Table.style.borderColor = "rgb(15, 245, 7)"
     }
     else{
         CupaRomaniei0708Table.style.display = "none";
@@ -50,7 +50,7 @@ function showAndHideCupaRomaniei0708Results(){
 }
 function showAndHideUefaCup0708Results(){
     if(UefaCup0708Table.style.display === "none"){
-        UefaCup0708Table.style.display = "block";
+        UefaCup0708Table.style.display = "block"; UefaCup0708Table.style.borderColor = "rgb(15, 245, 7)"
     }
     else{
         UefaCup0708Table.style.display = "none";
@@ -90,3 +90,26 @@ function closeUefaCup0708Results(){
     }
 }
 
+var relegatedTeams0708LigaI = document.getElementById("RelegatedTeamsDropdown0708Elements")
+
+function showAndHideRelegated0708LigaI(){
+    if(relegatedTeams0708LigaI.style.display === "none"){
+        relegatedTeams0708LigaI.style.display = "block"
+    }
+    else if(relegatedTeams0708LigaI.style.display === "block"){
+        relegatedTeams0708LigaI.style.display = "none"
+    }
+
+}
+
+var promotedTeams0809LigaI = document.getElementById("PromotedTeamsDropdown0809Elements")
+
+function showAndhidePromoted0809LigaI(){
+    if(promotedTeams0809LigaI.style.display === "none"){
+        promotedTeams0809LigaI.style.display = "block"
+    }
+    else if(promotedTeams0809LigaI.style.display === "block"){
+        promotedTeams0809LigaI.style.display = "none"
+    }
+
+}

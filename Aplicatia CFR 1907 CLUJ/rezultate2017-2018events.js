@@ -35,7 +35,7 @@ var competitionsPresentationTable1718 = document.getElementById("competitionsTab
 
 function showAndHideLigaI1718MainRound(){
     if(LigaI1718MainRoundTable.style.display === "none"){
-        LigaI1718MainRoundTable.style.display = "block";
+        LigaI1718MainRoundTable.style.display = "block"; LigaI1718MainRoundTable.style.borderColor = "rgb(15, 245, 7)"
     }
     else{
         LigaI1718MainRoundTable.style.display = "none";
@@ -44,7 +44,7 @@ function showAndHideLigaI1718MainRound(){
 
 function showAndHideLigaI1718PlayOffRound(){
     if(LigaI1718PlayOffTable.style.display === "none"){
-        LigaI1718PlayOffTable.style.display = "block";
+        LigaI1718PlayOffTable.style.display = "block"; LigaI1718PlayOffTable.style.borderColor = "rgb(15, 245, 7)"
     }
     else{
         LigaI1718PlayOffTable.style.display = "none";
@@ -52,7 +52,7 @@ function showAndHideLigaI1718PlayOffRound(){
 }
 function showAndHideCupaRomaniei1718table(){
     if(CupaRomaniei1718Table.style.display === "none"){
-        CupaRomaniei1718Table.style.display = "block";
+        CupaRomaniei1718Table.style.display = "block"; CupaRomaniei1718Table.style.borderColor = "rgb(15, 245, 7)"
     }
     else{
         CupaRomaniei1718Table.style.display = "none";
@@ -60,7 +60,7 @@ function showAndHideCupaRomaniei1718table(){
 }
 function showAndhideSupercupaRomaniei18table(){
     if(SupercupaRomanei18Table.style.display === "none"){
-        SupercupaRomanei18Table.style.display = "block";
+        SupercupaRomanei18Table.style.display = "block"; SupercupaRomanei18Table.style.borderColor = "rgb(15, 245, 7)"
     }
     else{
         SupercupaRomanei18Table.style.display = "none";
@@ -107,4 +107,26 @@ function closeSupercupaRomaniei18Results(){
     }
 }
 
+var relegatedTeams1718LigaI = document.getElementById("RelegatedTeamsDropdown1718Elements")
+
+function showAndHideRelegated1718LigaI(){
+    if(relegatedTeams1718LigaI.style.display === "none"){
+        relegatedTeams1718LigaI.style.display = "block"
+    }
+    else if(
+        relegatedTeams1718LigaI.style.display === "block"){
+            relegatedTeams1718LigaI.style.display = "none"
+        }
+}
+var promotedTeams1819LigaI =document.getElementById("PromotedTeamsDropdown1819Elements")
+
+function showAndHidePromoted1819LigaI(){
+    if(promotedTeams1819LigaI.style.display === "none"){
+        promotedTeams1819LigaI.style.display = "block"
+    }
+    else if(
+        promotedTeams1819LigaI.style.display === "block"
+    )
+    promotedTeams1819LigaI.style.display = "none"
+}
 

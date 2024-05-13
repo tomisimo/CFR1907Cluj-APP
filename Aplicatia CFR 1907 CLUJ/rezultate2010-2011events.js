@@ -34,7 +34,7 @@ var competitionsPresentationTable1011 = document.getElementById("competitionsTab
 
 function showAndHideLigaI1011MainRoundResults(){
     if(LigaI1011MainRoundTable.style.display === "none"){
-        LigaI1011MainRoundTable.style.display = "block";
+        LigaI1011MainRoundTable.style.display = "block"; LigaI1011MainRoundTable.style.borderColor = "rgb(15, 245, 7)"
     }
     else{
         LigaI1011MainRoundTable.style.display = "none";
@@ -42,7 +42,7 @@ function showAndHideLigaI1011MainRoundResults(){
 }
 function showAndHideCupaRomaniei1011Results(){
     if(CupaRomaniei1011Table.style.display === "none"){
-        CupaRomaniei1011Table.style.display = "block";
+        CupaRomaniei1011Table.style.display = "block"; CupaRomaniei1011Table.style.borderColor = "rgb(15, 245, 7)"
     }
     else{
         CupaRomaniei1011Table.style.display = "none";
@@ -50,7 +50,7 @@ function showAndHideCupaRomaniei1011Results(){
 }
 function showAndHideUefaChampionsLeague1011Results(){
     if(UefaChampionsLeague1011Table.style.display === "none"){
-        UefaChampionsLeague1011Table.style.display = "block";
+        UefaChampionsLeague1011Table.style.display = "block"; UefaChampionsLeague1011Table.style.borderColor = "rgb(15, 245, 7)"
     }
     else{
         UefaChampionsLeague1011Table.style.display = "none";
@@ -89,4 +89,28 @@ function closeUefaChampionsLeague1011Results(){
     else if(uefaChampionsLeague1011Results.style.display === "block" && UefaChampionsLeague1011Table.style.display === "none"){
         uefaChampionsLeague1011Results.style.display = "none"
     }
+}
+
+var relegatedTeams1011LigaI = document.getElementById("RelegatedTeamsDropdown1011Elements");
+
+function showAndHideRelegated1011LigaI(){
+    if(relegatedTeams1011LigaI.style.display === "none"){
+        relegatedTeams1011LigaI.style.display = "block"
+    }
+    else if(relegatedTeams1011LigaI.style.display === "block"){
+        relegatedTeams1011LigaI.style.display = "none"
+    }
+
+}
+
+var promotedTeams1112LigaI = document.getElementById("PromotedTeamsDropdown1112Elements");
+
+function showAndHidePromoted1112LigaI(){
+    if(promotedTeams1112LigaI.style.display === "none"){
+        promotedTeams1112LigaI.style.display = "block"
+    }
+    else if(promotedTeams1112LigaI.style.display === "block"){
+        promotedTeams1112LigaI.style.display = "none"
+    }
+
 }

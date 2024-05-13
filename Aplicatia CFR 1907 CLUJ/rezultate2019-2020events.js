@@ -55,7 +55,7 @@ var competitionsPresentationTable1920 = document.getElementById("competitionsTab
 
 function showAndHideLigaI1920MainRoundTable(){
     if(LigaI1920MainRound.style.display === "none"){
-        LigaI1920MainRound.style.display = "block";
+        LigaI1920MainRound.style.display = "block"; LigaI1920MainRound.style.borderColor = "rgb(15, 245, 7)"
     }
     else{
         LigaI1920MainRound.style.display = "none";
@@ -64,7 +64,7 @@ function showAndHideLigaI1920MainRoundTable(){
 
 function showAndHideLigaI1920PlayOffRoundTable(){
     if(LigaI1920PlayOffRound.style.display === "none"){
-        LigaI1920PlayOffRound.style.display = "block";
+        LigaI1920PlayOffRound.style.display = "block"; LigaI1920PlayOffRound.style.borderColor = "rgb(15, 245, 7)"
     }
     else{
         LigaI1920PlayOffRound.style.display = "none";
@@ -73,7 +73,7 @@ function showAndHideLigaI1920PlayOffRoundTable(){
 
 function showAndHideCupaRomaniei1920Table(){
     if(CUPAR1920.style.display === "none"){
-        CUPAR1920.style.display = "block";
+        CUPAR1920.style.display = "block"; CUPAR1920.style.borderColor = "rgb(15, 245, 7)"
     }
     else{
         CUPAR1920.style.display = "none";
@@ -82,7 +82,7 @@ function showAndHideCupaRomaniei1920Table(){
 
 function showAndHideSupercupaRomaniei20Table(){
     if(SUPERCR20.style.display === "none"){
-        SUPERCR20.style.display = "block";
+        SUPERCR20.style.display = "block"; SUPERCR20.style.borderColor = "rgb(15, 245, 7)"
     }
     else{
         SUPERCR20.style.display = "none";
@@ -91,7 +91,7 @@ function showAndHideSupercupaRomaniei20Table(){
 
 function showAndHideUefaChL1920Table(){
     if(UEFACHL1920.style.display === "none"){
-        UEFACHL1920.style.display = "block";
+        UEFACHL1920.style.display = "block"; UEFACHL1920.style.borderColor = "rgb(15, 245, 7)"
     }
     else{
         UEFACHL1920.style.display = "none";
@@ -100,7 +100,7 @@ function showAndHideUefaChL1920Table(){
 
 function showAndHideUefaEuropaLeague1920Table(){
     if(UEFAEUROPAL1920.style.display === "none"){
-        UEFAEUROPAL1920.style.display = "block";
+        UEFAEUROPAL1920.style.display = "block"; UEFAEUROPAL1920.style.borderColor = "rgb(15, 245, 7)"
     }
     else{
         UEFAEUROPAL1920.style.display = "none";
@@ -166,5 +166,28 @@ function closeUefaEuropaLeague1920Results(){
     }
     else if(uefaEuropaLeague1920Results.style.display === "block" && UEFAEUROPAL1920.style.display === "none"){
         UEFAEUROPAL1920.style.display = "none"; uefaEuropaLeague1920Results.style.display = "none";
+    }
+}
+
+var relegatedTeams1920LigaI = document.getElementById("RelegatedTeamsDropdown1920Elements")
+
+function showAndHideRelegated1920LigaI(){
+    if(relegatedTeams1920LigaI.style.display === "none"){
+        relegatedTeams1920LigaI.style.display = "block"
+    }
+    else if(relegatedTeams1920LigaI.style.display === "block"){
+        relegatedTeams1920LigaI.style.display = "none"
+    }
+
+}
+
+var promotedTeams2021LigaI = document.getElementById("PromotedTeamsDropdown2021Elements")
+
+function showAndHidePromoted2021LigaI(){
+    if(promotedTeams2021LigaI.style.display === "none"){
+        promotedTeams2021LigaI.style.display = "block"
+    }
+    else if(promotedTeams2021LigaI.style.display === "block"){
+        promotedTeams2021LigaI.style.display = "none"
     }
 }

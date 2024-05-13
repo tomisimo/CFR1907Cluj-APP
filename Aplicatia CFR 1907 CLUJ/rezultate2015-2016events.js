@@ -37,7 +37,7 @@ function showAndHideSupercupaRomaniei16(){
 }
 
 var LigaI1516MainRoundTable = document.getElementById("LigaI1516MainRoundResultsTable");
-var LigaI1516PlayOutRoundTable = document.getElementById("LigaI1516PlayOffRoundResultsTable");
+var LigaI1516PlayOutRoundTable = document.getElementById("LigaI1516PlayOutRoundResultsTable");
 var CupaRomaniei1516Table = document.getElementById("CupaRomaniei1516ResultsTable");
 var CupaLigiiRomaniei1516Table = document.getElementById("CupaLigiiRomaniei1516ResultsTable");
 var SupercupaRomaniei16Table = document.getElementById("SupercupaRomaniei16ResultsTable");
@@ -45,7 +45,7 @@ var competitionsPresentationTable1516 = document.getElementById("competitionsTab
 
 function showAndHideLigaI1516MainRoundResultsTable(){
     if(LigaI1516MainRoundTable.style.display === "none"){
-        LigaI1516MainRoundTable.style.display = "block";
+        LigaI1516MainRoundTable.style.display = "block"; LigaI1516MainRoundTable.style.borderColor = "rgb(15, 245, 7)"
     }
     else{
         LigaI1516MainRoundTable.style.display = "none";
@@ -54,7 +54,7 @@ function showAndHideLigaI1516MainRoundResultsTable(){
 
 function showAndHideLigaI1516PlayOutRoundResultsTable(){
     if(LigaI1516PlayOutRoundTable.style.display === "none"){
-        LigaI1516PlayOutRoundTable.style.display = "block";
+        LigaI1516PlayOutRoundTable.style.display = "block"; LigaI1516PlayOutRoundTable.style.borderColor = "rgb(15, 245, 7)"
     }
     else{
         LigaI1516PlayOutRoundTable.style.display = "none";
@@ -63,7 +63,7 @@ function showAndHideLigaI1516PlayOutRoundResultsTable(){
 
 function showAndHideCupaRomaniei1516Resultstable(){
     if(CupaRomaniei1516Table.style.display === "none"){
-        CupaRomaniei1516Table.style.display = "block";
+        CupaRomaniei1516Table.style.display = "block"; CupaRomaniei1516Table.style.borderColor = "rgb(15, 245, 7)"
     }
     else{
         CupaRomaniei1516Table.style.display = "none";
@@ -72,7 +72,7 @@ function showAndHideCupaRomaniei1516Resultstable(){
 
 function showAndHideCupaLigiiRomaniei1516ResultsTable(){
     if(CupaLigiiRomaniei1516Table.style.display === "none"){
-        CupaLigiiRomaniei1516Table.style.display = "block";
+        CupaLigiiRomaniei1516Table.style.display = "block"; CupaLigiiRomaniei1516Table.style.borderColor = "rgb(15, 245, 7)"
     }
     else{
         CupaLigiiRomaniei1516Table.style.display = "none";
@@ -81,7 +81,7 @@ function showAndHideCupaLigiiRomaniei1516ResultsTable(){
 
 function showAndHideSupercupaRomaniei16Resultstable(){
     if(SupercupaRomaniei16Table.style.display === "none"){
-        SupercupaRomaniei16Table.style.display = "block";
+        SupercupaRomaniei16Table.style.display = "block"; SupercupaRomaniei16Table.style.borderColor = "rgb(15, 245, 7)"
     }
     else{
         SupercupaRomaniei16Table.style.display = "none";
@@ -136,4 +136,28 @@ function closeSupercupaRomaniei16Results(){
     else if(superCupaRomaniei16Results.style.display === "block" && SupercupaRomaniei16Table.style.display === "none"){
         superCupaRomaniei16Results.style.display = "none"
     }
+}
+
+var relegatedTeams1516LigaI = document.getElementById("RelegatedTeamsDropdown1516Elements")
+
+function showAndHideRelegated1516LigaI(){
+    if(relegatedTeams1516LigaI.style.display === "none"){
+        relegatedTeams1516LigaI.style.display = "block"
+    }
+    else if(relegatedTeams1516LigaI.style.display === "block"){
+        relegatedTeams1516LigaI.style.display = "none"
+    }
+
+}
+
+var promotedTeams1617LigaI = document.getElementById("PromotedTeamsDropdown1617Elements")
+
+function showAndHidePromoted1617LigaI(){
+    if(promotedTeams1617LigaI.style.display === "none"){
+        promotedTeams1617LigaI.style.display = "block"
+    }
+    else if(promotedTeams1617LigaI.style.display === "block"){
+        promotedTeams1617LigaI.style.display = "none"
+    }
+
 }

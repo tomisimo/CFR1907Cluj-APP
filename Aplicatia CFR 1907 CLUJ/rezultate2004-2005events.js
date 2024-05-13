@@ -34,7 +34,7 @@ var competitionsPresentationTable0405 = document.getElementById("competitionsTab
 
 function showAndHideDiviziaA0405MainRoundResults(){
     if(DiviziaA0405MainRoundTable.style.display === "none"){
-        DiviziaA0405MainRoundTable.style.display = "block"
+        DiviziaA0405MainRoundTable.style.display = "block"; DiviziaA0405MainRoundTable.style.borderColor = "rgb(15, 245, 7)"
     }
     else{
         DiviziaA0405MainRoundTable.style.display = "none"
@@ -42,7 +42,7 @@ function showAndHideDiviziaA0405MainRoundResults(){
     }
 function showAndHideCupaRomaniei0405Results(){
     if(CupaRomaniei0405Table.style.display === "none"){
-        CupaRomaniei0405Table.style.display = "block"
+        CupaRomaniei0405Table.style.display = "block"; CupaRomaniei0405Table.style.borderColor = "rgb(15, 245, 7)"
     }
     else{
         CupaRomaniei0405Table.style.display = "none"
@@ -50,7 +50,7 @@ function showAndHideCupaRomaniei0405Results(){
 }
 function showAndHideUefaIntertotoCup05Results(){
     if(UefaIntertotoCup05Table.style.display === "none"){
-        UefaIntertotoCup05Table.style.display = "block"
+        UefaIntertotoCup05Table.style.display = "block"; UefaIntertotoCup05Table.style.borderColor = "rgb(15, 245, 7)"
     }
     else{
         UefaIntertotoCup05Table.style.display = " none"
@@ -95,6 +95,40 @@ function closeUefaIntertotoCup05Results(){
     }
 }
 
+var relegatedTeams0405Button = document.getElementById("RelegatedDropdown0405Button")
+var relegatedTeams0405Elements = document.getElementById("#RelegatedTeamsDropdown0405Elements")
+
+function showAndHide0405RelegatedTeams(){
+    if(relegatedTeams0405Elements.style.display === "none"){
+        relegatedTeams0405Elements.style.display = "block"
+    }
+    else if(relegatedTeams0405Elements.style.display === "block"){
+        relegatedTeams0405Elements.style.display = "none"
+    }
+}
+
+
+var relegatedTeams0405DiviziaA = document.getElementById("RelegatedTeamsDropdown0405Elements")
+
+function showAndHideRelegated0405DiviziaA(){
+    if(relegatedTeams0405DiviziaA.style.display === "none"){
+        relegatedTeams0405DiviziaA.style.display = "block"
+    }
+    else if(relegatedTeams0405DiviziaA.style.display === "block"){
+        relegatedTeams0405DiviziaA.style.display = "none"
+    }
+}
+
+var promotedTeams0506DiviziaA = document.getElementById("PromotedTeamsDropdown0506Elements")
+
+function showAndHidePromoted0506DiviziaA(){
+    if(promotedTeams0506DiviziaA.style.display === "none"){
+        promotedTeams0506DiviziaA.style.display = "block"
+    }
+    else if(promotedTeams0506DiviziaA.style.display === "block"){
+        promotedTeams0506DiviziaA.style.display = "none"
+    }
+}
 
 
 

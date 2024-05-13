@@ -65,7 +65,7 @@ var competitionsPresentationTable2122 = document.getElementById("competitionsTab
 
 function showAndHideLigaI2122MainRoundTable(){
     if(LigaI2122MainRound.style.display === "none"){
-        LigaI2122MainRound.style.display = "block";
+        LigaI2122MainRound.style.display = "block"; LigaI2122MainRound.style.borderColor = "rgb(15, 245, 7)"
     }
     else{
         LigaI2122MainRound.style.display = "none";
@@ -74,7 +74,7 @@ function showAndHideLigaI2122MainRoundTable(){
 
 function showAndHideLigaI2122PlayOffRoundTable(){
     if(LigaI2122PlayOffRound.style.display === "none"){
-        LigaI2122PlayOffRound.style.display = "block";
+        LigaI2122PlayOffRound.style.display = "block"; LigaI2122PlayOffRound.style.borderColor = "rgb(15, 245, 7)"
     }
     else{
         LigaI2122PlayOffRound.style.display = "none";
@@ -83,7 +83,7 @@ function showAndHideLigaI2122PlayOffRoundTable(){
 
 function showAndHideCupaRomaniei2122Table(){
     if(CUPAR2122.style.display === "none"){
-        CUPAR2122.style.display = "block";
+        CUPAR2122.style.display = "block"; CUPAR2122.style.borderColor = "rgb(15, 245, 7)"
     }
     else{
         CUPAR2122.style.display = "none";
@@ -92,7 +92,7 @@ function showAndHideCupaRomaniei2122Table(){
 
 function showAndHideSupercupaRomaniei22Table(){
     if(SUPERCR22.style.display === "none"){
-        SUPERCR22.style.display = "block";
+        SUPERCR22.style.display = "block"; SUPERCR22.style.borderColor = "rgb(15, 245, 7)"
     }
     else{
         SUPERCR22.style.display = "none";
@@ -101,7 +101,7 @@ function showAndHideSupercupaRomaniei22Table(){
 
 function showAndHideUefaChL2122Table(){
     if(UEFACHL2122.style.display === "none"){
-        UEFACHL2122.style.display = "block";
+        UEFACHL2122.style.display = "block"; UEFACHL2122.style.borderColor = "rgb(15, 245, 7)"
     }
     else{
         UEFACHL2122.style.display = "none";
@@ -110,7 +110,7 @@ function showAndHideUefaChL2122Table(){
 
 function showAndHideUefaEuropaLeague2122Table(){
     if(UEFAEUROPAL2122.style.display === "none"){
-        UEFAEUROPAL2122.style.display = "block";
+        UEFAEUROPAL2122.style.display = "block"; UEFAEUROPAL2122.style.borderColor = "rgb(15, 245, 7)"
     }
     else{
         UEFAEUROPAL2122.style.display = "none";
@@ -119,7 +119,7 @@ function showAndHideUefaEuropaLeague2122Table(){
 
 function showAndHideUefaEuropaConferenceLeague2122Table(){
     if(UEFAEUROPACL2122.style.display === "none"){
-        UEFAEUROPACL2122.style.display = "block";
+        UEFAEUROPACL2122.style.display = "block"; UEFAEUROPACL2122.style.borderColor = "rgb(15, 245, 7)"
     }
     else{
         UEFAEUROPACL2122.style.display = "none";
@@ -199,3 +199,26 @@ function closeUefaEuropaConferenceLeague2122Results(){
     }
 }
 
+var relegatedTeams2122LigaI = document.getElementById("RelegatedTeamsDropdown2122Elements")
+
+function showAndHideRelegated2122LigaI(){
+    if(relegatedTeams2122LigaI.style.display === "none"){
+        relegatedTeams2122LigaI.style.display = "block"
+    }
+    else if(relegatedTeams2122LigaI.style.display === "block"){
+        relegatedTeams2122LigaI.style.display = "none"
+    }
+
+}
+
+var promotedTeams2223LigaI = document.getElementById("PromotedTeamsDropdown2223Elements")
+
+function showAndHidePromoted2223LigaI(){
+    if(promotedTeams2223LigaI.style.display === "none"){
+        promotedTeams2223LigaI.style.display = "block"
+    }
+    else if(promotedTeams2223LigaI.style.display === "block"){
+        promotedTeams2223LigaI.style.display = "none"
+    }
+
+}

@@ -44,7 +44,7 @@ var competitionsPresentationTable0910 = document.getElementById("competitionsTab
 
 function showAndHideLigaI0910MainRoundResults(){
     if(LigaI0910MainRoundTable.style.display === "none"){
-        LigaI0910MainRoundTable.style.display = "block";
+        LigaI0910MainRoundTable.style.display = "block"; LigaI0910MainRoundTable.style.borderColor = "rgb(15, 245, 7)"
     }
     else{
         LigaI0910MainRoundTable.style.display = "none";
@@ -52,7 +52,7 @@ function showAndHideLigaI0910MainRoundResults(){
 }
 function showAndHideCupaRomaniei0910Results(){
     if(CupaRomaniei0910Table.style.display === "none"){
-        CupaRomaniei0910Table.style.display = "block";
+        CupaRomaniei0910Table.style.display = "block"; CupaRomaniei0910Table.style.borderColor = "rgb(15, 245, 7)"
     }
     else{
         CupaRomaniei0910Table.style.display = "none";
@@ -60,7 +60,7 @@ function showAndHideCupaRomaniei0910Results(){
 }
 function showAndHideSupercupaRomaniei10Results(){
     if(SupercupaRomaniei10Table.style.display === "none"){
-        SupercupaRomaniei10Table.style.display = "block";
+        SupercupaRomaniei10Table.style.display = "block"; SupercupaRomaniei10Table.style.borderColor = "rgb(15, 245, 7)"
     }
     else{
         SupercupaRomaniei10Table.style.display = "none";
@@ -68,7 +68,7 @@ function showAndHideSupercupaRomaniei10Results(){
 }
 function showAndHideUefaEuropaLeague0910Results(){
     if(UefaEuropaLeague0910Table.style.display === "none"){
-        UefaEuropaLeague0910Table.style.display = "block"
+        UefaEuropaLeague0910Table.style.display = "block"; UefaEuropaLeague0910Table.style.borderColor = "rgb(15, 245, 7)"
     }
     else{
         UefaEuropaLeague0910Table.style.display = "none"
@@ -118,5 +118,29 @@ function closeUefaEuropaLeague0910Results(){
     else if(uefaEuropaLeague0910Results.style.display === "block" && UefaEuropaLeague0910Table.style.display === "none"){
         uefaEuropaLeague0910Results.style.display = "none"
     }
+}
+
+var relegatedTeams0910LigaI = document.getElementById("RelegatedTeamsDropdown0910Elements")
+
+function showAndHideRelegated0910LigaI(){
+    if(relegatedTeams0910LigaI.style.display === "none"){
+        relegatedTeams0910LigaI.style.display = "block"
+    }
+    else if(relegatedTeams0910LigaI.style.display === "block"){
+        relegatedTeams0910LigaI.style.display = "none"
+    }
+
+}
+
+var promotedTeams1011LigaI = document.getElementById("PromotedTeamsDropdown1011Elements")
+
+function showAndHidePromoted1011LigaI(){
+    if(promotedTeams1011LigaI.style.display === "none"){
+        promotedTeams1011LigaI.style.display = "block"
+    }
+    else if(promotedTeams1011LigaI.style.display = "block"){
+        promotedTeams1011LigaI.style.display = "none"
+    }
+
 }
 
