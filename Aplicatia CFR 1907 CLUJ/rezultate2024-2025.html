@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSSstiluri/2425rezultateDesign.css" />
+    <title>2024 - 2025 Season Results</title>
+</head>
+<body class="pageBackground2425">
+    <h4 id="chooseCompetition2425Message" style="text-align: center;">Choose the competition of season 2024-2025 !</h4>
+    <div id="seasonElements2425">
+        <div id="season2425buttons">
+          <button
+            onclick="closeLigaI2425MainAndPlayOffResults()"
+            id="ligaI2425button"
+          >
+            <p id="ligaI2425text">Liga I. 2024-2025</p>
+          </button>
+          <button
+            onclick="closeCupaRomaniei2425Results()"
+            id="cupaRomaniei2425button"
+          >
+            <p id="cupaRomaniei2425text">CUPA Romaniei 2024-2025</p>
+          </button>
+          <button
+            onclick="closeUefaEuropaConferenceLeague2425Results()"
+            id="uefaConferenceLeague2425button"
+          >
+            <p id="uefaConferenceLeague2425text">
+              UEFA Conference <br />League 2024-2025
+            </p>
+          </button>
+        </div>
+        <div id="competitionsTable2425">
+          <div
+            class="ChampionshipTable2425"
+            id="ligaIresults2425"
+            style="display: none"
+          >
+            <h2>LIGA I. 2024-2025</h2>
+            <button
+              id="LigaI2425MainRoundResultsButton"
+              onclick="showAndHideLigaI2425MainRoundResultsTable()"
+            >
+              <p id="buttonText">Show Main Round results</p>
+            </button>
+            <table id="LigaI2425MainRoundResultsTable" style="display: none">
+              <thead>
+                <tr>
+                  <td style= "text-align: center; background-color: #BBF3FF;"><b><abbr title="Round">RND.</abbr></b></td>
+                  <td colspan="6" style="text-align: center; background-color: #BBF3FF;"><b>Teams name</b></td>
+                  <td style="background-color: #BBF3FF;" ><b>Result</b></td>
+                </tr>
+              </thead>
+              <tr>
+                <td><p>1</p></td>
+                <td colspan="6">
+                  <p>
+                    <b></b><br />
+                  </p>
+                </td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><p>16</p></td>
+                <td colspan="6">
+                  <p><br /></p>
+                </td>
+                <td><p></p></td>
+              </tr>
+              <tr>
+                <td><p>2</p></td>
+                <td colspan="6">
+                  <p><br /><b></b></p>
+                </td>
+                <td><p></p></td>
+              </tr>
+              <tr>
+                <td><p>17</p></td>
+                <td colspan="6">
+                  <p><br /></p>
+                </td>
+                <td><p></p></td>
+              </tr>
+              <tr>
+                <td><p>3</p></td>
+                <td colspan="6">
+                  <p><br /></p>
+                </td>
+                <td><p></p></td>
+              </tr>
+              <tr>
+                <td><p>18</p></td>
+                <td colspan="6">
+                  <p>
+                    <b></b><br />
+                  </p>
+                </td>
+                <td><p></p></td>
+              </tr>
+              <tr>
+                <td><p>4</p></td>
+                <td colspan="6">
+                  <p><b></b><br /></p>
+                </td>
+                <td><p></p></td>
+              </tr>
+              <tr>
+                <td><p>19</p></td>
+                <td colspan="6">
+                  <p><br /></p>
+                </td>
+                <td><p></p></td>
+              </tr>
+              <tr>
+                <td><p>5</p></td>
+                <td colspan="6">
+                  <p>
+                    <b></b><br />
+                  </p>
+                </td>
+                <td><p></p></td>
+              </tr>
+              <tr>
+                <td><p>20</p></td>
+                <td colspan="6">
+                  <p>
+                    <b></b><br />
+                  </p>
+                </td>
+                <td><p></p></td>
+              </tr>
+              <tr>
+                <td><p>6</p></td>
+                <td colspan="6">
+                  <p><br /><b></b></p>
+                </td>
+                <td><p></p></td>
+              </tr>
+              <tr>
+                <td><p>21</p></td>
+                <td colspan="6">
+                  <p><b></b><br /></p>
+                </td>
+                <td><p></p></td>
+              </tr>
+              <tr>
+                <td><p>7</p></td>
+                <td colspan="6">
+                  <p><b></b><br /></p>
+                </td>
+                <td><p></p></td>
+              </tr>
+              <tr>
+                <td><p>22</p></td>
+                <td colspan="6">
+                  <p><b></b><br /></p>
+                </td>
+                <td><p></p></td>
+              </tr>
+              <tr>
+                <td><p>8</p></td>
+                <td colspan="6">
+                  <p><br /><b></b></p>
+                </td>
+                <td><p></p></td>
+              </tr>
+              <tr>
+                <td><p>23</p></td>
+                <td colspan="6">
+                  <p><b></b><br /></p>
+                </td>
+                <td><p></p></td>
+              </tr>
+              <tr>
+                <td><p>9</p></td>
+                <td colspan="6">
+                  <p><b></b><br /></p>
+                </td>
+                <td><p></p></td>
+              </tr>
+              <tr>
+                <td><p>24</p></td>
+                <td colspan="6">
+                  <p><br /><b></b></p>
+                </td>
+                <td><p></p></td>
+              </tr>
+              <tr>
+                <td><p>10</p></td>
+                <td colspan="6">
+                  <p><b></b><br /></p>
+                </td>
+                <td><p></p></td>
+              </tr>
+              <tr>
+                <td><p>25</p></td>
+                <td colspan="6">
+                  <p><br /><b></b></p>
+                </td>
+                <td><p></p></td>
+              </tr>
+              <tr>
+                <td><p>11</p></td>
+                <td colspan="6">
+                  <p><b></b><br /></p>
+                </td>
+                <td><p></p></td>
+              </tr>
+              <tr>
+                <td><p>26</p></td>
+                <td colspan="6">
+                  <p><br /><b></b></p>
+                </td>
+                <td><p></p></td>
+              </tr>
+              <tr>
+                <td><p>12</p></td>
+                <td colspan="6">
+                  <p><br /></p>
+                </td>
+                <td><p></p></td>
+              </tr>
+              <tr>
+                <td><p>27</p></td>
+                <td colspan="6">
+                  <p><b></b><br /></p>
+                </td>
+                <td><p></p></td>
+              </tr>
+              <tr>
+                <td><p>13</p></td>
+                <td colspan="6">
+                  <p><br /></p>
+                </td>
+                <td><p></p></td>
+              </tr>
+              <tr>
+                <td><p>28</p></td>
+                <td colspan="6">
+                  <p><br /></p>
+                </td>
+                <td><p></p></td>
+              </tr>
+              <tr>
+                <td><p>14</p></td>
+                <td colspan="6">
+                  <p><b></b><br /></p>
+                </td>
+                <td><p></p></td>
+              </tr>
+              <tr>
+                <td><p>29</p></td>
+                <td colspan="6">
+                  <p><br /></p>
+                </td>
+                <td><p></p></td>
+              </tr>
+              <tr>
+                <td><p>15</p></td>
+                <td colspan="6">
+                  <p><b></b><br /></p>
+                </td>
+                <td><p></p></td>
+              </tr>
+              <tr>
+                <td><p>30</p></td>
+                <td colspan="6">
+                  <p><b></b><br /></p>
+                </td>
+                <td><p></p></td>
+              </tr>
+              <tr>
+                <td style="text-align: center;;background-color: #BBF3FF;"><b><abbr title="Position">Pos.</abbr></b></td>
+                <td colspan="7" style="text-align: center; background-color: #BBF3FF;"><b>Team name</b></td>
+              </tr>
+              <tr>
+                <td><b></b></td>
+                <td colspan="7" style="text-align: center;">CFR-1907 CLUJ</td>
+              </tr>
+              <tr>
+                <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Played">Pld.</abbr></b></td>
+                <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Win">W.</abbr></b></td>
+                <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Drawn">D.</abbr></b></td>
+                <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Lost">L.</abbr></b></td>
+                <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Goals for">GF.</abbr></b></td>
+                <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Goals against">GA.</abbr></b></td>
+                <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Goal difference">GD.</abbr></b></td>
+                <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Points">Pts.</abbr></b></td>
+              </tr>
+              <tr>
+                <td><b></b></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><b></b></td>
+              </tr>
+            </table>
+            <h2>LIGA I. 2024-2025</h2>
+            <button
+              id="LigaI2425PlayOffResultsButton"
+              onclick="showAndHideLigaI2425PlayOffRoundResultsTable()"
+            >
+              <p id="buttonText">Show results</p>
+            </button>
+            <table id="LigaI2425PlayOffRoundResultsTable" style="display: none">
+              <thead>
+                <tr>
+                  <td style="text-align: center; background-color: #BBF3FF;"><b><abbr title="Round">RND.</abbr></b></td>
+                  <td colspan="7" style="text-align: center; background-color: #BBF3FF;"><b>Teams name</b></td>
+                  <td style="background-color: #BBF3FF;"><b>Result</b></td>
+                </tr>
+              </thead>
+              <tr>
+                <td><p>1</p></td>
+                <td colspan="7">
+                  <p>
+                    <br /><b></b>
+                  </p>
+                </td>
+                <td><p></p></td>
+              </tr>
+              <tr>
+                <td><p>2</p></td>
+                <td colspan="7">
+                  <p><br /></p>
+                </td>
+                <td><p></p></td>
+              </tr>
+              <tr>
+                <td><p>3</p></td>
+                <td colspan="7">
+                  <p><br /><b></b></p>
+                </td>
+                <td><p></p></td>
+              </tr>
+              <tr>
+                <td><p>4</p></td>
+                <td colspan="7">
+                  <p><br /><b></b></p>
+                </td>
+                <td><p></p></td>
+              </tr>
+              <tr>
+                <td><p>5</p></td>
+                <td colspan="7">
+                  <p><b></b><br /></p>
+                </td>
+                <td><p></p></td>
+              </tr>
+              <tr>
+                <td><p>6</p></td>
+                <td colspan="7">
+                  <p><br /><b></b></p>
+                </td>
+                <td><p></p></td>
+              </tr>
+              <tr>
+                <td><p>7</p></td>
+                <td colspan="7">
+                  <p><b></b><br /></p>
+                </td>
+                <td><p></p></td>
+              </tr>
+              <tr>
+                <td><p>8</p></td>
+                <td colspan="7">
+                  <p><b></b><br /></p>
+                </td>
+                <td><p></p></td>
+              </tr>
+              <tr>
+                <td><p>9</p></td>
+                <td colspan="7">
+                  <p><br /><b></b></p>
+                </td>
+                <td><p></p></td>
+              </tr>
+              <tr>
+                <td><p>10</p></td>
+                <td colspan="7">
+                  <p><b></b><br /></p>
+                </td>
+                <td><p></p></td>
+              </tr>
+              <tr>
+                <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Position">Pos.</abbr></b></td>
+                <td colspan="8" style="text-align: center; background-color: #BBF3FF;"><b>Team name</b></td>
+  
+              </tr>
+              <tr>
+                <td><b></b></td>
+                <td colspan="8" style="text-align: center;">CFR-1907 CLUJ</td>
+              </tr>
+              <tr>
+                <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Played">Pld.</abbr></b></td>
+                <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Win">W.</abbr></b></td>
+                <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Drawn">D.</abbr></b></td>
+                <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Lost">L.</abbr></b></td>
+                <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Goals for">GF.</abbr></b></td>
+                <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Goals against">GA.</abbr></b></td>
+                <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Goal difference">GD.</abbr></b></td>
+                <td style="text-align: center; background-color: #BBF3FF;"><b><abbr title="Points">Pts.</abbr></b></td>
+              </tr>
+              <tr>
+                <td><b></b></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><b></b></td>
+              </tr>
+              <tr>
+                <td><b></b></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><b></b></td>
+              </tr>
+            </table>
+            <h3>Relegated from Liga I 2024-2025</h3>
+            <div id="RelegatedTeamsDropdown2425">
+              <button id="RelegatedDropdown2425Button" onclick="showAndHideRelegated2425LigaI()" style="background-color: #e26767;">Show teams</button>
+              <div id="RelegatedTeamsDropdown2425Elements" style="display: none; background-color: #e26767;">
+                <h4></h4>
+                <h4></h4>
+                <h4></h4>
+                <h4></h4>
+              </div>
+            </div>
+  
+            <h3>Promoted to Liga I 2025-2026</h3>
+            <div id="PromotedTeamsDropdown2526">
+              <button id="PromotedDropdown2526Button" onclick="showAndHidePromoted2526LigaI()" style="background-color: #6ed46e;">Show teams</button>
+              <div id="PromotedTeamsDropdown2526Elements" style="display: none; background-color: #6ed46e;">
+                <h4></h4>
+                <h4></h4>
+                <h4></h4>
+                <h4></h4>
+              </div>
+            </div>
+          </div>
+          <div
+            class="CupTable2425"
+            id="cupaRomaniei2425results"
+            style="display: none"
+          >
+            <h2 id="cupaRomaniei2425Label">CUPA ROMÂNIEI 2024-2025</h2>
+            <button
+              id="CupaRomaniei2425ResultsButton"
+              onclick="showAndHideCupaRomaniei2425ResultsTable()"
+            >
+              <p id="buttonTextCupaRomaniei2425">Show Cupa Romaniei results</p>
+            </button>
+            <table id="CupaRomaniei2425ResultsTable" style="display: none">
+              <tr>
+                <td class="CR2425Rounds" colspan="10">
+                  <p style="text-align: center;background-color: #BBF3FF;"><b></b></p>
+                </td>
+              </tr>
+              <tr>
+                <td><p>1</p></td>
+                <td colspan="6">
+                  <p>
+                    <br /><b></b>
+                  </p>
+                </td>
+                <td><p></p></td>
+              </tr>
+              <tr>
+                <td><p>2</p></td>
+                <td colspan="6">
+                  <p><br /></p>
+                </td>
+                <td><p></p></td>
+              </tr>
+              <tr>
+                <td><p>3</p></td>
+                <td colspan="6">
+                  <p><br /></p>
+                </td>
+                <td><p></p></td>
+              </tr>
+              <tr>
+                <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Position">Pos.</abbr></b></td>
+                <td colspan="7" style="text-align: center; background-color: #BBF3FF;"><b>Team name</b></td>
+              </tr>
+              <tr>
+                <td><b></b></td>
+                <td colspan="7" style="text-align: center;">CFR-1907 CLUJ</td>
+              </tr>
+              <tr>
+                <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Played">Pld.</abbr></b></td>
+                <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Win">W.</abbr></b></td>
+                <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Drawn">D.</abbr></b></td>
+                <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Lost">L.</abbr></b></td>
+                <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Goals for">GF.</abbr></b></td>
+                <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Goals against">GA.</abbr></b></td>
+                <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Goal difference">GD.</abbr></b></td>
+                <td style="text-align: center;background-color: #BBF3FF;"><b><abbr title="Points">Pts.</abbr></b></td>
+              </tr>
+              <tr>
+                <td><b></b></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><b></b></td>
+              </tr>
+              <tr>
+                <td colspan="10">
+                  <p style="text-align: center; background-color: #BBF3FF;"><b></b></p>
+                </td>
+              </tr>
+              <tr>
+                <td><p>1</p></td>
+                <td colspan="6">
+                  <p>
+                    <b></b><br />
+                  </p>
+                </td>
+                <td><p></p></td>
+              </tr>
+            </table>
+          </div>
+          <div
+            class="UefaConferenceLeagueTable2425"
+            id="uefaConferenceLeague2425results"
+            style="display: none"
+          >
+            <h2 id="uefaConferenceLeague2425Label">UEFA CONFERENCE LEAGUE 2024-2025</h2>
+            <button
+              id="UefaConferenceLeague2425ResultsButton"
+              onclick="showAndHideUECL2425ResultsTable()"
+            >
+              <p id="buttonText">Show Uefa Conference League results</p>
+            </button>
+            <table
+              id="UefaConferenceLeague2425ResultsTable"
+              style="display: none"
+            >
+              <td colspan="3">
+                <p style="text-align: center; background-color: #BBF3FF;"><b>SECOND QUALIFYING ROUND</b></p>
+              </td>
+              <tr>
+                <td><p>1</p></td>
+                <td>
+                  <p><br /></p>
+                </td>
+                <td><p></p></td>
+              </tr>
+              <tr>
+                <td><p>2</p></td>
+                <td>
+                  <p>
+                    <b></b><br />
+                  </p>
+                </td>
+                <td><p></p></td>
+              </tr>
+              <tr>
+                <td colspan="3">
+                  <p>
+                    <b></b>
+                  </p>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <script src="rezultate2024-2025events.js"></script>
+</body>
+</html>

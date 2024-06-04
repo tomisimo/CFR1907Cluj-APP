@@ -118,3 +118,9 @@ function clickRedirect2324(){
     button2324.click = window.location = 'rezultate2023-2024.html'
 }
 
+var button2425 = document.getElementById("seasonbutton2425");
+
+function clickRedirect2425(){
+    button2425.click = window.location = 'rezultate2024-2025.html'
+}
+

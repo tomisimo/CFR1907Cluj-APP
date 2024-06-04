@@ -921,7 +921,35 @@ body{
     transform: translateY(4px);  
     transition: transform .2s;
  }
-
+ #seasontext2425 {
+    margin-top: 4mm;
+    margin-left: 4mm;
+    color: aliceblue;
+}
+#seasonbutton2425 {
+    margin-top: 5mm;
+    width: 3.2cm;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(4, 109, 70) , rgb(100, 109, 4));
+    border-style: groove;
+    border-radius: 25px;
+    box-shadow: 0px 10px 5px #999;
+}
+#text2425{
+    color: aliceblue;
+    font-size: 5mm;
+}
+#seasonbutton2425:hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+#seasonbutton2425:active {
+    background-color: #02cc1d;
+    box-shadow: 0px 1px #666;
+    transform: translateY(4px);  
+    transition: transform .2s;
+ }
  @media screen and (max-width: 1000px){
     .FirstSixSeasonCards{
         flex-direction: column;
